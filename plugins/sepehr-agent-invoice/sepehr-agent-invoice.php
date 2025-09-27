@@ -3,7 +3,7 @@
  * Plugin Name:       Sepehr Agent Invoice
  * Plugin URI:        https://example.com/
  * Description:       Extends Pepro Ultimate Invoice templates to include sales agent information on pre-invoices.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Sepehr Electric
  * Author URI:        https://example.com/
  * License:           GPL-2.0-or-later
@@ -128,15 +128,18 @@ function sepehr_agent_invoice_inject_agent_details($opts, $order)
     $opts['sales_agent_address'] = $address_string;
     $opts['sales_agent_code'] = $agent_code;
 
-    $required_fields = array(
-        $opts['sales_agent_fullname'],
-        $opts['sales_agent_store'],
-        $opts['sales_agent_phone'],
-        $opts['sales_agent_address'],
-        $opts['sales_agent_code'],
+    $has_sales_agent_details = '' !== implode(
+        '',
+        array(
+            $opts['sales_agent_fullname'],
+            $opts['sales_agent_store'],
+            $opts['sales_agent_phone'],
+            $opts['sales_agent_address'],
+            $opts['sales_agent_code']
+        )
     );
 
-    if ('' !== implode('', $required_fields) && count(array_filter($required_fields)) === count($required_fields)) {
+    if ($has_sales_agent_details) {
         $opts['show_sales_agent_details'] = 'yes';
     }
 
