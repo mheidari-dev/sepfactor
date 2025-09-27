@@ -1,6 +1,5 @@
 <tr if="show_order_items" class="{{{extra_classes}}}">
   <td><span class="nn">{{{n}}}</span></td>
-  <td class="show_product_image">{{{img}}}</td>
   <td class="show_product_sku"><span class="sku">{{{sku}}}</span></td>
   <td colspan="{{{product_description_colspan}}}"><span class="title">{{{title}}}<i class="show_product_purchase_note">{{{description}}}</i></span></td>
   <td><span class="qty">{{{qty}}}</span></td>
