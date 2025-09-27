@@ -1,7 +1,6 @@
 <div class="show_order_items {{{extra_classes}}}" >
   <tr class="show_order_items {{{extra_classes}}}">
     <td class="show_product_n"><span class="nn">{{{n}}}</span></td>
-    <td class="show_product_image" style="{{{show_product_image_hc}}}"><div style="{{{show_product_image_dn}}}">{{{img}}}</div></td>
     <td class="show_product_sku" style="{{{show_product_sku_hc}}}"><div style="{{{show_product_sku_dn}}}">{{{sku}}}</div></td>
     <td class="show_product_title_description" colspan="{{{product_description_colspan}}}">
       <span class="title">{{{title}}}</span>

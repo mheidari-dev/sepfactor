@@ -1,151 +1,198 @@
 <div class="page body">
-  <table id="topheadinfo" class="header-table" style="width: 100%;">
-    <tr class="bg">
-      <td style="border-bottom: 1px solid {{{theme_color}}} !important; vertical-align: middle; padding: 0 0 4px">
-        <table>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; text-rotate: 90;">{{{trnslt__buyer}}}</td>
-          </tr>
-        </table></td>
-      <td style="border-bottom: 1px solid {{{theme_color}}} !important; vertical-align: middle; padding: 0 4px 4px">
-        <div class="bordered header-item-data">
-          <table style="height: 100%;" class="centered">
+  <div class="bordered grow header-item-data header-summary">
+    <img height="64px" src="{{{store_logo}}}" alt="{{{store_name}}}" />
+    <div class="header-summary__title">
+      <div class="header-summary__plan">طرح رفاه کالا</div>
+      <div class="header-summary__invoice">پیش فاکتور / {{{invoice_title}}}</div>
+    </div>
+    <div class="header-summary__meta">
+      <div class="header-summary__meta-label">تاریخ خرید</div>
+      <div class="date_digit">{{{order_date_created}}}</div>
+    </div>
+    <div if="show_qr_code_id" id="invoice_qrcode"></div>
+  </div>
+  <div if="watermark" style="opacity: {{{watermark_opacity_10}}};filter: alpha(opacity={{{watermark_opacity}}});" data-opacity="{{{watermark_opacity}}}" class="watermark"></div>
+  <table class="header-table" style="width: 100%; margin: 0;">
+    <tr><td style="width: 1.8cm;"></td><td></td><td style="width: 4.5cm !important;"></td></tr>
+    <tr class="show_invoices_id_barcode_colspan">
+      <td style="width: 1.8cm; height: 2.5cm;vertical-align: middle;padding-bottom: 4px;">
+        <div class="header-item-wrapper">
+          <div class="portait">{{{trnslt__seller}}}</div>
+        </div>
+      </td>
+      <td colspan="{{{show_invoices_id_barcode_colspan}}}" style="padding: 0 4px 4px;height: 2.5cm;">
+        <div class="bordered grow header-item-data">
+          <table class="grow centered">
             <tr>
-              <td style="width: 50%;">
-                <span class="label">خریدار:</span> <span>{{{customer_fullname}}}</span> <span>({{{customer_company}}})</span>
+              <td style="width: 7cm">
+                <span class="label">فروشنده:</span> {{{store_name}}}
               </td>
-              <td class="show_customer_email" style="width: 30%;">
-                <span class="show_customer_email label">ایمیل:</span> <span class="show_customer_email">{{{customer_email}}}</span>
-              </td>
-              <td class="show_customer_phone">
-                <span class="show_customer_phone label">شماره تماس:</span> <span dir="ltr" class="show_customer_phone autodir">{{{customer_phone}}}</span>
-              </td>
+              <td if="show_store_national_id" style="width: 5cm">
+                <span class="label">شناسه ملی:</span> <span class='autodir'>{{{store_national_id}}}</span></td>
+              <td if="show_store_registration_number">
+                <span class="label">شماره ثبت:</span> <span class='autodir'>{{{store_registration_number}}}</span></td>
+              <td if="show_store_economical_number">
+                <span class="label">شماره اقتصادی:</span> <span class='autodir'>{{{store_economical_number}}}</span></td>
             </tr>
             <tr>
-              <td class="show_customer_address">
-                <span class="show_customer_address label">نشانی:</span> <span class="show_customer_address">{{{customer_address}}}</span>
-              </td>
-              <td class="show_customer_address">
-                <span class="show_customer_address label">کد پستی:</span> <span class='show_customer_address autodir' dir="ltr" >{{{customer_postcode}}}</span>
-              </td>
-              <td class="show_user_uin">
-                <span class="show_user_uin label">کدملی:</span> <span class="show_user_uin autodir" dir="ltr">{{{customer_uin}}}</span>
-              </td>
+              <td colspan="2"><span class="label">نشانی شرکت:</span> {{{store_address}}}</td>
+              <td><span class="label">کدپستی:</span> <span class='autodir'>{{{store_postcode}}}</span></td>
+              <td>
+                <span class="label">تلفن و فکس:</span> <span class='autodir'>{{{store_phone}}}</span></td>
             </tr>
           </table>
-        </div> </td>
+        </div>
+      </td>
+      <td if="show_invoices_id_barcode" style="width: 4.5cm;height: 2.5cm;padding: 0 0 4px;">
+        <div class="bordered grow" style="display: flex;flex-wrap: nowrap;align-content: center;align-items: center;justify-content: center; gap:20px">
+          <div class="flex" style="flex-direction: column;text-align: center;">
+            <div class="font-small">شناسه پیش فاکتور </div>
+            <div style="font-size:large;font-weight:bold;">{{{customer_uin}}}</div>
+          </div>
+        </div>
+      </td>
     </tr>
-    <tr class="bg2" if="show_sales_agent_details">
-      <td style="border-bottom: 1px solid {{{theme_color}}} !important; vertical-align: middle; padding: 0 0 4px">
-        <table>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; text-rotate: 90;">{{{trnslt__sales_agent}}}</td>
-          </tr>
-        </table></td>
-      <td style="border-bottom: 1px solid {{{theme_color}}} !important; vertical-align: middle; padding: 0 4px 4px">
+    <tr class="">
+      <td style="width: 1.8cm; height: 2.5cm;vertical-align: middle; padding: 0 0 4px">
+        <div class="header-item-wrapper">
+          <div class="portait" style="margin: 20px">{{{trnslt__buyer}}}</div>
+        </div>
+      </td>
+      <td class='shipping_ref_id' colspan="{{{show_shipping_ref_id_colspan}}}" style="height: 2.5cm;vertical-align: middle; padding: 0 4px 4px">
         <div class="bordered header-item-data">
-          <table style="height: 100%;" class="centered">
-            <tr>
-              <td style="width: 25%;">
-                <span class="label">نام کامل:</span> <span>{{{sales_agent_fullname}}}</span>
-              </td>
-              <td style="width: 25%;">
-                <span class="label">نام فروشگاه:</span> <span>{{{sales_agent_store}}}</span>
-              </td>
-              <td style="width: 25%;">
-                <span class="label">تلفن:</span> <span class="autodir" dir="ltr">{{{sales_agent_phone}}}</span>
-              </td>
-              <td style="width: 25%;">
-                <span class="label">کد نماینده:</span> <span class="autodir" dir="ltr">{{{sales_agent_code}}}</span>
-              </td>
+          <table style="height: 100%" class="centered">
+            <tr style="display:none">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
+              <td style="width: 7cm"><span class="label">خریدار:</span> {{{customer_fullname}}}</td>
+              <td style="width: 5cm"><span class="label">شرکت:</span> {{{customer_company}}}</td>
+              <td colspan="2" if="show_user_uin"><span class="label">شماره‌ اقتصادی/کدملی:</span><span class='autodir'>{{{customer_uin}}}</span></td>
+            </tr>
+            <tr>
+              <td style="width: 7cm" if="show_customer_phone">
+                <span class="label">شماره تماس:</span> <span class='autodir'>{{{customer_phone}}}</span>
+              </td>
+              <td if="show_customer_address">
+                <span class="label">کد پستی:</span> <span class='autodir'>{{{customer_postcode}}}</span>
+              </td>
+              <td  colspan="2" if="show_customer_email">
+                <span class="label">ایمیل:</span> <span class='autodir'>{{{customer_email}}}</span>
+              </td>
+            </tr>
+            <tr if="show_customer_address">
               <td colspan="4">
-                <span class="label">نشانی:</span> <span>{{{sales_agent_address}}}</span>
-              </td>
-            </tr>
+                <span class="label">نشانی:</span> {{{customer_address}}}</td>
+              </tr>
           </table>
-        </div> </td>
+        </div>
+      </td>
+      <td if="show_shipping_ref_id" style="padding: 0 0 4px; height:2.5cm;">
+        <div class="grow bordered" style="padding: 2mm 5mm;">
+          <div class="flex" style="flex-direction: column;text-align: center">
+            <div class="font-small">شماره پیش فاکتور</div>
+            <div class="flex-grow font-medium">
+              <img alt='{{{invoice_id_en}}}' class="barcode" style="width: 100%;height: auto;" src='{{{invoice_barcode}}}'/>{{{invoice_id_en}}}
+            </div>
+          </div>
+        </div>
+      </td>
     </tr>
-    <tr class="bg3">
-      <td style="vertical-align: middle; padding: 0 0 4px">
-        <table>
-          <tr>
-            <td style="text-align: center; vertical-align: middle; text-rotate: 90;">{{{trnslt__dates}}}</td>
-          </tr>
-        </table> </td>
-      <td style="vertical-align: middle; padding: 0 4px 4px">
+    <tr if="show_sales_agent_details">
+      <td style="width: 1.8cm; height: 2.5cm;vertical-align: middle; padding: 0 0 4px">
+        <div class="header-item-wrapper">
+          <div class="portait">{{{trnslt__sales_agent}}}</div>
+        </div>
+      </td>
+      <td colspan="2" style="height: 2.5cm;vertical-align: middle; padding: 0 4px 4px">
         <div class="bordered header-item-data">
-          <table style="height: 100%;" class="centered">
-            <tr>
-              <td class="" style="line-height: 2;">
-                <span class="show_order_date label">تاریخ خرید:</span> <span class="show_order_date date_digit">{{{order_date_created}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_paid_date label">تاریخ تسویه:</span> <span class="show_paid_date date_digit">{{{order_date_paid}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_payment_method label">روش پرداخت:</span> <span class="show_payment_method date_digit">{{{order_payment_method}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_transaction_ref_id label">رسید پرداخت:</span> <span class="show_transaction_ref_id date_digit">{{{order_transaction_ref_id}}}</span>
-              </td>
+          <table style="height: 100%" class="centered">
+            <tr style="display:none">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td class="" style="line-height: 2;">
-                <span class="show_order_status label">وضعیت سفارش:</span> <span class="show_order_status date_digit">{{{order_status}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_purchase_complete_date label">تاریخ تکمیل سفارش:</span> <span class="show_purchase_complete_date date_digit">{{{order_date_completed}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_shipping_date label">تاریخ ارسال مرسوله:</span> <span class="show_shipping_date date_digit">{{{order_date_shipped}}}</span>
-              </td>
-              <td class="" style="line-height: 2;">
-                <span class="show_shipping_method label">روش ارسال مرسوله:</span> <span class="show_shipping_method date_digit">{{{order_shipping_method}}}</span>
-              </td>
+              <td style="width: 6cm"><span class="label">نام نماینده فروش:</span> {{{sales_agent_fullname}}}</td>
+              <td style="width: 6cm"><span class="label">نام فروشگاه:</span> {{{sales_agent_store}}}</td>
+              <td style="width: 4cm"><span class="label">تلفن:</span> <span class='autodir'>{{{sales_agent_phone}}}</span></td>
+              <td style="width: 4cm"><span class="label">کد نماینده:</span> <span class='autodir'>{{{sales_agent_code}}}</span></td>
+            </tr>
+            <tr>
+              <td colspan="4"><span class="label">نشانی:</span> {{{sales_agent_address}}}</td>
             </tr>
           </table>
-        </div></td>
+        </div>
+      </td>
     </tr>
+  
   </table>
-  <table id="products_list" style="margin-top: 0.1cm;" class="content-table">
+  <table class="content-table">
     <thead>
-      <!-- <div class="show_order_items"> <tr style="height: .1cm;"><td style="display: none !important; height: .1cm;" colspan="{{{invoice_final_row_colspan}}}"></td></tr> </div> -->
-      <div class="show_order_items">
-        <tr class="show_order_items bgONE">
-          <th class="show_product_n" style="width: 1cm !important;">ردیف</th>
-          <th class="show_product_image" style="{{{show_product_image_hc}}}" width="1.5cm"><div style="{{{show_product_image_dn}}}">تصویر</div></th>
-          <th class="show_product_sku" style="{{{show_product_sku_hc}}}" width="1.5cm"><div style="{{{show_product_sku_dn}}}">کد کالا</div></th>
+      <tr style="display:none">
+        <th></th>
+        
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr if="show_order_items">
+          <th class="show_product_n" style="width: 1.8cm;">ردیف<div if="watermark" style="opacity: {{{watermark_opacity_10}}};filter: alpha(opacity={{{watermark_opacity}}});" data-opacity="{{{watermark_opacity}}}" class="watermark_print"></div></th>
+
+          <th class="show_product_sku" if="show_product_sku" style="{{{show_product_sku_hc}}}"><div style="{{{show_product_sku_dn}}}">کد کالا</div></th>
           <th class="show_product_title_description" colspan="{{{product_description_colspan}}}">شرح کالا</th>
-          <th class="show_product_qty" width="1.5cm">تعداد</th>
-          <th class="show_product_weight" style="{{{show_product_weight_hc}}}"><div style="{{{show_product_weight_dn}}}">وزن</div></th>
-          <th class="show_product_dimensions" style="{{{show_product_dimensions_hc}}}"><div style="{{{show_product_dimensions_dn}}}">ابعاد</div></th>
-          <th class="show_product_base_price" width="1.5cm">مبلغ واحد</th>
-          <th class="show_discount_precent" width="1.5cm" style="{{{show_discount_precent_hc}}}"><div style="{{{show_discount_precent_dn}}}">تخفیف</div></th>
-          <th class="show_product_tax" width="1.5cm" style="{{{show_product_tax_hc}}}"><div style="{{{show_product_tax_dn}}}">مالیات</div></th>
-          <th class="show_product_total_price" width="1.5cm" colspan="{{{product_nettotal_colspan}}}">جمع کل</th>
-        </tr>
-      </div>
+          <th class="show_product_qty">تعداد</th>
+          <th class="show_product_weight" if="show_product_weight" style="{{{show_product_weight_hc}}}"><div style="{{{show_product_weight_dn}}}">وزن</div></th>
+          <th class="show_product_dimensions" if="show_product_dimensions" style="{{{show_product_dimensions_hc}}}"><div style="{{{show_product_dimensions_dn}}}">ابعاد</div></th>
+          <th class="show_product_base_price" style="width: 2.3cm">مبلغ واحد</th>
+          <th class="show_discount_precent" if="show_discount_precent" style="{{{show_discount_precent_hc}}}"><div style="{{{show_discount_precent_dn}}}">تخفیف</div></th>
+          <th class="show_product_tax" if="show_product_tax" style="{{{show_product_tax_hc}}}"><div style="{{{show_product_tax_dn}}}">مالیات</div></th>
+          <th class="show_product_total_price" colspan="{{{product_nettotal_colspan}}}">جمع کل</th>
+      </tr>
     </thead>
     <tbody>
       {{{invoice_products_list}}}
-      <div class="show_order_items show_order_total">
-        <tr class="">
-          <td colspan="{{{invoice_final_prices_pre_colspan}}}">جمع کل</td>
-          <td>{{{invoice_total_qty}}} عدد</td>
-          <td class="show_product_weight" style="{{{show_product_weight_hc}}}"><div style="{{{show_product_weight_dn}}}">{{{invoice_total_weight}}}</div></td>
-          <td colspan="{{{invoice_final_prices_colspan}}}"> <span class="ltr" style="vertical-align: middle;">{{{invoice_final_prices_pdf}}}</span></td>
-        </tr>
-      </div>
-      <tr class="show_custom_footer" style="{{{show_custom_footer_hc}}}"><div style="{{{show_custom_footer_dn}}}">
-        <td class="show_custom_footer" style="vertical-align: middle; {{{show_custom_footer_dn}}}" colspan="{{{invoice_final_row_colspan}}}">{{{invoices_footer}}}</td></div>
-      </tr>
     </tbody>
-  </table>
-  <table id="show_order_notes" style="{{{show_order_notes_hc}}}">
-    <tr class="show_order_notes bg4" style="{{{show_order_notes_hc}}}">
-      {{{invoice_notes}}}
-    </tr>
+    <tfoot>
+      <tr if="show_order_total">
+        <td colspan="{{{invoice_final_prices_pre_colspan}}}">جمع کل</td>
+        <td if="show_product_qty">{{{invoice_total_qty}}}</td>
+        <td if="show_product_weight" class="show_product_weight" style="{{{show_product_weight_hc}}}"><div style="{{{show_product_weight_dn}}}">{{{invoice_total_weight}}}</div></td>
+        <td colspan="{{{invoice_final_prices_colspan}}}">{{{invoice_final_prices_pdf}}}</td>
+      </tr>
+      <tr if="show_order_note" style="{{{show_order_notes_hc}}}">
+        <td colspan="{{{invoice_final_row_colspan}}}">
+          <table class="transp">
+            <tr>{{{invoice_notes}}}</tr>
+          </table>
+        </td>
+      </tr>
+      <tr if="show_signature" style="background: #fff">
+        <td colspan="{{{invoice_final_row_colspan}}}" style="vertical-align: top">
+          <div class="flex">
+            <div class="flex-grow">مهر و امضای فروشنده:<br>
+              <img class="footer-img uk-align-center" alt="" style="width:150px; {{{signature_css}}}" src="{{{signature}}}">
+            </div>
+            <div class="flex-grow">مهر و امضای خریدار:<br>
+              <img class="footer-img uk-align-center" alt="" style="width:150px; {{{customer_signature_css}}}" src="{{{customer_signature}}}">
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr if="show_custom_footer" style="{{{show_custom_footer_hc}}}">
+        <td colspan="{{{invoice_final_row_colspan}}}"><div style="{{{show_custom_footer_dn}}}">{{{invoices_footer}}}</div></td>
+      </tr>
+    </tfoot>
   </table>
 </div>
