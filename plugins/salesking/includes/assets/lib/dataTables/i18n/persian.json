@@ -1,0 +1,25 @@
+
+
+{
+	"sEmptyTable":     "موردی یافت نشد",
+	"sInfo":           "نمایش _START_ تا _END_ از _TOTAL_ مورد",
+	"sInfoEmpty":      "نمایش 0 تا 0 از 0 مورد",
+	"sInfoFiltered":   "(فیلترشده از _MAX_ کل موارد)",
+	"sInfoPostFix":    "",
+	"sInfoThousands":  ",",
+	"sLengthMenu":     "نمایش _MENU_ مورد",
+	"sLoadingRecords": "در حال بارگزاری...",
+	"sProcessing":     "در حال پردازش...",
+	"sSearch":         "جستجو:",
+	"sZeroRecords":    "رکورد مناسبی یافت نشد",
+	"oPaginate": {
+		"sFirst":    "اولین",
+		"sLast":     "آخرین",
+		"sNext":     "بعدی",
+		"sPrevious": "قبلی"
+	},
+	"oAria": {
+		"sSortAscending":  ": مرتب یازی صعودی",
+		"sSortDescending": ": مرتب سازی نزولی"
+	}
+}

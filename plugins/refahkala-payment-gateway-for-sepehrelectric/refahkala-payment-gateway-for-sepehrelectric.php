@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: افزونه درگاه پرداخت رفاه کالا ویژه سپر الکتریک
- * Plugin URI:  https://sepehrelectric.ir/
- * Description: افزودن درگاه پرداخت رفاه کالا به ووکامرس مشابه درگاه پرداخت پرداخت در محل (COD).
+ * Plugin URI:  https://sepehrelectric.com/
+ * Description: افزودن درگاه پرداخت رفاه کالا به ووکامرس 
  * Version:     1.0.0
- * Author:      Sephehr Electric
- * Author URI:  https://sepehrelectric.ir/
+ * Author:      Mohammad Heidari
+ * Author URI:  https://mheidari.ir/
  * Text Domain: refahkala-gateway
  * Domain Path: /languages
  *

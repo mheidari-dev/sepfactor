@@ -1,0 +1,3891 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SalesKing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-25 21:20+0430\n"
+"PO-Revision-Date: 2025-08-11 06:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: salesking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/assets/lib/plugin-update-"
+"checker/vendor\n"
+
+#: admin/class-salesking-admin.php:1480
+msgid " (New message!)"
+msgstr "(پیام جدید!)"
+
+#: admin/class-salesking-admin.php:3816 admin/class-salesking-admin.php:3924
+#: admin/class-salesking-admin.php:4070 public/dashboard/earnings.php:592
+#: public/dashboard/earnings.php:866
+msgid " (pending)"
+msgstr "(در انتظار)"
+
+#: public/dashboard/dashboard-content.php:19
+msgid " Here's everything at a glance..."
+msgstr "اینجا همه چیز در یک نگاه..."
+
+#: public/dashboard/templates/sidebar.php:25
+#: public/dashboard/templates/sidebar.php:38
+#: public/dashboard/templates/sidebar.php:82
+msgid " New"
+msgstr "جدید"
+
+#: public/dashboard/cart-sharing.php:92
+msgid " Those products will be displayed on this page."
+msgstr "این محصولات در این صفحه نمایش داده می شوند."
+
+#: public/dashboard/announcements.php:11
+msgid " unread announcements."
+msgstr "اطلاعیه های خوانده نشده"
+
+#: includes/class-salesking.php:1549 public/dashboard/orders.php:221
+msgid "(guest user)"
+msgstr "(کاربر مهمان)"
+
+#: admin/class-salesking-admin.php:1025 admin/class-salesking-admin.php:1059
+msgid "- Choose Agent -"
+msgstr "- نماینده را انتخاب کنید -"
+
+#: admin/class-salesking-admin.php:450 admin/class-salesking-admin.php:686
+#: admin/class-salesking-admin.php:758 admin/class-salesking-admin.php:2326
+msgid "- None -"
+msgstr "- هیچ یک -"
+
+#: admin/class-salesking-admin.php:2296
+msgid "- Not an agent -"
+msgstr "- نماینده نیست -"
+
+#: includes/class-salesking-pending-gateway.php:66
+msgid "Accept for virtual orders"
+msgstr "پذیرش سفارشات مجازی"
+
+#: includes/class-salesking-pending-gateway.php:67
+msgid "Accept invoice if the order is virtual"
+msgstr "در صورت مجازی بودن سفارش، فاکتور را قبول کنید"
+
+#: public/dashboard/salesking-dashboard-login.php:267
+msgid "Access your sales agent dashboard and data."
+msgstr "به داشبورد و داده های نماینده فروش خود دسترسی داشته باشید."
+
+#: public/dashboard/templates/profile-sidebar.php:20
+msgid "Account Balance"
+msgstr "موجودی حساب"
+
+msgid "Account Holder Name"
+msgstr "نام و نام خانوادگی صاحب حساب"
+
+#: admin/class-salesking-admin.php:3261 admin/class-salesking-admin.php:3325
+msgid "Account Type"
+msgstr "نوع حساب"
+
+#: admin/class-salesking-admin.php:3362 admin/class-salesking-admin.php:3542
+#: admin/class-salesking-admin.php:4447 admin/class-salesking-admin.php:4517
+#: public/dashboard/customers.php:111 public/dashboard/earnings.php:400
+#: public/dashboard/orders.php:51
+msgid "Actions"
+msgstr "اقدامات"
+
+#: public/dashboard/earnings.php:435 public/dashboard/orders.php:72
+msgid "actions"
+msgstr "اقدامات"
+
+#: admin/class-salesking-admin.php:368 admin/class-salesking-settings.php:881
+msgid "Activate License"
+msgstr "لایسنس را فعال کنید"
+
+#: admin/class-salesking-admin.php:2731 admin/class-salesking-admin.php:2743
+msgid "Activate license key"
+msgstr "کلید مجوز را فعال کنید"
+
+#: admin/class-salesking-settings.php:835
+msgid "Activate the plugin"
+msgstr "افزونه را فعال کنید"
+
+#: admin/class-salesking-admin.php:2674
+msgid "ACTIVE"
+msgstr "فعال"
+
+#: public/dashboard/messages.php:33
+msgid "Active"
+msgstr "فعال"
+
+#: public/dashboard/customers.php:43 public/dashboard/teams.php:36
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: public/dashboard/customers.php:49
+msgid "Add (Max Limit Reached)"
+msgstr "افزودن (به حداکثر حد مجاز رسیده است)"
+
+#: admin/class-salesking-admin.php:2094
+msgid "Add agent"
+msgstr "افزودن نماینده فروش"
+
+#: public/dashboard/customers.php:715
+msgid "Add Customer"
+msgstr "مشتری اضافه کنید"
+
+msgid "Add item tax amounts to the commission base."
+msgstr "مبالغ مالیات اقلام به مبنای کمیسیون اضافه شود."
+
+#: admin/class-salesking-admin.php:1053
+msgid "Add New Commission"
+msgstr "اضافه کردن کمیسیون جدید"
+
+#: admin/class-salesking-admin.php:1019
+msgid "Add New Parent Agent Commission"
+msgstr "اضافه کردن کمیسیون نماینده سرگروه جدید"
+
+msgid "Add order fee totals (without tax)."
+msgstr "مجموع کارمزدهای سفارش (بدون مالیات) به مبنا اضافه شود."
+
+#: admin/class-salesking-admin.php:5098
+msgid "Add product or variation IDs"
+msgstr "شناسه‌های محصول یا تنوع را اضافه کنید"
+
+#: public/dashboard/cart-sharing.php:91
+msgid "add products to cart from the storefront."
+msgstr "محصولات را از ویترین به سبد خرید اضافه کنید."
+
+#: admin/class-salesking-settings.php:126
+msgid "Add Sales Agent Dropdown to WooCommerce Registration"
+msgstr "افزودن کشویی نماینده فروش به ثبت نام ووکامرس"
+
+#: admin/class-salesking-settings.php:122
+msgid "Add Sales Agent ID to WooCommerce Registration"
+msgstr "شناسه نماینده فروش را به ثبت نام ووکامرس اضافه کنید"
+
+msgid "Add shipping tax amounts as well."
+msgstr "مالیات‌های حمل‌ونقل نیز اضافه شوند."
+
+msgid "Add shipping total (without tax)."
+msgstr "مجموع هزینه حمل‌ونقل (بدون مالیات) به مبنا اضافه شود."
+
+#: public/dashboard/teams.php:214
+msgid "Add Subagent"
+msgstr "نماینده زیرمجموعه را اضافه کنید"
+
+msgid "Add taxes of fees."
+msgstr "مالیات کارمزدها اضافه شود."
+
+#: admin/class-salesking-admin.php:2351
+msgid "Additional Agents (can also manage this customer)"
+msgstr "نمایندگان اضافی (همچنین می توانند این مشتری را مدیریت کنند)"
+
+msgid "Address"
+msgstr "آدرس دقیق پستی"
+
+#: includes/class-salesking.php:694
+msgid "admin"
+msgstr "مدیر"
+
+#: admin/class-salesking-admin.php:1337
+msgctxt "Admin menu name"
+msgid "Messages"
+msgstr "پیام ها"
+
+#: public/dashboard/affiliate-links.php:13
+#: public/dashboard/templates/sidebar.php:63
+msgid "Affiliate Links"
+msgstr "لینک های بازاریابی"
+
+#: admin/class-salesking-admin.php:1452 public/dashboard/teams.php:54
+msgid "Agent"
+msgstr "نماینده"
+
+#: admin/class-salesking-admin.php:990
+msgid "Agent (parent):"
+msgstr "نماینده (والد):"
+
+#: admin/class-salesking-settings.php:755
+msgid "Agent and customer registration"
+msgstr "ثبت نمایندگی و مشتری"
+
+#: admin/class-salesking-admin.php:1409
+msgid "Agent Assigned"
+msgstr "نماینده تعیین شده"
+
+#: admin/class-salesking-admin.php:2320
+msgid "Agent assigned to this customer"
+msgstr "نماینده اختصاص داده شده به این مشتری"
+
+#: admin/class-salesking-admin.php:752
+msgid "Agent assigned to this group"
+msgstr "نماینده فروشی که به این گروه اختصاص داده شده است"
+
+#: admin/class-salesking-admin.php:4381
+msgid "Agent Balance History & Manual Adjustments"
+msgstr "سوابق اعتبار نماینده و تعدیل‌های (تغییر موجودی اعتبار) دستی"
+
+#: admin/class-salesking-settings.php:661
+#: admin/class-salesking-settings.php:773
+msgid "Agent Capabilities"
+msgstr "قابلیت های نمایندگان"
+
+#: includes/class-salesking-activator.php:16
+#: public/dashboard/salesking-dashboard-login.php:21
+msgid "Agent Dashboard"
+msgstr "داشبورد نماینده"
+
+#: admin/class-salesking-admin.php:3674
+msgid "Agent direct earnings"
+msgstr "درآمد مستقیم نماینده"
+
+#: admin/class-salesking-admin.php:3610 admin/class-salesking-admin.php:3692
+#: admin/class-salesking-admin.php:3969
+msgid "Agent Earnings"
+msgstr "درآمد نماینده"
+
+#: admin/class-salesking-admin.php:822
+msgid "Agent earnings"
+msgstr "درآمد نماینده"
+
+#: admin/class-salesking-admin.php:2133 admin/class-salesking-admin.php:2291
+#: admin/class-salesking-admin.php:3260 admin/class-salesking-admin.php:3324
+#: admin/class-salesking-admin.php:3352 admin/class-salesking-admin.php:3532
+#: admin/class-salesking-admin.php:4441 admin/class-salesking-admin.php:4511
+msgid "Agent Group"
+msgstr "گروه نمایندگی"
+
+#: admin/class-salesking-admin.php:2107 admin/class-salesking-admin.php:2109
+#: admin/class-salesking-admin.php:2110 admin/class-salesking-admin.php:2298
+#: admin/class-salesking-admin.php:4982 admin/class-salesking-admin.php:5003
+#: admin/class-salesking-admin.php:5028 admin/class-salesking-admin.php:5147
+#: admin/class-salesking-admin.php:5462
+msgid "Agent Groups"
+msgstr "گروه های نمایندگی"
+
+#: admin/class-salesking-admin.php:5910
+msgid ""
+"Agent groups help you organize and manage your sales agents. Create, edit, "
+"or delete groups based on your store's needs. To add a user to a group, go "
+"to the user's profile and scroll down to 'Agent Settings'."
+msgstr ""
+"گروه های نمایندگی به شما کمک می کنند تا نمایندگان فروش خود را سازماندهی و "
+"مدیریت کنید. گروه ها را بر اساس نیازهای فروشگاه خود ایجاد، ویرایش یا حذف "
+"کنید. برای افزودن یک کاربر به یک گروه، به نمایه کاربر بروید و به «تنظیمات "
+"نماینده» بروید."
+
+#: admin/class-salesking-admin.php:3350 admin/class-salesking-admin.php:3530
+#: admin/class-salesking-admin.php:4439 admin/class-salesking-admin.php:4509
+msgid "Agent ID"
+msgstr "شناسه نماینده"
+
+#: public/dashboard/templates/header-bar.php:207
+#: public/dashboard/templates/profile-sidebar.php:10
+msgid "Agent ID:"
+msgstr "شناسه نماینده:"
+
+#: admin/class-salesking-admin.php:3351 admin/class-salesking-admin.php:3531
+#: admin/class-salesking-admin.php:4440 admin/class-salesking-admin.php:4510
+msgid "Agent Name"
+msgstr "نام نماینده"
+
+#: admin/class-salesking-admin.php:3612
+msgid "Agent Orders"
+msgstr "سفارشات نماینده"
+
+#: admin/class-salesking-admin.php:742 admin/class-salesking-admin.php:2282
+msgid "Agent Settings"
+msgstr "تنظیمات نماینده"
+
+#: admin/class-salesking-settings.php:662
+msgid "Agent settings"
+msgstr "تنظیمات نماینده"
+
+#: admin/class-salesking-admin.php:2262
+msgid "Agent Settings (SalesKing)"
+msgstr "تنظیمات نماینده فروش "
+
+#: public/dashboard/teams.php:55
+msgid "Agent Total Earnings"
+msgstr "کل درآمد نماینده"
+
+#: admin/class-salesking-admin.php:2068
+msgid "Agent Visibility"
+msgstr "قابلیت نمایانی نماینده"
+
+#: admin/class-salesking-admin.php:961
+msgid "Agent:"
+msgstr "نماینده فروش:"
+
+#: admin/class-salesking-admin.php:1215 admin/class-salesking-admin.php:1239
+msgid "Agent: "
+msgstr "نماینده:"
+
+#: admin/class-salesking-admin.php:458 admin/class-salesking-admin.php:694
+#: admin/class-salesking-admin.php:766 admin/class-salesking-admin.php:1033
+#: admin/class-salesking-admin.php:1067 admin/class-salesking-admin.php:2334
+#: admin/class-salesking-admin.php:3087 admin/class-salesking-settings.php:980
+msgid "Agents"
+msgstr "نماینده‌های فروش"
+
+#: admin/class-salesking-admin.php:5156 admin/class-salesking-admin.php:5477
+msgid "Agents (individual)"
+msgstr "نمایندگان (انفرادی)"
+
+#: admin/class-salesking-settings.php:485
+msgid "Agents are notified via email when an order has been assigned to them."
+msgstr ""
+"هنگامی که سفارشی به آنها اختصاص داده شد، نمایندگان از طریق ایمیل مطلع می "
+"شوند."
+
+#: admin/class-salesking-settings.php:467
+msgid "Agents can edit customer profiles."
+msgstr "نمایندگان می توانند پروفایل های مشتری را ویرایش کنند."
+
+#: admin/class-salesking-settings.php:163
+msgid "Agents can edit prices to increase price"
+msgstr "نمایندگان می توانند قیمت ها را برای افزایش قیمت ویرایش کنند"
+
+#: admin/class-salesking-settings.php:159
+msgid "Agents can edit prices to offer discounts"
+msgstr "نمایندگان می توانند قیمت ها را برای ارائه تخفیف ویرایش کنند"
+
+#: admin/class-salesking-settings.php:476
+msgid "Agents can manage, change status, and edit orders assigned to them."
+msgstr ""
+"نمایندگان می توانند سفارشات اختصاص داده شده به آنها را مدیریت، تغییر وضعیت و "
+"ویرایش کنند."
+
+#: admin/class-salesking-settings.php:33
+msgid "Agents Dashboard Favicon"
+msgstr "فاویکون داشبورد نمایندگان"
+
+#: admin/class-salesking-settings.php:29
+msgid "Agents Dashboard Logo"
+msgstr "لوگوی داشبورد نمایندگان"
+
+#: admin/class-salesking-settings.php:25
+msgid "Agents Dashboard Page"
+msgstr "صفحه داشبورد نمایندگان"
+
+#: admin/class-salesking-admin.php:2168
+msgid "Agents in this group"
+msgstr "نمایندگان این گروه"
+
+#: admin/class-salesking-settings.php:142
+msgid "Agents receive new order emails"
+msgstr "نمایندگان ایمیل های سفارش جدید را دریافت می کنند"
+
+#: admin/class-salesking-admin.php:2075
+msgid "Agents who can see this announcement (comma-separated)"
+msgstr ""
+"نمایندگانی که می توانند این اعلامیه را ببینند (با کاما از هم جدا شده اند)"
+
+#: admin/class-salesking-settings.php:314
+msgid ""
+"Agents will earn commissions on orders they place with their own account."
+msgstr ""
+"نمایندگان برای سفارش هایی که با حساب شخصی خود ارسال می کنند، کمیسیون دریافت "
+"می کنند."
+
+#: admin/class-salesking-admin.php:5814
+msgid "All accounts have been set"
+msgstr "همه حساب ها تنظیم شده است"
+
+#: admin/class-salesking-admin.php:5144
+msgid "All agents"
+msgstr "همه نمایندگان"
+
+#: admin/class-salesking-admin.php:3086
+msgid "All Agents (Store)"
+msgstr "همه نمایندگان (فروشگاه)"
+
+#: admin/class-salesking-settings.php:167
+msgid "All agents can manage / shop for all customers"
+msgstr "همه نمایندگان می توانند برای همه مشتریان مدیریت / خرید کنند"
+
+#: admin/class-salesking-settings.php:360
+msgid ""
+"All agents will see all customers and be able to manage them / place order "
+"for them."
+msgstr ""
+"همه نمایندگان همه مشتریان را می بینند و می توانند آنها را مدیریت کنند / برای "
+"آنها سفارش دهند."
+
+#: admin/class-salesking-admin.php:5267
+msgid "All earnings of subagent (cascading)"
+msgstr "تمام درآمدهای نماینده فرعی (آبشاری)"
+
+#: admin/class-salesking-admin.php:5268
+msgid "All earnings of subagent (single value)"
+msgstr "تمام درآمدهای نماینده فرعی (تک ارزش)"
+
+#: admin/class-salesking-admin.php:5188 admin/class-salesking-admin.php:5386
+msgid "All logged in B2B users"
+msgstr "همه کاربران B2B وارد شده اند"
+
+#: admin/class-salesking-admin.php:5189 admin/class-salesking-admin.php:5387
+msgid "All logged in B2C users"
+msgstr "همه کاربران B2C وارد شده اند"
+
+#: admin/class-salesking-admin.php:5184 admin/class-salesking-admin.php:5383
+msgid "All logged in users"
+msgstr "همه کاربران وارد شده اند"
+
+#: admin/class-salesking-admin.php:5193 admin/class-salesking-admin.php:5391
+msgid "All logged out users"
+msgstr "همه کاربران از سیستم خارج شده اند"
+
+#: admin/class-salesking-admin.php:5252
+msgid "All Orders"
+msgstr "همه سفارشات"
+
+#: admin/class-salesking-admin.php:5253
+msgid "All orders"
+msgstr "همه سفارشات"
+
+#: admin/class-salesking-admin.php:5254
+msgid "All orders in the first X days after customer registration"
+msgstr "کلیه سفارشات در X روز اول پس از ثبت نام مشتری"
+
+#: admin/class-salesking-admin.php:5258
+msgid "All orders placed by the agent"
+msgstr "کلیه سفارشات ارسال شده توسط نماینده"
+
+#: admin/class-salesking-admin.php:5259
+msgid ""
+"All orders placed by the agent in the first X days after customer "
+"registration"
+msgstr "کلیه سفارشات ثبت شده توسط نماینده در X روز اول پس از ثبت مشتری"
+
+#: admin/class-salesking-admin.php:5263
+msgid ""
+"All orders placed by the customer in the first X days after customer "
+"registration"
+msgstr "کلیه سفارشات ثبت شده توسط مشتری در X روز اول پس از ثبت مشتری"
+
+#: admin/class-salesking-admin.php:5096
+msgid "All products"
+msgstr "همه محصولات"
+
+#: admin/class-salesking-admin.php:5183 admin/class-salesking-admin.php:5382
+msgid "All users"
+msgstr "تمام کاربران"
+
+#: admin/class-salesking-admin.php:783
+msgid ""
+"All users in this group will be assigned to this agent, unless differently "
+"assigned in their user profiile page."
+msgstr ""
+"همه کاربران این گروه به این نماینده اختصاص داده می شوند، مگر اینکه در صفحه "
+"نمایه کاربری آنها به طور متفاوتی اختصاص داده شود."
+
+#: admin/class-salesking-settings.php:134
+msgid "Allow agents to edit customer profiles"
+msgstr "به نمایندگان اجازه دهید تا پروفایل های مشتری را ویرایش کنند"
+
+#: admin/class-salesking-settings.php:138
+msgid "Allow agents to manage their assigned orders"
+msgstr "به نمایندگان اجازه دهید تا سفارشات تعیین شده خود را مدیریت کنند"
+
+#: public/dashboard/coupons.php:116
+msgid "Allow Free Shipping"
+msgstr "اجازه ارسال رایگان"
+
+#: includes/class-salesking-pending-gateway.php:15
+msgid ""
+"Allows sales agents to place \"pending payment\" orders, that customers will "
+"pay later."
+msgstr ""
+"به نمایندگان فروش اجازه می‌دهد تا سفارش‌های «در حال پرداخت» را ارسال کنند که "
+"مشتریان بعداً آن را پرداخت خواهند کرد."
+
+#: admin/class-salesking-admin.php:4335 includes/class-salesking.php:1048
+#: public/dashboard/dashboard-content.php:458
+#: public/dashboard/dashboard-content.php:610 public/dashboard/payouts.php:71
+msgid "Amount"
+msgstr "مبلغ"
+
+#: includes/emails/templates/new-payout-email-template.php:19
+#: includes/emails/templates/plain-new-payout-email-template.php:11
+msgid "Amount: "
+msgstr "مبلغ:"
+
+#. translators: %s: Order number
+#: includes/emails/templates/new-order-pending-email-template.php:15
+#, php-format
+msgid ""
+"An agent has placed order #%s on your behalf. The order is now awaiting your "
+"payment. "
+msgstr ""
+"یک نماینده از طرف شما #%s سفارش داده است. سفارش اکنون در انتظار پرداخت شما "
+"است."
+
+#. translators: %s: Order number
+#: includes/emails/templates/plain-new-order-pending-email-template.php:12
+#, php-format
+msgid ""
+"An agent has placed order #%s on your behalf. The order is now awaiting your "
+"payment:"
+msgstr ""
+"یک نماینده از طرف شما #%s سفارش داده است. سفارش اکنون در انتظار پرداخت شما "
+"است:"
+
+#: admin/class-salesking-admin.php:1516 admin/class-salesking-admin.php:1541
+msgid "Announcement"
+msgstr "اعلامیه"
+
+#: admin/class-salesking-admin.php:1530
+msgid "Announcement image"
+msgstr "تصویر اعلامیه"
+
+#: admin/class-salesking-admin.php:1537
+msgid "Announcement navigation"
+msgstr "ناوبری اعلامیه"
+
+#: admin/class-salesking-admin.php:1573
+msgid "Announcement Visibility"
+msgstr "مشاهده اعلامیه"
+
+#: admin/class-salesking-admin.php:1515 admin/class-salesking-admin.php:1517
+#: admin/class-salesking-admin.php:1518 public/dashboard/announcements.php:9
+#: public/dashboard/dashboard-content.php:358
+#: public/dashboard/templates/sidebar.php:23
+#: public/dashboard/templates/sidebar.php:36
+msgid "Announcements"
+msgstr "اطلاعیه ها"
+
+#: admin/class-salesking-admin.php:5944
+msgid ""
+"Announcements are notifications that are broadcast to your agents and show "
+"up in each agent's dashboard and in email notifications. Agents cannot reply "
+"to announcements."
+msgstr ""
+"اعلان‌ها اعلان‌هایی هستند که برای نمایندگان شما پخش می‌شوند و در داشبورد هر "
+"نماینده و در اعلان‌های ایمیل نشان داده می‌شوند. نمایندگان نمی توانند به "
+"اطلاعیه ها پاسخ دهند."
+
+#: admin/class-salesking-admin.php:1538
+msgid "Announcements list"
+msgstr "لیست اعلامیه ها"
+
+#: admin/class-salesking-admin.php:5081
+msgid "Applies for products:"
+msgstr "برای محصولات اعمال می شود:"
+
+msgid "Apply after discounts"
+msgstr "اعمال پس از تخفیف‌ها"
+
+#: admin/class-salesking-admin.php:5813
+msgid "Are you sure you want assign this agent for all customers?"
+msgstr "آیا مطمئنید که می‌خواهید این نماینده را به همه مشتریان اختصاص دهید؟"
+
+#: public/class-salesking-public.php:2911
+msgid "Are you sure you want to add this customer?"
+msgstr "آیا مطمئن هستید که می خواهید این مشتری را اضافه کنید؟"
+
+#: public/class-salesking-public.php:2912
+msgid "Are you sure you want to add this subagent?"
+msgstr "آیا مطمئن هستید که می خواهید این نماینده فرعی را اضافه کنید؟"
+
+#: public/class-salesking-public.php:2910
+msgid "Are you sure you want to delete this cart?"
+msgstr "آیا مطمئن هستید که می خواهید این سبد خرید را حذف کنید؟"
+
+#: public/class-salesking-public.php:2908
+msgid "Are you sure you want to delete this coupon?"
+msgstr "آیا مطمئن هستید که می خواهید این کوپن را حذف کنید؟"
+
+#: admin/class-salesking-admin.php:5812
+msgid ""
+"Are you sure you want to make these users no longer be subagents? (they will "
+"become main / top level agents )"
+msgstr ""
+"آیا مطمئنید که می‌خواهید کاری کنید که این کاربران دیگر زیرمجموعه نباشند؟ "
+"(آنها به عوامل اصلی / سطح بالا تبدیل خواهند شد)"
+
+#: admin/class-salesking-admin.php:5808
+msgid "Are you sure you want to make this manual adjustment?"
+msgstr "آیا مطمئن هستید که می خواهید این تنظیم دستی را انجام دهید؟"
+
+#: public/class-salesking-public.php:2913
+msgid "Are you sure you want to save the payout info?"
+msgstr "آیا مطمئن هستید که می خواهید اطلاعات پرداخت را ذخیره کنید؟"
+
+#: public/class-salesking-public.php:2909
+msgid "Are you sure you want to save this cart?"
+msgstr "آیا مطمئن هستید که می خواهید این سبد خرید را ذخیره کنید؟"
+
+#: admin/class-salesking-admin.php:5807
+msgid "Are you sure you want to save this payment?"
+msgstr "آیا مطمئن هستید که می خواهید این پرداخت را ذخیره کنید؟"
+
+#: admin/class-salesking-admin.php:5811
+msgid ""
+"Are you sure you want to set these users as subagents of the parent agent? "
+"They will become a part of the main agent's team and they will be assigned "
+"to the Agent Group of the parent account."
+msgstr ""
+"آیا مطمئنید که می‌خواهید این کاربران را به‌عنوان نماینده فرعی نماینده اصلی "
+"تنظیم کنید؟ آنها بخشی از تیم نماینده اصلی خواهند شد و به گروه نماینده حساب "
+"مادر اختصاص داده می شوند."
+
+#: admin/class-salesking-settings.php:130
+msgid "Assign Agent Automatically at Registration"
+msgstr "تعیین نماینده به صورت خودکار در هنگام ثبت نام"
+
+#: admin/class-salesking-admin.php:680
+msgid "Assign sales agent"
+msgstr "تعیین نماینده فروش"
+
+#: admin/class-salesking-admin.php:725
+msgid ""
+"Assign this group to a sales agent (optional, is overwritten by agent "
+"assigned in user profile)"
+msgstr ""
+"این گروه را به یک نماینده فروش اختصاص دهید (اختیاری، توسط نماینده اختصاص "
+"داده شده در نمایه کاربر بازنویسی می شود)"
+
+#: public/dashboard/payouts.php:24
+msgid "Available for Payout"
+msgstr "برای پرداخت موجود است"
+
+#: includes/class-salesking-pending-gateway.php:79
+msgid "Awaiting customer payment."
+msgstr "در انتظار پرداخت مشتری"
+
+#: public/dashboard/customers.php:585 public/dashboard/customers.php:669
+msgid "B2B Group"
+msgstr "گروه B2B"
+
+#: admin/class-salesking-admin.php:5200 admin/class-salesking-admin.php:5396
+msgid "B2B Groups"
+msgstr "گروه های B2B"
+
+#: public/dashboard/customers.php:588 public/dashboard/customers.php:672
+msgid "B2C Users"
+msgstr "کاربران B2C"
+
+#: public/dashboard/announcement.php:22
+msgid "Back"
+msgstr "بازگشت"
+
+#: public/dashboard/dashboard-content.php:36 public/dashboard/earnings.php:189
+msgid "Balance available"
+msgstr "بستانکاری"
+
+#: admin/class-salesking-admin.php:4226 public/dashboard/payouts.php:280
+msgid "Bank Account Holder Name"
+msgstr "نام صاحب حساب بانکی"
+
+msgid "Bank Account Number"
+msgstr "شماره حساب"
+
+#: admin/class-salesking-admin.php:4230 public/dashboard/payouts.php:290
+msgid "Bank Account Number/IBAN"
+msgstr "شماره حساب بانکی"
+
+msgid "Bank Branch / Code"
+msgstr "نام و کد شعبه (نام شعبه - کد شعبه)"
+
+#: admin/class-salesking-admin.php:4234 public/dashboard/payouts.php:300
+msgid "Bank Branch City"
+msgstr "شهر شعبه بانک"
+
+#: admin/class-salesking-admin.php:4238 public/dashboard/payouts.php:310
+msgid "Bank Branch Country"
+msgstr "شعبه بانک کشور"
+
+msgid "Bank Name"
+msgstr "نام بانک"
+
+#: public/dashboard/payouts.php:163
+msgid "Bank Transfer"
+msgstr "حواله بانکی"
+
+#: admin/class-salesking-admin.php:4202 public/dashboard/payouts.php:216
+msgid "Billing Address Line 1"
+msgstr "آدرس صورتحساب خط 1"
+
+#: admin/class-salesking-admin.php:4206 public/dashboard/payouts.php:228
+msgid "Billing Address Line 2"
+msgstr "آدرس صورتحساب خط 2"
+
+#: admin/class-salesking-admin.php:4303
+msgid "Bonus / Extra Payment (is not deducted from outstanding balance)"
+msgstr "پاداش / پرداخت اضافی (از موجودی معوق کسر نمی شود)"
+
+#: public/dashboard/customers.php:13
+msgid ""
+"By choosing the \"pending payment\" option at checkout, customers will be "
+"sent a payment link by email."
+msgstr ""
+"با انتخاب گزینه «پرداخت در انتظار» هنگام پرداخت، لینک پرداخت از طریق ایمیل "
+"برای مشتریان ارسال می شود."
+
+#: public/dashboard/profile.php:108
+msgid "Cancel"
+msgstr "لغو کنید"
+
+#: includes/class-salesking.php:1515 public/class-salesking-public.php:2928
+#: public/dashboard/dashboard-content.php:215 public/dashboard/orders.php:189
+msgid "Cancelled"
+msgstr "لغو شد"
+
+#: public/dashboard/cart-sharing.php:35
+msgid "Cart Name"
+msgstr "نام سبد خرید"
+
+#: public/class-salesking-public.php:2388
+msgid "Cart retrieved successfully."
+msgstr "سبد خرید با موفقیت بازیابی شد."
+
+#: public/dashboard/cart-sharing.php:13
+#: public/dashboard/templates/sidebar.php:62
+msgid "Cart Sharing"
+msgstr "اشتراک سبد خرید"
+
+#: public/class-salesking-public.php:2814
+msgid "Cart updated."
+msgstr "سبد خرید به روز شد."
+
+#: admin/class-salesking-settings.php:37
+msgid "Change Color Scheme (beta)"
+msgstr "تغییر طرح رنگ (بتا)"
+
+#: admin/class-salesking-admin.php:4809 admin/class-salesking-admin.php:4939
+msgid "Change group"
+msgstr "گروه را تغییر دهید"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:130
+msgid "Check for updates"
+msgstr "به روز رسانی را بررسی کنید"
+
+#: public/dashboard/coupons.php:116
+msgid "Check this box if the coupon grants free shipping."
+msgstr "اگر کوپن ارسال رایگان می دهد، این کادر را علامت بزنید."
+
+#: public/dashboard/coupons.php:112
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Coupons will "
+"only work if there are items in the cart that are not on sale."
+msgstr ""
+"اگر کوپن نباید برای کالاهای در حال فروش اعمال شود، این کادر را علامت بزنید. "
+"کوپن ها فقط در صورتی کار می کنند که اقلامی در سبد خرید وجود داشته باشد که در "
+"فروش نیستند."
+
+msgid ""
+"Check this box to recalculate sales agent commissions, based on the current "
+"commission rules and current order products."
+msgstr ""
+"این گزینه را فعال کنید تا محاسبه مجدد کمیسیون نماینده بر اساس قوانین و "
+"محصولات سفارش انجام شود"
+
+#: public/class-salesking-public.php:2454
+msgid "Choose a Sales Agent"
+msgstr "یک نماینده فروش انتخاب کنید"
+
+#: admin/class-salesking-admin.php:708
+msgid "Choose group"
+msgstr "گروه را انتخاب کنید"
+
+#: admin/class-salesking-settings.php:73
+msgid "Choose Tables Language"
+msgstr "زبان جداول را انتخاب کنید"
+
+msgid "Choose what components are included when calculating agent commissions."
+msgstr ""
+"انتخاب کنید هنگام محاسبه کمیسیون نماینده کدام مؤلفه‌ها در نظر گرفته شوند."
+
+#: public/dashboard/profile-settings.php:23
+msgid "Choose which email notifications you would like to receive."
+msgstr "انتخاب کنید کدام اعلان‌های ایمیلی را می‌خواهید دریافت کنید."
+
+#: includes/emails/class-salesking-new-announcement-email.php:121
+#: includes/emails/class-salesking-new-message-email.php:128
+#: includes/emails/class-salesking-new-payout-email.php:116
+msgid "Choose which format of email to send."
+msgstr "فرمت ایمیل برای ارسال را انتخاب کنید."
+
+#: admin/class-salesking-admin.php:4147
+msgid "Chosen payout method"
+msgstr "روش پرداخت انتخابی"
+
+#: admin/class-salesking-admin.php:4210 public/dashboard/payouts.php:240
+msgid "City"
+msgstr "شهر"
+
+#: admin/class-salesking-settings.php:890
+msgid "Click to learn more about"
+msgstr "برای کسب اطلاعات بیشتر در مورد کلیک کنید"
+
+#: admin/class-salesking-admin.php:346
+msgid "Click to RETURN to the Sales Agent Dashboard"
+msgstr "برای بازگشت به داشبورد نماینده فروش کلیک کنید"
+
+#: public/dashboard/messages.php:34 public/dashboard/messages.php:253
+msgid "Closed"
+msgstr "بسته"
+
+#: admin/class-salesking-admin.php:1164 admin/class-salesking-admin.php:3078
+#: admin/class-salesking-admin.php:3187
+msgid "Commission"
+msgstr "کمیسیون"
+
+msgid "Commission Base (Override)"
+msgstr "مبنای محاسبه کمیسیون (اورراید)"
+
+#: admin/class-salesking-settings.php:793
+msgid "Commission Calculation"
+msgstr "محاسبه کمیسیون"
+
+#: admin/class-salesking-settings.php:671
+msgid "Commission calculation"
+msgstr "محاسبه کمیسیون"
+
+msgid "Commission Calculation Base"
+msgstr "مبنای محاسبه کمیسیون"
+
+#: admin/class-salesking-settings.php:175
+msgid "Commission calculation includes tax"
+msgstr "محاسبه کمیسیون شامل مالیات است"
+
+#: admin/class-salesking-settings.php:295
+msgid "Commission calculation is based on price including tax."
+msgstr "محاسبه کمیسیون بر اساس قیمت شامل مالیات است."
+
+#: admin/class-salesking-settings.php:341
+msgid ""
+"Commission calculation is based on profit (cost of products has to be "
+"entered for each product /variation)."
+msgstr ""
+"محاسبه کمیسیون بر اساس سود است (هزینه محصولات باید برای هر محصول / تغییرات "
+"وارد شود)."
+
+#: admin/class-salesking-admin.php:4857 admin/class-salesking-admin.php:4859
+#: admin/class-salesking-admin.php:4860 admin/class-salesking-admin.php:4883
+#: admin/class-salesking-admin.php:5070
+msgid "Commission Rules"
+msgstr "قوانین کمیسیون"
+
+#: admin/class-salesking-admin.php:4553 admin/class-salesking-admin.php:4880
+msgid "Commission rules list"
+msgstr "فهرست قوانین کمیسیون"
+
+#: admin/class-salesking-settings.php:199
+msgid "Commission rules: hide individual users"
+msgstr "قوانین کمیسیون: کاربران فردی را پنهان کنید"
+
+#: admin/class-salesking-settings.php:672
+msgid "Commission settings"
+msgstr "تنظیمات کمیسیون"
+
+#: admin/class-salesking-admin.php:971 admin/class-salesking-admin.php:1001
+msgid "Commission:"
+msgstr "کمیسیون:"
+
+#: public/dashboard/customers.php:71
+msgid "Company"
+msgstr "شرکت"
+
+#: public/dashboard/customers.php:434
+msgid "Company name"
+msgstr "نام شرکت"
+
+#: admin/class-salesking-admin.php:3745 admin/class-salesking-admin.php:3869
+#: admin/class-salesking-admin.php:4023 includes/class-salesking.php:1509
+#: public/class-salesking-public.php:2926
+#: public/dashboard/dashboard-content.php:203
+#: public/dashboard/dashboard-content.php:540
+#: public/dashboard/dashboard-content.php:690 public/dashboard/earnings.php:494
+#: public/dashboard/earnings.php:520 public/dashboard/earnings.php:758
+#: public/dashboard/earnings.php:784 public/dashboard/orders.php:183
+msgid "Completed"
+msgstr "تکمیل شد"
+
+#: admin/class-salesking-admin.php:3357
+msgid "Completed Commissions"
+msgstr "کمیسیون های تکمیل شده"
+
+#: public/dashboard/messages.php:35
+msgid "Compose"
+msgstr "نوشتن"
+
+#: public/dashboard/messages.php:349
+msgid "Compose Message"
+msgstr "نوشتن پیام"
+
+#: admin/class-salesking-admin.php:4794
+msgid "Condition"
+msgstr "وضعیت"
+
+#: admin/class-salesking-admin.php:4944
+msgid "Condition:"
+msgstr "وضعیت:"
+
+#: public/dashboard/payouts.php:56
+msgid "Configure"
+msgstr "پیکربندی کنید"
+
+#: admin/class-salesking-settings.php:154
+msgid "Configure Custom Method for payouts"
+msgstr "روش سفارشی را برای پرداخت‌ها پیکربندی کنید"
+
+#: admin/class-salesking-settings.php:717
+msgid "Configure SalesKing"
+msgstr "سیستم نمایندگی فروش را پیکربندی کنید"
+
+#: admin/class-salesking-settings.php:890
+msgid "contact support"
+msgstr "با پشتیبانی تماس بگیرید"
+
+#: admin/class-salesking-admin.php:2743
+msgid "contact support."
+msgstr "با پشتیبانی تماس بگیرید"
+
+#: includes/emails/templates/new-announcement-email-template.php:15
+#: includes/emails/templates/new-message-email-template.php:23
+#: includes/emails/templates/plain-new-announcement-email-template.php:11
+#: includes/emails/templates/plain-new-message-email-template.php:11
+msgid "Content: "
+msgstr "محتوا:"
+
+msgid "Contract End Date"
+msgstr "تاریخ اتمام قرارداد"
+
+msgid "Contract Number"
+msgstr "شماره قرارداد"
+
+msgid "Contract Start Date"
+msgstr "تاریخ شروع قرارداد"
+
+#: admin/class-salesking-settings.php:815
+msgid "Control available payout options"
+msgstr "گزینه های پرداخت موجود را کنترل کنید"
+
+#: admin/class-salesking-settings.php:795
+msgid "Control how agent commission is calculated"
+msgstr "نحوه محاسبه کمیسیون نماینده را کنترل کنید"
+
+#: admin/class-salesking-settings.php:775
+msgid "Control what abilities agents have"
+msgstr "کنترل کنید که عوامل چه توانایی هایی دارند"
+
+#: public/class-salesking-public.php:2916
+msgid "Copied"
+msgstr "کپی شده"
+
+#: public/class-salesking-public.php:2918
+#: public/dashboard/affiliate-links.php:45
+#: public/dashboard/affiliate-links.php:76 public/dashboard/cart-sharing.php:37
+msgid "Copy"
+msgstr "کپی "
+
+#: public/dashboard/affiliate-links.php:92
+msgid "Copy & paste a product link here..."
+msgstr "یک لینک محصول در اینجا کپی پیست کنید..."
+
+#: public/class-salesking-public.php:2919 public/dashboard/cart-sharing.php:65
+msgid "Copy Link"
+msgstr "لینک را کپی کنید"
+
+#: public/dashboard/affiliate-links.php:45
+#: public/dashboard/affiliate-links.php:76
+msgid "Copy to clipboard"
+msgstr "کپی به کلیپ بورد"
+
+#: admin/class-salesking-admin.php:4222 public/dashboard/customers.php:440
+#: public/dashboard/payouts.php:270
+msgid "Country"
+msgstr "کشور"
+
+#: public/dashboard/coupons.php:85 public/dashboard/coupons.php:156
+msgid "Coupon Code"
+msgstr "کد کوپن"
+
+#: public/class-salesking-public.php:2937
+msgid "Coupon created successfully."
+msgstr "کوپن با موفقیت ایجاد شد."
+
+#: public/dashboard/coupons.php:93
+msgid "Coupon Expiry Date (optional)"
+msgstr "تاریخ انقضای کوپن (اختیاری)"
+
+#: admin/class-salesking-admin.php:3687
+msgid "Coupon Used"
+msgstr "کوپن استفاده شده"
+
+#: public/dashboard/templates/sidebar.php:61
+msgid "Coupons"
+msgstr "کدهای تخفیف"
+
+#: public/dashboard/cart-sharing.php:109
+msgid "Create"
+msgstr "ايجاد كردن"
+
+#: public/dashboard/coupons.php:38
+msgid "Create a coupon"
+msgstr "یک کوپن ایجاد کنید"
+
+#: public/dashboard/salesking-dashboard-login.php:299
+msgid "Create an account"
+msgstr "یک حساب کاربری ایجاد کنید"
+
+#: public/dashboard/cart-sharing.php:15
+msgid ""
+"Create and share cart links with your customers, allowing them to easily "
+"place orders with the exact products they need. "
+msgstr ""
+"پیوندهای سبد خرید را با مشتریان خود ایجاد کرده و به اشتراک بگذارید، به آنها "
+"این امکان را می دهید تا به راحتی با محصولات دقیق مورد نیاز خود سفارش دهند."
+
+#: public/dashboard/coupons.php:26
+msgid ""
+"Create and share coupons, and earn a commission each time your coupon codes "
+"are used!"
+msgstr ""
+"کوپن ایجاد کنید و به اشتراک بگذارید و هر بار که از کدهای کوپن خود استفاده می "
+"کنید، کمیسیون دریافت کنید!"
+
+#: public/dashboard/cart-sharing.php:88
+msgid "Create Cart"
+msgstr "سبد خرید ایجاد کنید"
+
+#: admin/class-salesking-admin.php:800
+msgid "Create new customer earning"
+msgstr "ایجاد درآمد مشتری جدید"
+
+#: admin/class-salesking-admin.php:2112
+msgid "Create new customer group"
+msgstr "گروه مشتریان جدید ایجاد کنید"
+
+#: admin/class-salesking-admin.php:799
+msgid "Create new earning"
+msgstr "ایجاد درآمد جدید"
+
+#: admin/class-salesking-admin.php:2111
+msgid "Create new group"
+msgstr "ایجاد گروه جدید"
+
+#: admin/class-salesking-admin.php:4534 admin/class-salesking-admin.php:4535
+#: admin/class-salesking-admin.php:4861 admin/class-salesking-admin.php:4862
+msgid "Create new rule"
+msgstr "قانون جدید ایجاد کنید"
+
+#: admin/class-salesking-admin.php:3658 admin/class-salesking-admin.php:4319
+#: admin/class-salesking-admin.php:4385
+msgid "current outstanding balance (unpaid earnings)"
+msgstr "موجودی معوق فعلی (درآمد پرداخت نشده)"
+
+#: admin/class-salesking-admin.php:4143
+msgid "Current User Payout Information"
+msgstr "اطلاعات پرداخت کاربر فعلی"
+
+#: public/dashboard/earnings.php:202
+msgid "currently available for payouts"
+msgstr "در حال حاضر برای پرداخت در دسترس است"
+
+#: public/dashboard/payouts.php:55
+msgid "currently selected"
+msgstr "در حال حاضر انتخاب شده است"
+
+#: admin/class-salesking-admin.php:2273 admin/class-salesking-admin.php:3683
+#: public/dashboard/customers.php:67 public/dashboard/dashboard-content.php:450
+#: public/dashboard/dashboard-content.php:602 public/dashboard/earnings.php:380
+#: public/dashboard/earnings.php:663 public/dashboard/orders.php:44
+msgid "Customer"
+msgstr "مشتری"
+
+#: public/dashboard/earnings.php:416 public/dashboard/earnings.php:689
+#: public/dashboard/orders.php:65
+msgid "customer"
+msgstr "مشتری"
+
+#: public/dashboard/customers.php:414
+msgid "Customer Info"
+msgstr "اطلاعات مشتری"
+
+#: public/dashboard/customers.php:11 public/dashboard/dashboard-content.php:296
+msgid "Customers"
+msgstr "مشتریان"
+
+#: public/dashboard/affiliate-links.php:38
+msgid "Customers that register with this link are assigned to you."
+msgstr "مشتریانی که با این لینک ثبت نام می کنند به شما اختصاص داده می شود."
+
+#: admin/class-salesking-settings.php:722
+#: public/dashboard/dashboard-content.php:8
+#: public/dashboard/templates/sidebar.php:51
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: admin/class-salesking-settings.php:49
+msgid "Dashboard Color"
+msgstr "رنگ داشبورد"
+
+#: admin/class-salesking-settings.php:61
+msgid "Dashboard Color Hover"
+msgstr "نمایشگر رنگ داشبورد"
+
+#: admin/class-salesking-admin.php:3681 admin/class-salesking-admin.php:3962
+#: admin/class-salesking-admin.php:4334 includes/class-salesking.php:1048
+#: public/dashboard/dashboard-content.php:454
+#: public/dashboard/dashboard-content.php:606 public/dashboard/earnings.php:375
+#: public/dashboard/earnings.php:658 public/dashboard/orders.php:42
+msgid "Date"
+msgstr "تاریخ"
+
+#: public/dashboard/earnings.php:411 public/dashboard/earnings.php:684
+#: public/dashboard/orders.php:63
+msgid "date"
+msgstr "تاریخ"
+
+#: admin/class-salesking-admin.php:1453
+msgid "Date of last reply"
+msgstr "تاریخ آخرین پاسخ"
+
+#: public/dashboard/payouts.php:73
+msgid "Date Processed"
+msgstr "تاریخ پردازش"
+
+#: public/dashboard/announcements.php:40
+msgid "Date published"
+msgstr "تاریخ انتشار"
+
+#: public/dashboard/cart-sharing.php:38 public/dashboard/coupons.php:238
+msgid "Delete"
+msgstr "حذف"
+
+#: public/dashboard/cart-sharing.php:68
+msgid "Delete Cart"
+msgstr "حذف سبد خرید"
+
+#: includes/class-salesking-pending-gateway.php:45
+msgid "Description"
+msgstr "توضیحات"
+
+#: admin/class-salesking-admin.php:4181
+msgid "Details"
+msgstr "جزئیات"
+
+#: admin/class-salesking-settings.php:191
+msgid "Different commission when agent increases price"
+msgstr "هنگامی که نماینده قیمت را افزایش می دهد، کمیسیون متفاوت است"
+
+#: admin/class-salesking-settings.php:584
+msgid "Disable this if you want to manage payouts separate of SalesKing."
+msgstr ""
+"اگر می‌خواهید پرداخت‌ها را جدا از افزونه مدیریت نمایندگان فروش سپهر الکتریک "
+"مدیریت کنید، این را غیرفعال کنید."
+
+#: public/dashboard/coupons.php:159
+msgid "Discount"
+msgstr "تخفیف"
+
+#: public/dashboard/coupons.php:24
+msgid "Discount Coupons"
+msgstr "کوپن های تخفیف"
+
+#: public/dashboard/coupons.php:55
+msgid "Discount Percentage (%)"
+msgstr "تخفیف درصدی (%)"
+
+#: public/dashboard/coupons.php:55
+msgid "Discount percentage that the customer benefits from."
+msgstr "درصد تخفیفی که مشتری از آن بهره مند می شود."
+
+#: public/dashboard/profile.php:46 public/dashboard/profile.php:91
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: admin/class-salesking-admin.php:3580 admin/class-salesking-settings.php:919
+msgid "Documentation"
+msgstr "مستندات"
+
+#: admin/class-salesking-admin.php:4411
+msgid "Download Agent Balance History"
+msgstr "دانلود سوابق اعتبار نماینده"
+
+#: includes/class-salesking.php:338
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: includes/class-salesking.php:443
+msgid "Duplicate has been created"
+msgstr "تکثیر ایجاد شده است"
+
+#: admin/class-salesking-settings.php:183
+msgid "Earn commissions on own account orders"
+msgstr "در سفارشات حساب خود پورسانت دریافت کنید"
+
+#: admin/class-salesking-admin.php:795 admin/class-salesking-admin.php:796
+#: admin/class-salesking-admin.php:821 admin/class-salesking-admin.php:1762
+#: public/class-salesking-public.php:839
+msgid "Earning"
+msgstr "درآمد"
+
+#: admin/class-salesking-admin.php:810
+msgid "Earning image"
+msgstr "تصویر کسب درآمد"
+
+#: admin/class-salesking-admin.php:797 admin/class-salesking-admin.php:798
+#: admin/class-salesking-admin.php:2561 admin/class-salesking-admin.php:2562
+#: admin/class-salesking-admin.php:3345 public/dashboard/earnings.php:11
+#: public/dashboard/templates/sidebar.php:67
+msgid "Earnings"
+msgstr "درآمد"
+
+#: public/dashboard/earnings.php:224
+msgid "Earnings during "
+msgstr "درآمد در طول"
+
+#: public/dashboard/earnings.php:633
+msgid "Earnings from your subagents"
+msgstr "درآمد حاصل از نمایندگی های فرعی شما"
+
+#: admin/class-salesking-admin.php:3646
+msgid "Earnings History"
+msgstr "سوابق درآمد"
+
+#: admin/class-salesking-admin.php:5271
+msgid "Earnings in the first x days after subagent is recruited"
+msgstr "درآمد در روزهای x اول پس از جذب نماینده فرعی"
+
+#: public/dashboard/dashboard-content.php:108
+msgid "earnings in the last 30 days"
+msgstr "درآمد در 30 روز گذشته"
+
+#: public/dashboard/earnings.php:112
+msgid "Earnings in the past 30 days"
+msgstr "درآمد در 30 روز گذشته"
+
+#: admin/class-salesking-admin.php:818
+msgid "Earnings list"
+msgstr "لیست درآمد"
+
+#: admin/class-salesking-admin.php:817
+msgid "Earnings navigation"
+msgstr "ناوبری درآمد"
+
+#: admin/class-salesking-admin.php:3628
+msgid "Earnings of"
+msgstr "درآمد از"
+
+#: admin/class-salesking-admin.php:3952
+msgid "Earnings of subagents"
+msgstr "درآمد نمایندگان زیرمجموعه"
+
+#: public/dashboard/earnings.php:223
+msgid "Earnings Overview"
+msgstr "نمای کلی درآمد"
+
+#: public/dashboard/earnings.php:376 public/dashboard/earnings.php:659
+msgid "Earnings Status"
+msgstr "وضعیت درآمد"
+
+#: public/dashboard/earnings.php:412 public/dashboard/earnings.php:685
+msgid "earnings status"
+msgstr "وضعیت درآمد"
+
+#: public/dashboard/earnings.php:35
+msgid "Earnings this month"
+msgstr "درآمد این ماه"
+
+#: public/dashboard/dashboard-content.php:115
+msgid "Earnings this month so far"
+msgstr "درآمد این ماه تاکنون"
+
+#: admin/class-salesking-admin.php:801 admin/class-salesking-admin.php:857
+#: admin/class-salesking-admin.php:1521 admin/class-salesking-admin.php:2113
+#: admin/class-salesking-admin.php:4536 admin/class-salesking-admin.php:4863
+#: includes/class-salesking.php:989 public/dashboard/customers.php:384
+msgid "Edit"
+msgstr "ویرایش کنید"
+
+#: admin/class-salesking-admin.php:1522
+msgid "Edit announcement"
+msgstr "ویرایش اعلامیه"
+
+#: admin/class-salesking-admin.php:5819 public/class-salesking-public.php:2925
+msgid "Edit Columns"
+msgstr "ویرایش ستون ها"
+
+#: admin/class-salesking-admin.php:802
+msgid "Edit earning"
+msgstr "ویرایش درآمد"
+
+#: admin/class-salesking-admin.php:2114
+msgid "Edit group"
+msgstr "ویرایش گروه"
+
+#: admin/class-salesking-admin.php:858
+msgid "Edit message"
+msgstr "ویرایش پیام"
+
+#: admin/class-salesking-admin.php:4537 admin/class-salesking-admin.php:4864
+msgid "Edit rule"
+msgstr "ویرایش قانون"
+
+#: public/dashboard/customers.php:97 public/dashboard/profile.php:53
+#: public/dashboard/profile.php:97 public/dashboard/teams.php:58
+msgid "Email"
+msgstr "ایمیل"
+
+#: public/dashboard/customers.php:702 public/dashboard/teams.php:201
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: includes/emails/class-salesking-new-announcement-email.php:112
+#: includes/emails/class-salesking-new-message-email.php:119
+#: includes/emails/class-salesking-new-payout-email.php:107
+msgid "Email Heading"
+msgstr "عنوان ایمیل"
+
+#: public/dashboard/profile-settings.php:58
+msgid "Email me when I receive a new message."
+msgstr "وقتی پیام جدیدی دریافت کردم به من ایمیل بزنید."
+
+#: public/dashboard/profile-settings.php:46
+msgid "Email me when new announcements are published."
+msgstr "وقتی اطلاعیه های جدید منتشر شد به من ایمیل بزنید."
+
+#: public/dashboard/salesking-dashboard-login.php:275
+msgid "Email or Username"
+msgstr "ایمیل یا نام کاربری"
+
+#: public/dashboard/profile-settings.php:22
+msgid "Email Settings"
+msgstr "تنظیمات ایمیل"
+
+#: includes/emails/class-salesking-new-announcement-email.php:119
+#: includes/emails/class-salesking-new-message-email.php:126
+#: includes/emails/class-salesking-new-payout-email.php:114
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+#: admin/class-salesking-settings.php:101
+msgid "Enable Affiliate Links"
+msgstr "لینک های همکاری در فروش را فعال کنید"
+
+#: admin/class-salesking-settings.php:89
+msgid "Enable Announcements"
+msgstr "فعال کردن اطلاعیه ها"
+
+#: admin/class-salesking-settings.php:150
+msgid "Enable Bank Payments for payouts"
+msgstr "فعال کردن پرداخت های بانکی برای پرداخت ها"
+
+#: admin/class-salesking-settings.php:105
+msgid "Enable Cart Sharing"
+msgstr "اشتراک گذاری سبد خرید را فعال کنید"
+
+#: admin/class-salesking-settings.php:97
+msgid "Enable Coupons"
+msgstr "کوپن ها را فعال کنید"
+
+#: admin/class-salesking-settings.php:113
+msgid "Enable Earnings"
+msgstr "فعال کردن درآمد"
+
+#: includes/class-salesking-pending-gateway.php:53
+msgid "Enable for shipping methods"
+msgstr "برای روش های حمل و نقل فعال کنید"
+
+#: admin/class-salesking-settings.php:93
+msgid "Enable Messages"
+msgstr "پیام ها را فعال کنید"
+
+#: includes/class-salesking-pending-gateway.php:32
+msgid "Enable orders as pending payment for sales agents"
+msgstr "سفارشات را به عنوان پرداخت معلق برای نمایندگان فروش فعال کنید"
+
+#: admin/class-salesking-settings.php:117
+msgid "Enable Payouts"
+msgstr "پرداخت‌ها را فعال کنید"
+
+#: admin/class-salesking-settings.php:146
+msgid "Enable PayPal for payouts"
+msgstr "فعال کردن PayPal برای پرداخت"
+
+#: admin/class-salesking-settings.php:109
+msgid "Enable Teams"
+msgstr "تیم ها را فعال کنید"
+
+#: includes/emails/class-salesking-new-announcement-email.php:101
+#: includes/emails/class-salesking-new-message-email.php:108
+#: includes/emails/class-salesking-new-payout-email.php:96
+msgid "Enable this email notification"
+msgstr "این اعلان ایمیل را فعال کنید"
+
+#: includes/class-salesking-pending-gateway.php:31
+#: includes/emails/class-salesking-new-announcement-email.php:99
+#: includes/emails/class-salesking-new-message-email.php:106
+#: includes/emails/class-salesking-new-payout-email.php:94
+msgid "Enable/Disable"
+msgstr "فعال/ غیرفعال"
+
+#: public/dashboard/affiliate-links.php:86
+msgid "Enter a product link here, and get your affiliate link."
+msgstr "لینک محصول را در اینجا وارد کنید و لینک بازاریابی خود را دریافت کنید."
+
+msgid "Enter a valid 10-digit Iranian National ID"
+msgstr "لطفا کد ملی 10 رقمی مشتری را وارد کنید"
+
+msgid "Enter a valid Iranian mobile number without 0 like 9123456789"
+msgstr "لطفا شماره موبایل را بدون 0 وارد کنید . مانند : 9123456789"
+
+#: public/dashboard/cart-sharing.php:98
+msgid "Enter Cart Name:"
+msgstr "نام سبد خرید را وارد کنید:"
+
+#: admin/class-salesking-settings.php:383
+msgid "Enter commission percentage..."
+msgstr "درصد کمیسیون را وارد کنید..."
+
+#: admin/class-salesking-admin.php:1046 admin/class-salesking-admin.php:1077
+msgid "Enter commission value..."
+msgstr "مقدار کمیسیون را وارد کنید..."
+
+#: admin/class-salesking-admin.php:2200 admin/class-salesking-admin.php:2410
+msgid "Enter discount percentage..."
+msgstr "درصد تخفیف را وارد کنید..."
+
+#: admin/class-salesking-settings.php:575
+msgid "Enter how many levels of agents can have subagents. 0 = unlimited"
+msgstr ""
+"وارد کنید که چند سطح از نمایمگان فروش می توانند زیر نماینده داشته باشند. 0 = "
+"نامحدود"
+
+#: admin/class-salesking-settings.php:419
+msgid "Enter method description / instructions here..."
+msgstr "توضیحات روش / دستورالعمل ها را اینجا وارد کنید..."
+
+#: admin/class-salesking-settings.php:418
+msgid "Enter method title here..."
+msgstr "عنوان روش را اینجا وارد کنید..."
+
+#: admin/class-salesking-admin.php:4299
+msgid "Enter note / details here..."
+msgstr "یادداشت / جزئیات را در اینجا وارد کنید ..."
+
+#: admin/class-salesking-admin.php:4406
+msgid "Enter note / explanation here..."
+msgstr "یادداشت / توضیح را در اینجا وارد کنید ..."
+
+#: admin/class-salesking-settings.php:952
+msgid "Enter parent agent account id (example: 23)"
+msgstr "شناسه حساب نماینده مادر را وارد کنید (مثال: 23)"
+
+#: admin/class-salesking-admin.php:4293
+msgid "Enter payment method used here..."
+msgstr "روش پرداخت استفاده شده در اینجا را وارد کنید..."
+
+#: admin/class-salesking-admin.php:4400
+msgid ""
+"Enter the adjustment amount (you can enter a positive / negative value to "
+"increase / reduce balance)."
+msgstr ""
+"مبلغ تعدیل را وارد کنید (برای افزایش / کاهش اعتبار خود می توانید یک مقدار "
+"مثبت / منفی وارد کنید)."
+
+#: admin/class-salesking-admin.php:4287
+msgid "Enter the amount that has been sent..."
+msgstr "مبلغ ارسال شده را وارد کنید..."
+
+#: public/dashboard/cart-sharing.php:105
+msgid "Enter the cart name here..."
+msgstr "نام سبد خرید را اینجا وارد کنید..."
+
+#: admin/class-salesking-settings.php:951
+#: admin/class-salesking-settings.php:965
+msgid "Enter user ids, comma-separated (example: 12,15,19)"
+msgstr "شناسه‌های کاربر را وارد کنید، جدا شده با کاما (مثال: 12،15،19)"
+
+#: public/dashboard/profile.php:92
+msgid "Enter your display name..."
+msgstr "نام نمایشی خود را وارد کنید..."
+
+#: public/dashboard/salesking-dashboard-login.php:277
+msgid "Enter your email address or username"
+msgstr "آدرس ایمیل یا نام کاربری خود را وارد کنید"
+
+#: public/dashboard/profile.php:98
+msgid "Enter your email..."
+msgstr "ایمیل خود را وارد کنید..."
+
+#: public/dashboard/profile.php:80
+msgid "Enter your first name..."
+msgstr "نام خود را وارد نمایید..."
+
+#: public/dashboard/profile.php:86
+msgid "Enter your last name..."
+msgstr "نام خانوادگی خود را وارد کنید ..."
+
+#: admin/class-salesking-admin.php:1249 admin/class-salesking-admin.php:1296
+#: public/dashboard/messages.php:321 public/dashboard/messages.php:373
+msgid "Enter your message here..."
+msgstr "پیام خود را اینجا وارد کنید..."
+
+#: public/dashboard/salesking-dashboard-login.php:289
+msgid "Enter your password"
+msgstr "رمز عبور خود را وارد کنید"
+
+#: public/dashboard/payouts.php:194
+msgid "Enter your PayPal email address here..."
+msgstr "آدرس ایمیل پی پال خود را در اینجا وارد کنید..."
+
+#: public/class-salesking-public.php:2430
+msgid "Enter your sales rep ID..."
+msgstr "شناسه نماینده فروش خود را وارد کنید..."
+
+#: admin/class-salesking-admin.php:5182 admin/class-salesking-admin.php:5361
+msgid "Everyone"
+msgstr "هر کس"
+
+#: public/dashboard/coupons.php:231
+msgid "exc. sale items"
+msgstr "به استثنای موارد فروشی"
+
+#: public/dashboard/coupons.php:112
+msgid "Exclude Sale Items"
+msgstr "موارد فروش را حذف کنید"
+
+#: public/dashboard/coupons.php:170
+msgid "Expiry Date"
+msgstr "تاریخ انقضا"
+
+#: includes/class-salesking.php:1521 public/dashboard/orders.php:195
+msgid "Failed"
+msgstr "ناموفق"
+
+#: admin/class-salesking-admin.php:1536
+msgid "Filter announcements"
+msgstr "فیلتر اعلامیه ها"
+
+#: admin/class-salesking-admin.php:203
+msgid "Filter by agent"
+msgstr "فیلتر بر اساس نماینده"
+
+#: admin/class-salesking-admin.php:326
+msgid "Filter by agent..."
+msgstr "فیلتر بر اساس نماینده..."
+
+#: admin/class-salesking-admin.php:816
+msgid "Filter earnings"
+msgstr "سود را فیلتر کنید"
+
+#: admin/class-salesking-admin.php:2128
+msgid "Filter groups"
+msgstr "فیلتر گروه ها"
+
+#: admin/class-salesking-admin.php:872
+msgid "Filter messages"
+msgstr "فیلتر کردن پیام ها"
+
+#: admin/class-salesking-admin.php:4551 admin/class-salesking-admin.php:4878
+msgid "Filter rules"
+msgstr "قوانین فیلتر"
+
+#: public/dashboard/profile.php:32 public/dashboard/profile.php:79
+msgid "First Name"
+msgstr "نام "
+
+#: public/dashboard/customers.php:422 public/dashboard/teams.php:177
+msgid "First name"
+msgstr "نام "
+
+#: admin/class-salesking-admin.php:5255
+msgid "First X orders after customer registration"
+msgstr "اولین سفارشات X پس از ثبت نام مشتری"
+
+#: admin/class-salesking-admin.php:5260
+msgid "First X orders placed by the agent after customer registration"
+msgstr "اولین X سفارشات توسط نماینده پس از ثبت نام مشتری انجام می شود"
+
+#: admin/class-salesking-admin.php:5264
+msgid "First X orders placed by the customer after customer registration"
+msgstr "اولین X سفارشات توسط مشتری پس از ثبت نام مشتری انجام می شود"
+
+#: admin/class-salesking-admin.php:5270
+msgid "First x transactions (earnings) of the subagent"
+msgstr "اولین x تراکنش (درآمد) نماینده فرعی"
+
+#: admin/class-salesking-admin.php:5071
+msgid "Fixed amount"
+msgstr "مبلغ ثابت"
+
+#: admin/class-salesking-admin.php:5133
+msgid "For agents:"
+msgstr "برای نمایندگان:"
+
+#: admin/class-salesking-settings.php:323
+msgid ""
+"For commission rules that apply to individual agents, all products sold "
+"automatically give commissions to those agents."
+msgstr ""
+"برای قوانین کمیسیونی که برای نمایندگان فردی اعمال می شود، تمام محصولات "
+"فروخته شده به طور خودکار به آن نمایندگان کمیسیون می دهند."
+
+#: admin/class-salesking-admin.php:5173
+msgid "For customers:"
+msgstr "برای مشتریان:"
+
+#: admin/class-salesking-settings.php:215
+msgid "For large numbers of users, this prevents crashes."
+msgstr "برای تعداد زیادی از کاربران، این از خرابی ها جلوگیری می کند."
+
+#: admin/class-salesking-admin.php:5243
+msgid "For orders:"
+msgstr "برای سفارشات:"
+
+#: admin/class-salesking-admin.php:4970
+msgid "For who:"
+msgstr "برای چه کسی:"
+
+#: public/dashboard/salesking-dashboard-login.php:282
+msgid "Forgot password?"
+msgstr "رمز عبور را فراموش کرده اید؟"
+
+#: public/dashboard/coupons.php:228
+msgid "free shipping"
+msgstr "حمل و نقل رایگان"
+
+#: admin/class-salesking-admin.php:3107
+msgid "From:"
+msgstr "از جانب:"
+
+#: admin/class-salesking-admin.php:4198 public/dashboard/payouts.php:203
+msgid "Full Name"
+msgstr "نام و نام خانوادگی"
+
+#: public/dashboard/affiliate-links.php:93
+msgid "Get Link"
+msgstr "دریافت لینک"
+
+#: public/dashboard/affiliate-links.php:93
+msgid "Get link and copy to clipboard"
+msgstr "پیوند را دریافت کنید و در کلیپ بورد کپی کنید"
+
+#: includes/emails/templates/new-order-pending-email-template.php:19
+msgid "Go to payment page &rarr;"
+msgstr "برو به صفحه پرداخت &rarr;"
+
+#: public/class-salesking-public.php:169
+msgid "Go to Sales Agent Dashboard"
+msgstr "به داشبورد نماینده فروش بروید"
+
+#: admin/class-salesking-admin.php:2108
+msgid "Group"
+msgstr "گروه"
+
+#: admin/class-salesking-admin.php:2122
+msgid "Group image"
+msgstr "تصویر گروه"
+
+#: admin/class-salesking-admin.php:1122
+msgid "Group name"
+msgstr "اسم گروه"
+
+#: admin/class-salesking-admin.php:4530 admin/class-salesking-admin.php:4532
+#: admin/class-salesking-admin.php:4533 admin/class-salesking-admin.php:4556
+msgid "Group Rules"
+msgstr "قوانین گروه"
+
+#: admin/class-salesking-admin.php:2177
+msgid "Group Settings"
+msgstr "تنظیمات گروه"
+
+#: admin/class-salesking-admin.php:2027
+msgid "Group Visibility"
+msgstr "قابلیت نمایش گروه"
+
+#: admin/class-salesking-admin.php:2130
+msgid "Groups list"
+msgstr "لیست گروه ها"
+
+#: admin/class-salesking-admin.php:2129
+msgid "Groups navigation"
+msgstr "ناوبری گروه ها"
+
+#: admin/class-salesking-admin.php:2034
+msgid "Groups who can see this announcement"
+msgstr "گروه هایی که می توانند این اطلاعیه را ببینند"
+
+#: admin/class-salesking-admin.php:2008
+msgid "Groups: "
+msgstr "گروه ها:"
+
+#: admin/class-salesking-admin.php:2391
+msgid "Here you can assign this customer to a specific agent"
+msgstr "در اینجا می توانید این مشتری را به یک نماینده خاص اختصاص دهید"
+
+#: public/dashboard/teams.php:13
+msgid ""
+"Here you can create subagent accounts that will be part of your team. You "
+"receive commissions based on their earnings"
+msgstr ""
+"در اینجا می توانید حساب های فرعی ایجاد کنید که بخشی از تیم شما خواهند بود. "
+"شما بر اساس درآمد آنها کمیسیون دریافت می کنید"
+
+#: admin/class-salesking-admin.php:5893
+msgid ""
+"Here you can set up a complex commission structure for your sales agents. "
+"You can combine multiple types of rules for agent commission, as well as set "
+"up subagents (teams) commissions."
+msgstr ""
+"در اینجا می توانید یک ساختار کمیسیون پیچیده برای نمایندگان فروش خود راه "
+"اندازی کنید. شما می توانید چندین نوع قوانین را برای کمیسیون نماینده ترکیب "
+"کنید، و همچنین کمیسیون های فرعی (تیم ها) را تنظیم کنید."
+
+#: public/dashboard/earnings.php:13
+msgid "Here you can view and keep track of your earnings."
+msgstr "در اینجا می توانید درآمد خود را مشاهده و پیگیری کنید."
+
+#: public/dashboard/orders.php:13
+msgid "Here you can view and manage all orders assigned to you."
+msgstr ""
+"در اینجا می‌توانید تمام سفارش‌های اختصاص داده شده به شما را مشاهده و مدیریت "
+"کنید."
+
+#: public/dashboard/customers.php:13
+msgid ""
+"Here you can view and manage your customers. Through the \"Shop as "
+"Customer\" button, you can place orders on behalf of customers."
+msgstr ""
+"در اینجا می توانید مشتریان خود را مشاهده و مدیریت کنید. از طریق دکمه \"خرید "
+"به عنوان مشتری\" می توانید از طرف مشتریان سفارش دهید."
+
+#: admin/class-salesking-admin.php:2399
+msgid "Here you must assign the agent to a group."
+msgstr "در اینجا باید نماینده را به یک گروه اختصاص دهید."
+
+#. translators: %s: Customer first name
+#: includes/emails/templates/new-order-pending-email-template.php:13
+#: includes/emails/templates/plain-new-order-pending-email-template.php:10
+#, php-format
+msgid "Hi %s,"
+msgstr "سلام %s,"
+
+#: public/dashboard/coupons.php:44
+msgid "How many times this coupon can be used before it is void."
+msgstr "چند بار می توان از این کوپن قبل از باطل شدن استفاده کرد."
+
+#: admin/class-salesking-admin.php:4966 admin/class-salesking-admin.php:5077
+msgid "How much:"
+msgstr "چقدر:"
+
+#: admin/class-salesking-settings.php:923
+msgid "How to activate if you purchased on Envato Market"
+msgstr "نحوه فعال سازی در صورت خرید در بازار Envato "
+
+#: admin/class-salesking-settings.php:890
+msgid "how to activate the plugin license"
+msgstr "چگونه لایسنس افزونه را فعال کنیم"
+
+msgid "IBAN"
+msgstr "شماره شبا"
+
+#: admin/class-salesking-settings.php:494
+msgid ""
+"If no agent is chosen at registration, assign the user automatically to an "
+"agent."
+msgstr ""
+"اگر هیچ نماینده ای در هنگام ثبت نام انتخاب نشد، کاربر را به طور خودکار به یک "
+"نماینده اختصاص دهید."
+
+msgid "If override is disabled, the global settings will be used."
+msgstr "اگر اورراید غیرفعال باشد، تنظیمات سراسری استفاده می‌شود."
+
+#: public/dashboard/coupons.php:85
+msgid ""
+"If the desired coupon code already exists, a close alternative will be used."
+msgstr ""
+"اگر کد کوپن مورد نظر از قبل وجود داشته باشد، از یک جایگزین نزدیک استفاده "
+"خواهد شد."
+
+#: includes/class-salesking-pending-gateway.php:58
+msgid ""
+"If this is only available for certain methods, set it up here. Leave blank "
+"to enable for all methods."
+msgstr ""
+"اگر این فقط برای روش‌های خاصی در دسترس است، آن را در اینجا تنظیم کنید. برای "
+"فعال کردن همه روش ها خالی بگذارید."
+
+#: admin/class-salesking-admin.php:5504
+msgid ""
+"If you have multiple rules of the same type, the higher priority number will "
+"decide which one is used. If there is no priority configured, the plugin "
+"will give the best available rule / commission to the agent. Priority is "
+"applied before conditions."
+msgstr ""
+"اگر چندین قانون از یک نوع دارید، شماره اولویت بالاتر تعیین می کند که کدام یک "
+"استفاده شود. اگر هیچ اولویتی پیکربندی نشده باشد، افزونه بهترین قانون / "
+"کمیسیون موجود را به نماینده می دهد. اولویت قبل از شرایط اعمال می شود."
+
+msgid "Include fee taxes"
+msgstr "شامل مالیات کارمزدها"
+
+msgid "Include fees"
+msgstr "شامل کارمزدها"
+
+msgid "Include product taxes (VAT)"
+msgstr "شامل مالیات محصولات (ارزش افزوده)"
+
+msgid "Include shipping amount"
+msgstr "شامل هزینه حمل‌ونقل"
+
+msgid "Include shipping taxes"
+msgstr "شامل مالیات حمل‌ونقل"
+
+#: admin/class-salesking-admin.php:1534
+msgid "Insert into announcement"
+msgstr "درج در اطلاعیه"
+
+#: admin/class-salesking-admin.php:814
+msgid "Insert into earning"
+msgstr "درج در درآمد"
+
+#: admin/class-salesking-admin.php:2126
+msgid "Insert into group"
+msgstr "درج در گروه"
+
+#: admin/class-salesking-admin.php:870
+msgid "Insert into message"
+msgstr "درج در پیام"
+
+#: admin/class-salesking-admin.php:4549 admin/class-salesking-admin.php:4876
+msgid "Insert into rule"
+msgstr "درج قانون"
+
+#: admin/class-salesking-admin.php:4242 public/dashboard/payouts.php:320
+msgid "Intermediary Bank - Bank Code"
+msgstr "بانک واسطه - کد بانک"
+
+#: admin/class-salesking-admin.php:4250 public/dashboard/payouts.php:340
+msgid "Intermediary Bank - City"
+msgstr "بانک واسطه - شهر"
+
+#: admin/class-salesking-admin.php:4254 public/dashboard/payouts.php:350
+msgid "Intermediary Bank - Country"
+msgstr "بانک واسطه - کشور"
+
+#: admin/class-salesking-admin.php:4246 public/dashboard/payouts.php:330
+msgid "Intermediary Bank - Name"
+msgstr "بانک واسطه - نام"
+
+#: public/dashboard/salesking-dashboard-login.php:187
+msgid "Invalid Account"
+msgstr "حساب نامعتبر"
+
+#: admin/class-salesking-admin.php:3771 admin/class-salesking-admin.php:3897
+#: includes/class-salesking.php:1565 public/dashboard/earnings.php:557
+#: public/dashboard/earnings.php:815 public/dashboard/orders.php:238
+msgid "Items"
+msgstr "آیتم ها"
+
+#: admin/class-salesking-admin.php:3118
+msgid "Last Month"
+msgstr "ماه گذشته"
+
+#: public/dashboard/profile.php:39 public/dashboard/profile.php:85
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: public/dashboard/customers.php:428 public/dashboard/teams.php:183
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: admin/class-salesking-admin.php:4442 admin/class-salesking-admin.php:4512
+msgid "Last Payment"
+msgstr "آخرین پرداخت"
+
+#: admin/class-salesking-admin.php:3120
+msgid "Last Year"
+msgstr "سال گذشته"
+
+#: admin/class-salesking-admin.php:2674 admin/class-salesking-settings.php:696
+msgid "License"
+msgstr "مجوز"
+
+#: admin/class-salesking-settings.php:80
+msgid "License email"
+msgstr "ایمیل مجوز"
+
+#: admin/class-salesking-settings.php:83
+msgid "License key"
+msgstr "کلید مجوز"
+
+#: admin/class-salesking-settings.php:833
+msgid "License management"
+msgstr "مدیریت مجوز"
+
+#: admin/class-salesking-settings.php:922
+msgid "Licensing and Activation FAQ & Guide"
+msgstr "پرسش‌های متداول برای فعالسازی لایسنس "
+
+#: public/class-salesking-public.php:2915
+msgid "Link copied"
+msgstr "لینک کپی شد"
+
+#: public/dashboard/salesking-dashboard-login.php:193
+msgid "Log out"
+msgstr "خروج"
+
+#: public/dashboard/salesking-dashboard-login.php:258
+msgid "Login failed"
+msgstr "ورود ناموفق بود"
+
+#: admin/class-salesking-admin.php:3289
+msgid "Main agent account"
+msgstr "حساب نماینده اصلی"
+
+#: includes/class-salesking-activator.php:38
+msgid "Main Agents"
+msgstr "نمایندگان اصلی"
+
+#: admin/class-salesking-settings.php:650
+#: admin/class-salesking-settings.php:715
+msgid "Main Settings"
+msgstr "تنظیمات اصلی"
+
+#: admin/class-salesking-admin.php:2717
+msgid "Manage license."
+msgstr "مجوز را مدیریت کنید"
+
+#: includes/class-salesking.php:1586 public/dashboard/earnings.php:608
+#: public/dashboard/orders.php:259
+msgid "Manage Order"
+msgstr "مدیریت سفارش"
+
+#: admin/class-salesking-admin.php:4281
+msgid "Manage Payments"
+msgstr "مدیریت پرداخت ها"
+
+#: admin/class-salesking-settings.php:697
+msgid "Manage plugin license"
+msgstr "مجوز افزونه را مدیریت کنید"
+
+#: public/dashboard/templates/header-bar.php:213
+msgid "Manage Profile"
+msgstr "مدیریت نمایه"
+
+#: admin/class-salesking-admin.php:4398
+msgid "Manual Adjustment Amount"
+msgstr "مبلغ تنظیم دستی"
+
+#: public/dashboard/announcements.php:25
+msgid "Mark all as read"
+msgstr "همه را به عنوان خوانده شده علامت بزن"
+
+#: public/dashboard/messages.php:242
+msgid "Mark as Active"
+msgstr "علامت گذاری به عنوان فعال"
+
+#: public/dashboard/messages.php:246
+msgid "Mark as Closed"
+msgstr "علامت گذاری به عنوان بسته"
+
+#: public/dashboard/messages.php:238
+msgid "Mark as Read"
+msgstr "به عنوان خوانده شده علامت بزن"
+
+#: public/dashboard/announcement.php:36
+msgid "Mark as read"
+msgstr "به عنوان خوانده شده علامت بزن"
+
+#: admin/class-salesking-admin.php:2198 admin/class-salesking-admin.php:2408
+msgid "Max Discount Percentage (%) Allowed"
+msgstr "حداکثر درصد تخفیف (%) مجاز"
+
+#: public/dashboard/coupons.php:164
+msgid "Max Spend"
+msgstr "حداکثر خرج کردن"
+
+#: public/dashboard/coupons.php:127
+msgid "Maximum allowed discount:"
+msgstr "حداکثر تخفیف مجاز:"
+
+#: admin/class-salesking-admin.php:1124
+msgid "Maximum discount allowed"
+msgstr "حداکثر تخفیف مجاز"
+
+#: admin/class-salesking-admin.php:5343
+msgid "Maximum Order Value"
+msgstr "حداکثر ارزش سفارش"
+
+#: public/dashboard/coupons.php:75
+msgid "Maximum Spend (optional)"
+msgstr "حداکثر هزینه (اختیاری)"
+
+#: admin/class-salesking-settings.php:171
+msgid "Maximum subagent levels"
+msgstr "حداکثر سطح نماینده زیرمجموعه"
+
+#: admin/class-salesking-admin.php:852 admin/class-salesking-admin.php:877
+msgid "Message"
+msgstr "پیام"
+
+#: admin/class-salesking-admin.php:866
+msgid "Message image"
+msgstr "تصویر پیام"
+
+#: admin/class-salesking-admin.php:873
+msgid "Message navigation"
+msgstr "ناوبری پیام"
+
+msgid "Message to: "
+msgstr "پیام به: "
+
+#: admin/class-salesking-admin.php:851 admin/class-salesking-admin.php:853
+#: admin/class-salesking-admin.php:854 admin/class-salesking-admin.php:1102
+#: public/dashboard/dashboard-content.php:391
+#: public/dashboard/templates/sidebar.php:60
+msgid "Messages"
+msgstr "پیام ها"
+
+#: public/dashboard/messages.php:390
+msgid "Messages & Inbox"
+msgstr "پیغام‌ها و صندوق ورودی"
+
+#: admin/class-salesking-admin.php:5960
+msgid ""
+"Messages allow you to stay in touch with your sales team, ask or receive "
+"questions, clarify matters, queries, etc. Sales agents can also initiate "
+"messages."
+msgstr ""
+"پیام‌ها به شما این امکان را می‌دهند که با تیم فروش خود در تماس باشید، سؤال "
+"بپرسید یا دریافت کنید، مسائل را روشن کنید، سؤالات و غیره را روشن کنید. "
+"نمایندگان فروش نیز می‌توانند پیام‌ها را آغاز کنند."
+
+#: admin/class-salesking-admin.php:874
+msgid "Messages list"
+msgstr "لیست پیام ها"
+
+#: includes/emails/templates/new-payout-email-template.php:21
+#: includes/emails/templates/plain-new-payout-email-template.php:13
+msgid "Method: "
+msgstr "روش:"
+
+#: public/dashboard/coupons.php:163
+msgid "Min Spend"
+msgstr "حداقل خرج کردن"
+
+#: admin/class-salesking-admin.php:5342
+msgid "Minimum Order Value"
+msgstr "حداقل ارزش سفارش"
+
+#: public/dashboard/coupons.php:65
+msgid "Minimum Spend (optional)"
+msgstr "حداقل هزینه (اختیاری)"
+
+#: admin/class-salesking-settings.php:732
+msgid "Modules"
+msgstr "ماژول ها"
+
+#: admin/class-salesking-admin.php:4818 admin/class-salesking-admin.php:4960
+msgid "Monthly earnings reached (reset)"
+msgstr "به درآمد ماهانه رسید (بازنشانی)"
+
+#: admin/class-salesking-admin.php:4820 admin/class-salesking-admin.php:4961
+msgid "Monthly orders value (reset)"
+msgstr "ارزش سفارشات ماهانه (بازنشانی)"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:79
+#, php-format
+msgid "More information about %s"
+msgstr "اطلاعات بیشتر در مورد %s"
+
+#: admin/class-salesking-admin.php:4979 admin/class-salesking-admin.php:5095
+#: admin/class-salesking-admin.php:5142
+msgid "Multiple"
+msgstr "چندگانه"
+
+#: public/dashboard/templates/sidebar.php:64
+msgid "My Customers"
+msgstr "مشتریان من"
+
+#: public/dashboard/cart-sharing.php:17
+msgid "My Customers -> Shop as Customer"
+msgstr "مشتریان من -> خرید به عنوان مشتری"
+
+#: public/dashboard/templates/sidebar.php:65
+msgid "My Orders"
+msgstr "سفارشات من"
+
+#: public/dashboard/templates/sidebar.php:66
+msgid "My Team"
+msgstr "تیم من"
+
+#: public/dashboard/teams.php:11
+msgid "My Team - Subagents"
+msgstr "تیم من - نمایندگان زیرمجموعه"
+
+#: admin/class-salesking-admin.php:3259 admin/class-salesking-admin.php:3323
+msgid "Name"
+msgstr "نام"
+
+msgid "National ID"
+msgstr "کد ملی"
+
+#: public/dashboard/messages.php:154
+msgid "New"
+msgstr "جدید"
+
+#: admin/class-salesking-admin.php:3157
+msgid "New Agents"
+msgstr "نمایندگان جدید"
+
+#: admin/class-salesking-admin.php:1519 admin/class-salesking-admin.php:1520
+#: admin/class-salesking-admin.php:1523
+#: includes/emails/class-salesking-new-announcement-email.php:13
+#: includes/emails/class-salesking-new-announcement-email.php:19
+#: includes/emails/class-salesking-new-announcement-email.php:20
+#: includes/emails/class-salesking-new-announcement-email.php:45
+#: includes/emails/class-salesking-new-announcement-email.php:46
+msgid "New announcement"
+msgstr "اطلاعیه جدید"
+
+#: includes/class-salesking.php:1048
+msgid "New balance"
+msgstr "تعادل جدید"
+
+#: admin/class-salesking-admin.php:803
+msgid "New earning"
+msgstr "درآمد جدید"
+
+#: admin/class-salesking-admin.php:4796
+msgid "New Group"
+msgstr "گروه جدید"
+
+#: admin/class-salesking-admin.php:2115
+msgid "New group"
+msgstr "گروه جدید"
+
+#: admin/class-salesking-admin.php:4994
+msgid "New group:"
+msgstr "گروه جدید:"
+
+#: admin/class-salesking-admin.php:855 admin/class-salesking-admin.php:856
+#: admin/class-salesking-admin.php:859
+#: includes/emails/class-salesking-new-message-email.php:19
+#: includes/emails/class-salesking-new-message-email.php:20
+#: includes/emails/class-salesking-new-message-email.php:45
+#: includes/emails/class-salesking-new-message-email.php:46
+msgid "New message"
+msgstr "پیام جدید"
+
+#: includes/emails/class-salesking-new-message-email.php:13
+msgid "New message (SalesKing)"
+msgstr "پیام جدید (سپهر الکتریک)"
+
+#: public/dashboard/salesking-dashboard-login.php:299
+msgid "New on our platform?"
+msgstr "جدید در پلت فرم ما؟"
+
+#: includes/emails/class-salesking-new-payout-email.php:13
+#: includes/emails/class-salesking-new-payout-email.php:19
+#: includes/emails/class-salesking-new-payout-email.php:20
+#: includes/emails/class-salesking-new-payout-email.php:45
+#: includes/emails/class-salesking-new-payout-email.php:46
+msgid "New Payout"
+msgstr "پرداخت جدید"
+
+#: admin/class-salesking-admin.php:4538 admin/class-salesking-admin.php:4865
+msgid "New rule"
+msgstr "قانون جدید"
+
+#: admin/class-salesking-settings.php:981
+msgid "No agent (remove agent)"
+msgstr "بدون نماینده (حذف نماینده فروش)"
+
+#: admin/class-salesking-admin.php:1527
+msgid "No announcements found"
+msgstr "هیچ اطلاعیه ای یافت نشد"
+
+#: admin/class-salesking-admin.php:1528
+msgid "No announcements found in trash"
+msgstr "هیچ اعلامیه ای در سطل زباله یافت نشد"
+
+#: admin/class-salesking-admin.php:807
+msgid "No earnings found"
+msgstr "هیچ درآمدی یافت نشد"
+
+#: admin/class-salesking-admin.php:808
+msgid "No earnings found in trash"
+msgstr "هیچ درآمدی در سطل زباله یافت نشد"
+
+#: admin/class-salesking-admin.php:2119
+msgid "No groups found"
+msgstr "هیچ گروهی یافت نشد"
+
+#: admin/class-salesking-admin.php:2120
+msgid "No groups found in trash"
+msgstr "هیچ گروهی در سطل زباله یافت نشد"
+
+#: admin/class-salesking-admin.php:863
+msgid "No messages found"
+msgstr "هیچ پیامی یافت نشد"
+
+#: admin/class-salesking-admin.php:864
+msgid "No messages found in trash"
+msgstr "هیچ پیامی در سطل زباله یافت نشد"
+
+#: admin/class-salesking-admin.php:4485
+msgid "No payment yet"
+msgstr "هنوز پرداختی وجود ندارد"
+
+#: public/dashboard/customers.php:394
+msgid "No permission"
+msgstr "بدون مجوز و اجازه"
+
+msgid "No result available"
+msgstr "موردی یافت نشد"
+
+#: admin/class-salesking-admin.php:4542 admin/class-salesking-admin.php:4869
+msgid "No rules found"
+msgstr "هیچ قانونی پیدا نشد"
+
+#: admin/class-salesking-admin.php:4543 admin/class-salesking-admin.php:4870
+msgid "No rules found in trash"
+msgstr "هیچ قانونی در سطل زباله یافت نشد"
+
+#: public/class-salesking-public.php:2456
+msgid "None"
+msgstr "هیچ یک"
+
+#: admin/class-salesking-admin.php:4338 includes/class-salesking.php:1048
+msgid "Note"
+msgstr "یادداشت"
+
+#: admin/class-salesking-admin.php:4297 admin/class-salesking-admin.php:4404
+msgid "Note / Details"
+msgstr "یادداشت / جزئیات"
+
+#: public/dashboard/payouts.php:74
+msgid "Notes"
+msgstr "یادداشت"
+
+#: includes/emails/templates/new-payout-email-template.php:23
+#: includes/emails/templates/plain-new-payout-email-template.php:15
+msgid "Notes: "
+msgstr "یادداشت:"
+
+#: admin/class-salesking-admin.php:1123
+msgid "Number of agents"
+msgstr "تعداد نمایندگان"
+
+#: admin/class-salesking-admin.php:3080 admin/class-salesking-admin.php:3177
+#: public/dashboard/customers.php:88 public/dashboard/teams.php:57
+msgid "Number of Orders"
+msgstr "تعداد سفارشات"
+
+#: includes/class-salesking.php:1048
+msgid "Old balance"
+msgstr "تعادل قدیمی"
+
+#: includes/class-salesking.php:1506 public/dashboard/orders.php:180
+msgid "On Hold"
+msgstr "در انتظار"
+
+#: admin/class-salesking-admin.php:5099
+msgid "Once per order"
+msgstr "هر سفارش یکبار"
+
+#: admin/class-salesking-admin.php:2731 admin/class-salesking-admin.php:2743
+msgid "or"
+msgstr "یا"
+
+#: admin/class-salesking-admin.php:3680 admin/class-salesking-admin.php:3961
+#: public/dashboard/earnings.php:374 public/dashboard/earnings.php:657
+#: public/dashboard/orders.php:41
+msgid "Order"
+msgstr "سفارش"
+
+#: public/dashboard/earnings.php:410 public/dashboard/earnings.php:683
+#: public/dashboard/orders.php:62
+msgid "order"
+msgstr "سفارش"
+
+#: admin/class-salesking-admin.php:3751 admin/class-salesking-admin.php:3875
+#: admin/class-salesking-admin.php:4029
+#: public/dashboard/dashboard-content.php:546
+#: public/dashboard/dashboard-content.php:696 public/dashboard/earnings.php:500
+#: public/dashboard/earnings.php:764
+msgid "Order Cancelled"
+msgstr "سفارش لغو شد"
+
+#: admin/class-salesking-admin.php:3757 admin/class-salesking-admin.php:3881
+#: admin/class-salesking-admin.php:4035
+#: public/dashboard/dashboard-content.php:552
+#: public/dashboard/dashboard-content.php:702 public/dashboard/earnings.php:506
+#: public/dashboard/earnings.php:770
+msgid "Order Failed"
+msgstr "سفارش ناموفق بود"
+
+#: admin/class-salesking-admin.php:3648
+msgid "Order History"
+msgstr "سوابق سفارش ها"
+
+#: public/dashboard/dashboard-content.php:446
+#: public/dashboard/dashboard-content.php:598
+msgid "Order No."
+msgstr "شماره سفارش."
+
+#: admin/class-salesking-admin.php:3748 admin/class-salesking-admin.php:3872
+#: admin/class-salesking-admin.php:4026
+#: public/dashboard/dashboard-content.php:543
+#: public/dashboard/dashboard-content.php:693 public/dashboard/earnings.php:497
+#: public/dashboard/earnings.php:761
+msgid "Order Refunded"
+msgstr "سفارش بازپرداخت شد"
+
+#: public/dashboard/dashboard-content.php:193
+msgid "Order Statistics (last 30 days)"
+msgstr "آمار سفارش (30 روز گذشته)"
+
+#: public/dashboard/earnings.php:390 public/dashboard/earnings.php:672
+#: public/dashboard/orders.php:47
+msgid "Order Total"
+msgstr "سفارش کل"
+
+#: public/dashboard/earnings.php:425 public/dashboard/earnings.php:698
+#: public/dashboard/orders.php:68
+msgid "order total"
+msgstr "کل سفارش"
+
+#: admin/class-salesking-admin.php:3685 admin/class-salesking-admin.php:3965
+msgid "Order Value"
+msgstr "ارزش سفارش"
+
+#: admin/class-salesking-admin.php:5341
+msgid "Order Value Restrictions (Optional)"
+msgstr "محدودیت های ارزش سفارش (اختیاری)"
+
+#: admin/class-salesking-admin.php:2572 admin/class-salesking-admin.php:2573
+#: admin/class-salesking-admin.php:3133
+#: public/dashboard/dashboard-content.php:234 public/dashboard/orders.php:11
+msgid "Orders"
+msgstr "سفارشات"
+
+#: public/class-salesking-public.php:2929
+msgid "orders"
+msgstr "سفارشات"
+
+#: admin/class-salesking-admin.php:3630
+msgid "Orders of"
+msgstr "سفارشات از"
+
+#: admin/class-salesking-admin.php:5266
+msgid "Orders of Subagents"
+msgstr "سفارشات نمایندگان زیرمجموعه"
+
+#: admin/class-salesking-admin.php:3954
+msgid "Orders of subagents"
+msgstr "سفارشات نمایندگان زیرمجموعه"
+
+#: admin/class-salesking-admin.php:5257
+msgid "Orders placed by Agent"
+msgstr "سفارشات ارسال شده توسط نماینده"
+
+#: admin/class-salesking-admin.php:5262
+msgid "Orders placed by Customer"
+msgstr "سفارشات ارسال شده توسط مشتری"
+
+#: admin/class-salesking-admin.php:4337
+msgid "Outstanding (Unpaid) Balance"
+msgstr "موجودی معوق (بدون پرداخت)."
+
+#: admin/class-salesking-admin.php:4443 admin/class-salesking-admin.php:4513
+msgid "Outstanding Balance"
+msgstr "موجودی اعتبار واریز نشده"
+
+#: public/dashboard/earnings.php:176
+msgid "over the last thirty calendar days"
+msgstr "طی سی روز تقویمی گذشته"
+
+msgid "Override global commission base for this rule"
+msgstr "مبنای سراسری محاسبه کمیسیون را برای این قانون نادیده بگیر"
+
+#: admin/class-salesking-settings.php:305
+msgid ""
+"Parent agent commission (agent recruiter) is substracted from the agent "
+"commission."
+msgstr "کمیسیون نماینده مادر (استخدام نماینده) از کمیسیون نماینده کم می شود."
+
+#: admin/class-salesking-admin.php:1529
+msgid "Parent announcement"
+msgstr "اطلاعیه والدین"
+
+#: admin/class-salesking-admin.php:809
+msgid "Parent earning"
+msgstr "درآمد والدین"
+
+#: admin/class-salesking-admin.php:2121
+msgid "Parent group"
+msgstr "گروه مادر"
+
+#: admin/class-salesking-admin.php:865
+msgid "Parent message"
+msgstr "پیام مادر"
+
+#: admin/class-salesking-admin.php:4544 admin/class-salesking-admin.php:4871
+msgid "Parent rule"
+msgstr "قانون مادر"
+
+#: public/dashboard/customers.php:708
+#: public/dashboard/salesking-dashboard-login.php:281
+#: public/dashboard/teams.php:207
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: public/dashboard/salesking-dashboard-login.php:252
+msgid "Password is empty"
+msgstr "رمز عبور خالی است"
+
+#: public/dashboard/salesking-dashboard-login.php:249
+msgid "Password is incorrect"
+msgstr "رمز عبور نادرست است"
+
+#: includes/class-salesking.php:2514
+#, php-format
+msgid "Password: %s"
+msgstr "رمز عبور: %s"
+
+#: admin/class-salesking-admin.php:4285
+msgid "Payment Amount"
+msgstr "مبلغ پرداختی"
+
+#: admin/class-salesking-admin.php:3686 admin/class-salesking-admin.php:4291
+#: admin/class-salesking-admin.php:4336 public/dashboard/payouts.php:72
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+#: includes/class-salesking-pending-gateway.php:47
+msgid "Payment method description that the customer will see on your website."
+msgstr "شرح روش پرداخت که مشتری در وب سایت شما خواهد دید."
+
+#: public/dashboard/payouts.php:41
+msgid "Payout Account"
+msgstr "حساب پرداخت"
+
+#: admin/class-salesking-settings.php:680
+msgid "Payout settings"
+msgstr "تنظیمات پرداخت"
+
+#: includes/class-salesking.php:2324
+msgid "Payout was sent to user."
+msgstr "پرداخت برای کاربر ارسال شد."
+
+#: admin/class-salesking-admin.php:2585 admin/class-salesking-admin.php:2586
+#: admin/class-salesking-admin.php:4434 admin/class-salesking-settings.php:679
+#: admin/class-salesking-settings.php:813 public/dashboard/payouts.php:12
+#: public/dashboard/templates/sidebar.php:68
+msgid "Payouts"
+msgstr "پرداخت ها"
+
+#: admin/class-salesking-admin.php:4133
+msgid "Payouts for"
+msgstr "پرداخت ها برای"
+
+#: admin/class-salesking-admin.php:4315
+msgid "Payouts History"
+msgstr "تاریخچه پرداخت ها"
+
+#: public/dashboard/payouts.php:153
+msgid "PayPal"
+msgstr "پی پال"
+
+#: public/dashboard/payouts.php:192
+msgid "PayPal Email Address"
+msgstr "آدرس ایمیل پی پال"
+
+#: admin/class-salesking-admin.php:4169
+msgid "PayPal email address"
+msgstr "آدرس ایمیل پی پال"
+
+#: public/class-salesking-public.php:2927
+#: public/dashboard/dashboard-content.php:209
+msgid "Pending"
+msgstr "در انتظار"
+
+#: admin/class-salesking-admin.php:3538
+msgid "Pending Agent Commissions"
+msgstr "کمیسیون های نماینده معلق"
+
+#: admin/class-salesking-admin.php:3358
+msgid "Pending Commissions"
+msgstr "کمیسیون های در انتظار پرداخت"
+
+#: includes/emails/class-salesking-order-pending-email.php:18
+#: includes/emails/class-salesking-order-pending-email.php:19
+#: includes/emails/class-salesking-order-pending-email.php:20
+#: includes/emails/class-salesking-order-pending-email.php:52
+#: includes/emails/class-salesking-order-pending-email.php:53
+msgid "Pending order"
+msgstr "سفارش معلق"
+
+#: admin/class-salesking-admin.php:3739 admin/class-salesking-admin.php:3742
+#: admin/class-salesking-admin.php:3863 admin/class-salesking-admin.php:3866
+#: admin/class-salesking-admin.php:4017 admin/class-salesking-admin.php:4020
+#: public/dashboard/dashboard-content.php:534
+#: public/dashboard/dashboard-content.php:537
+#: public/dashboard/dashboard-content.php:684
+#: public/dashboard/dashboard-content.php:687 public/dashboard/earnings.php:488
+#: public/dashboard/earnings.php:491 public/dashboard/earnings.php:752
+#: public/dashboard/earnings.php:755
+msgid "Pending Order Completion"
+msgstr "در انتظار تکمیل سفارش"
+
+#: admin/class-salesking-admin.php:3754 admin/class-salesking-admin.php:3878
+#: admin/class-salesking-admin.php:4032
+#: public/dashboard/dashboard-content.php:549
+#: public/dashboard/dashboard-content.php:699 public/dashboard/earnings.php:503
+#: public/dashboard/earnings.php:767
+msgid "Pending Order Payment"
+msgstr "در انتظار پرداخت سفارش"
+
+#: includes/blocks/pending-gateway-checkout.js:2
+#: includes/class-salesking-pending-gateway.php:14
+#: includes/class-salesking-pending-gateway.php:41
+#: includes/class-salesking.php:1518 public/dashboard/orders.php:192
+msgid "Pending Payment"
+msgstr "در انتظار پرداخت"
+
+#: admin/class-salesking-admin.php:5072
+msgid "Percentage"
+msgstr "درصدی"
+
+#: public/dashboard/profile.php:71
+msgid "Personal"
+msgstr "شخصی"
+
+#: public/dashboard/templates/profile-sidebar.php:37
+msgid "Personal Infomation"
+msgstr "اطلاعات شخصی"
+
+#: public/dashboard/profile.php:15
+msgid "Personal Information"
+msgstr "اطلاعات شخصی"
+
+#: public/dashboard/customers.php:104 public/dashboard/teams.php:59
+msgid "Phone"
+msgstr "تلفن"
+
+#: public/dashboard/customers.php:487 public/dashboard/teams.php:189
+msgid "Phone No"
+msgstr "شماره تلفن"
+
+msgid "Phone number is valid and unique."
+msgstr "شماره همراه مورد تایید است"
+
+#: admin/class-salesking-admin.php:367
+msgid ""
+"Please activate your license to get important plugin updates and premium "
+"support."
+msgstr ""
+"لطفا مجوز خود را برای دریافت به‌روزرسانی‌های مهم افزونه و پشتیبانی ممتاز "
+"فعال کنید."
+
+#: includes/class-salesking.php:1351
+msgid ""
+"Please contact your administrator to have your profile information changed."
+msgstr "لطفاً برای تغییر اطلاعات نمایه خود با سرپرست خود تماس بگیرید."
+
+#: admin/class-salesking-admin.php:5820
+msgid "Please enter the payment amount and payment method."
+msgstr "لطفا مبلغ پرداخت و روش پرداخت را وارد کنید."
+
+msgid "Postal Code"
+msgstr "کد پستی"
+
+#: admin/class-salesking-admin.php:4218 public/dashboard/payouts.php:260
+msgid "Postcode"
+msgstr "کد پستی"
+
+#: public/dashboard/customers.php:481
+msgid "Postcode / ZIP"
+msgstr "کد پستی"
+
+#: public/dashboard/cart-sharing.php:118
+msgid "Price"
+msgstr "قیمت"
+
+#: admin/class-salesking-settings.php:651
+msgid "Primary plugin settings"
+msgstr "تنظیمات اولیه افزونه"
+
+#: admin/class-salesking-admin.php:5818 public/class-salesking-public.php:2924
+msgid "Print"
+msgstr "چاپ"
+
+#: admin/class-salesking-admin.php:1165
+msgid "Priority"
+msgstr "اولویت"
+
+#: public/class-salesking-public.php:1253
+msgid "Private Sales Agent Notes"
+msgstr "یادداشت های نماینده فروش خصوصی"
+
+#: includes/class-salesking.php:1503 public/dashboard/orders.php:177
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: admin/class-salesking-admin.php:5817
+msgid "Processing activation request..."
+msgstr "در حال پردازش درخواست فعال سازی..."
+
+#: public/dashboard/cart-sharing.php:116
+msgid "Product"
+msgstr "محصول"
+
+#: admin/class-salesking-admin.php:5110 admin/class-salesking-admin.php:5306
+msgid "Product Categories"
+msgstr "دسته بندی محصولات"
+
+#: public/dashboard/affiliate-links.php:85
+msgid "Product Link Generator"
+msgstr "تولید کننده لینک محصول"
+
+#: admin/class-salesking-admin.php:5105
+msgid "Product or Variation ID(s)"
+msgstr "شناسه(های) محصول یا تنوع"
+
+#: admin/class-salesking-admin.php:5285
+msgid "Product or Variation ID(s) (comma-separated):"
+msgstr "شناسه(های) محصول یا تنوع (با کاما از هم جدا شده اند):"
+
+#: admin/class-salesking-admin.php:5120 admin/class-salesking-admin.php:5321
+msgid "Product Tags"
+msgstr "برچسب های محصول"
+
+#: public/dashboard/templates/sidebar.php:69
+msgid "Profile"
+msgstr "پروفایل"
+
+#: public/dashboard/profile-settings.php:12
+msgid "Profile Settings"
+msgstr "تنظیمات پروفایل"
+
+#: admin/class-salesking-settings.php:203
+msgid "Profit-based commission calculation"
+msgstr "محاسبه کمیسیون بر اساس سود"
+
+msgid "Province"
+msgstr "استان"
+
+#: admin/class-salesking-settings.php:924
+msgid "Purchase a new license"
+msgstr "یک مجوز جدید خریداری کنید"
+
+#: admin/class-salesking-admin.php:2731
+msgid "purchase a new license."
+msgstr "خرید مجوز جدید"
+
+#: admin/class-salesking-admin.php:3684 public/dashboard/earnings.php:385
+#: public/dashboard/earnings.php:664 public/dashboard/orders.php:46
+msgid "Purchased"
+msgstr "خریداری شده است"
+
+#: public/dashboard/earnings.php:421 public/dashboard/earnings.php:690
+#: public/dashboard/orders.php:67
+msgid "purchased"
+msgstr "خریداری شده است"
+
+#: public/dashboard/cart-sharing.php:119
+msgid "Quantity"
+msgstr "تعداد"
+
+#: admin/class-salesking-admin.php:3116
+msgid "Quick Select:"
+msgstr "انتخاب سریع:"
+
+#: public/dashboard/announcements.php:69
+msgid "Read"
+msgstr "خواندن"
+
+#: public/class-salesking-public.php:2914
+msgid "Ready"
+msgstr "آماده"
+
+msgid "Recalculate Agent Commissions"
+msgstr "محاسبه مجدد کمیسیون نماینده"
+
+#: public/dashboard/dashboard-content.php:440
+msgid "Recent Earnings"
+msgstr "درآمدهای اخیر"
+
+#: public/dashboard/templates/header-bar.php:27
+msgid "Recent Messages"
+msgstr "پیام های اخیر"
+
+#: public/dashboard/dashboard-content.php:592
+msgid "Recent Orders"
+msgstr "سفارشات اخیر"
+
+#: public/dashboard/payouts.php:65
+msgid "Recent Payouts"
+msgstr "پرداخت های اخیر"
+
+#: includes/class-salesking.php:1512 public/dashboard/orders.php:186
+msgid "Refunded"
+msgstr "بازپرداخت شد"
+
+#: admin/class-salesking-settings.php:656
+msgid "Registration"
+msgstr "ثبت نام"
+
+#: public/dashboard/affiliate-links.php:37
+msgid "Registration Link"
+msgstr "لینک ثبت نام"
+
+#: admin/class-salesking-settings.php:753
+msgid "Registration Settings"
+msgstr "تنظیمات ثبت نام"
+
+#: admin/class-salesking-settings.php:657
+msgid "Registration settings"
+msgstr "تنظیمات ثبت نام"
+
+#: public/dashboard/announcement.php:30
+msgid "Released:"
+msgstr "منتشر شد:"
+
+#: admin/class-salesking-admin.php:1532
+msgid "Remove announcement image"
+msgstr "حذف تصویر اعلامیه"
+
+#: admin/class-salesking-admin.php:812
+msgid "Remove earning image"
+msgstr "حذف تصویر کسب درآمد"
+
+#: admin/class-salesking-admin.php:2124
+msgid "Remove group image"
+msgstr "حذف تصویر گروه"
+
+#: admin/class-salesking-admin.php:868
+msgid "Remove message image"
+msgstr "حذف تصویر پیام"
+
+#: admin/class-salesking-admin.php:4547 admin/class-salesking-admin.php:4874
+msgid "Remove rule image"
+msgstr "حذف تصویر قانون"
+
+#: public/dashboard/messages.php:313
+msgid "Reply"
+msgstr "پاسخ"
+
+#: admin/class-salesking-admin.php:2596 admin/class-salesking-admin.php:2597
+msgid "Reports"
+msgstr "گزارش ها"
+
+#: admin/class-salesking-settings.php:341
+msgid "Requires \"Cost of Goods\" plugin active."
+msgstr "نیاز به فعال بودن افزونه «هزینه کالا» دارد."
+
+#: admin/class-salesking-admin.php:4531 admin/class-salesking-admin.php:4858
+msgid "Rule"
+msgstr "قانون"
+
+#: admin/class-salesking-admin.php:4588 admin/class-salesking-admin.php:4915
+msgid "Rule Details"
+msgstr "جزئیات قانون"
+
+#: admin/class-salesking-admin.php:4545 admin/class-salesking-admin.php:4872
+msgid "Rule image"
+msgstr "تصویر قانون"
+
+#: admin/class-salesking-admin.php:1163 admin/class-salesking-admin.php:4792
+msgid "Rule name"
+msgstr "نام قانون"
+
+#: admin/class-salesking-admin.php:5502
+msgid "Rule priority (optional): "
+msgstr "اولویت قانون (اختیاری):"
+
+#: admin/class-salesking-admin.php:4793
+msgid "Rule type"
+msgstr "نوع قانون"
+
+#: admin/class-salesking-admin.php:4930 admin/class-salesking-admin.php:5061
+msgid "Rule type:"
+msgstr "نوع قانون:"
+
+#: admin/class-salesking-admin.php:4552 admin/class-salesking-admin.php:4879
+msgid "Rules navigation"
+msgstr "ناوبری قوانین"
+
+#: admin/class-salesking-admin.php:3131
+msgid "Sales"
+msgstr "فروش"
+
+#: admin/class-salesking-admin.php:2275 admin/class-salesking-admin.php:2494
+#: public/dashboard/templates/header-bar.php:194
+msgid "Sales Agent"
+msgstr "نماینده فروش"
+
+#: admin/class-salesking-admin.php:441
+msgid "Sales agent managing this order:"
+msgstr "نماینده فروش که این سفارش را مدیریت می کند:"
+
+#: admin/class-salesking-admin.php:908 admin/class-salesking-admin.php:917
+msgid "Sales Agents Commissions"
+msgstr "کمیسیون های نمایندگان فروش"
+
+#: admin/class-salesking-admin.php:3073
+msgid "Sales Reports"
+msgstr "گزارش های فروش"
+
+#: public/class-salesking-public.php:2429
+msgid "Sales Representative ID (optional)"
+msgstr "شناسه نماینده فروش (اختیاری)"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-salesking-admin.php:2535 admin/class-salesking-admin.php:2536
+msgid "SalesKing"
+msgstr "نمایندگان فروش سپهر الکتریک"
+
+#. Description of the plugin/theme
+msgid ""
+"SalesKing is the ultimate sales team, sales reps & agents management "
+"solution for WooCommerce"
+msgstr "افزونه مدیریت جامع نماینده فروشنگان شرکت سپهر الکتریک"
+
+#: admin/class-salesking-admin.php:4409
+msgid "Save Adjustment"
+msgstr "ذخیره تعدیل"
+
+#: public/dashboard/coupons.php:104
+msgid "Save Coupon"
+msgstr "ذخیره کوپن"
+
+#: public/dashboard/payouts.php:386
+msgid "Save Info"
+msgstr "ذخیره اطلاعات"
+
+#: admin/class-salesking-admin.php:4307
+msgid "Save Payment and Notify Agent"
+msgstr "پرداخت را ذخیره کنید و به نماینده اطلاع دهید"
+
+#: admin/class-salesking-settings.php:1017
+#: public/dashboard/profile-settings.php:66
+msgid "Save Settings"
+msgstr "تنظیمات را ذخیره کن"
+
+#: public/class-salesking-public.php:2917
+msgid "Search "
+msgstr "جستجو کردن "
+
+#: admin/class-salesking-admin.php:1526
+msgid "Search announcements"
+msgstr "جستجو در اعلامیه ها"
+
+#: public/dashboard/customers.php:26
+msgid "Search customers..."
+msgstr "جستجوی مشتریان..."
+
+#: admin/class-salesking-admin.php:806
+msgid "Search earnings"
+msgstr "جستجوی درآمد"
+
+#: admin/class-salesking-admin.php:2118
+msgid "Search groups"
+msgstr "جستجو در گروه ها"
+
+#: admin/class-salesking-admin.php:862
+msgid "Search messages"
+msgstr "جستجوی پیام ها"
+
+#: public/dashboard/orders.php:29
+msgid "Search orders..."
+msgstr "جستجوی سفارشات..."
+
+#: admin/class-salesking-admin.php:4541 admin/class-salesking-admin.php:4868
+msgid "Search rules"
+msgstr "قوانین جستجو"
+
+#: public/dashboard/teams.php:26
+msgid "Search subagents..."
+msgstr "جستجوی عوامل فرعی..."
+
+#: public/dashboard/earnings.php:362 public/dashboard/earnings.php:645
+msgid "Search transactions..."
+msgstr "جستجوی تراکنش‌ها..."
+
+#: public/dashboard/payouts.php:137
+msgid "Select a payment method:"
+msgstr "روش پرداخت را انتخاب کنید:"
+
+#: includes/class-salesking.php:692
+msgid ""
+"Select an agent this coupon will belong to. When the coupon is used, the "
+"agent will be credited for the purchase."
+msgstr ""
+"نماینده ای را انتخاب کنید که این کدتخفیف به آن تعلق دارد. در صورت استفاده از "
+"کد تخفیف، مبلغ خرید به نمایندگی تعلق می گیرد."
+
+#: admin/class-salesking-admin.php:5097
+msgid "Select categories & tags"
+msgstr "انتخاب دسته‌بندی و برچسب"
+
+#: admin/class-salesking-settings.php:226
+msgid "Select Country"
+msgstr "کشور را انتخاب کنید"
+
+#: admin/class-salesking-settings.php:608
+#: admin/class-salesking-settings.php:617
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: admin/class-salesking-admin.php:5017 admin/class-salesking-admin.php:5451
+msgid "Select multiple agent options"
+msgstr "چندین گزینه نماینده را انتخاب کنید"
+
+#: admin/class-salesking-admin.php:5295
+msgid "Select multiple categories & tags"
+msgstr "انتخاب دسته و برچسب‌های چندگانه"
+
+#: admin/class-salesking-admin.php:5349
+msgid "Select multiple customer options"
+msgstr "چندین گزینه مشتری را انتخاب کنید"
+
+#: admin/class-salesking-admin.php:4980 admin/class-salesking-admin.php:5145
+#: admin/class-salesking-admin.php:5194
+msgid "Select multiple options"
+msgstr "چندین گزینه را انتخاب کنید"
+
+#: includes/class-salesking-pending-gateway.php:62
+msgid "Select shipping methods"
+msgstr "روش های حمل و نقل را انتخاب کنید"
+
+#: public/dashboard/messages.php:325 public/dashboard/messages.php:378
+msgid "Send"
+msgstr "ارسال"
+
+#: admin/class-salesking-admin.php:1297
+msgid "Send message"
+msgstr "پیام فرستادن"
+
+#: includes/emails/templates/new-message-email-template.php:21
+msgid "Sender: "
+msgstr "فرستنده:"
+
+#: admin/class-salesking-settings.php:969
+msgid "Set accounts"
+msgstr "حساب ها را تنظیم کنید"
+
+#: admin/class-salesking-settings.php:956
+msgid "Set accounts as subagents of an agent"
+msgstr "حساب ها را به عنوان نماینده زیرمجموعه یک نماینده فروش تنظیم کنید"
+
+#: admin/class-salesking-settings.php:1002 includes/class-salesking.php:690
+msgid "Set agent"
+msgstr "تنظیم نماینده فروش"
+
+#: admin/class-salesking-settings.php:977
+msgid "Set an agent for all customers:"
+msgstr "یک نمایندگی برای همه مشتریان تنظیم کنید:"
+
+#: admin/class-salesking-admin.php:1531
+msgid "Set announcement image"
+msgstr "تنظیم تصویر اعلامیه"
+
+#: admin/class-salesking-admin.php:811
+msgid "Set earning image"
+msgstr "تنظیم تصویر درآمد"
+
+#: admin/class-salesking-admin.php:2123
+msgid "Set group image"
+msgstr "تنظیم تصویر گروه"
+
+#: admin/class-salesking-admin.php:867
+msgid "Set message image"
+msgstr "تنظیم تصویر پیام"
+
+#: public/dashboard/payouts.php:54
+msgid "Set payout account"
+msgstr "تنظیم حساب پرداخت"
+
+#: public/dashboard/payouts.php:130
+msgid "Set Payout Method"
+msgstr "روش پرداخت را تنظیم کنید"
+
+#: admin/class-salesking-admin.php:4546 admin/class-salesking-admin.php:4873
+msgid "Set rule image"
+msgstr "تنظیم تصویر قانون"
+
+#: admin/class-salesking-admin.php:5810
+msgid "Set up group rules (optional)"
+msgstr "تنظیم قوانین گروه (اختیاری)"
+
+#: admin/class-salesking-settings.php:949
+msgid "Set users as subagents of an agent:"
+msgstr "کاربران را به عنوان نمایندگان زیرمجموعه یک نماینده فروش تنظیم کنید:"
+
+#: admin/class-salesking-admin.php:2621 admin/class-salesking-admin.php:2622
+#: admin/class-salesking-admin.php:3210
+#: public/dashboard/templates/profile-sidebar.php:41
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: public/dashboard/cart-sharing.php:29
+msgid "Share Links"
+msgstr "پیوندها را به اشتراک بگذارید"
+
+#: public/dashboard/affiliate-links.php:15
+msgid ""
+"Share your affiliate links with potential customers, and earn a commission "
+"when they are used!"
+msgstr ""
+"لینک‌های بازاریابی خود را با مشتریان بالقوه به اشتراک بگذارید و در صورت خرید "
+"آنها، شما هم کمیسیون دریافت کنید!"
+
+#: public/dashboard/cart-sharing.php:36
+msgid "Shareable Cart Link"
+msgstr "لینک سبد خرید قابل اشتراک"
+
+#: public/dashboard/messages.php:120 public/dashboard/messages.php:359
+#: public/dashboard/messages.php:360
+#: public/dashboard/templates/header-bar.php:94
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: includes/class-salesking.php:983 public/dashboard/customers.php:378
+msgid "Shop as Customer"
+msgstr "به عنوان مشتری خرید کنید"
+
+msgid "Shop Name"
+msgstr "نام فروشگاه"
+
+msgid "Shop Phone"
+msgstr "تلفن فروشگاه"
+
+#: public/dashboard/affiliate-links.php:53
+msgid "Shopping Link"
+msgstr "لینک خرید"
+
+#: public/dashboard/salesking-dashboard-login.php:295
+msgid "Sign in"
+msgstr "ورود"
+
+#: public/dashboard/templates/header-bar.php:219
+msgid "Sign out"
+msgstr "خروج از سیستم"
+
+#: public/dashboard/salesking-dashboard-login.php:265
+msgid "Sign-In"
+msgstr "ورود"
+
+#: public/dashboard/earnings.php:100
+msgid "since the start of the current month"
+msgstr "از ابتدای ماه جاری"
+
+#: public/dashboard/cart-sharing.php:117
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-salesking.php:1371
+msgid "Sorry, you are not allowed to access this page."
+msgstr "با عرض پوزش، شما اجازه دسترسی به این صفحه را ندارید."
+
+#: admin/class-salesking-settings.php:187
+msgid "Specific products belong to specific agents"
+msgstr "محصولات خاص متعلق به نمایندگی های خاص است"
+
+#: admin/class-salesking-admin.php:4214 public/dashboard/customers.php:454
+#: public/dashboard/payouts.php:250
+msgid "State"
+msgstr "استان"
+
+#: admin/class-salesking-admin.php:3682 admin/class-salesking-admin.php:3963
+#: public/dashboard/announcements.php:43
+#: public/dashboard/dashboard-content.php:462
+#: public/dashboard/dashboard-content.php:614 public/dashboard/orders.php:43
+msgid "Status"
+msgstr "وضعیت"
+
+#: public/dashboard/orders.php:64
+msgid "status"
+msgstr "وضعیت"
+
+#: public/dashboard/dashboard-content.php:228
+msgid "Store Statistics (last 30 days)"
+msgstr "آمار فروشگاه (30 روز گذشته)"
+
+#: public/dashboard/customers.php:467
+msgid "Street address"
+msgstr "آدرس خیابان"
+
+#: admin/class-salesking-admin.php:3287 admin/class-salesking-admin.php:3964
+#: public/dashboard/earnings.php:668
+msgid "Subagent"
+msgstr "نماینده زیرمجموعه"
+
+#: public/dashboard/earnings.php:694
+msgid "subagent"
+msgstr "نماینده زیرمجموعه"
+
+#: public/dashboard/teams.php:169
+msgid "Subagent Info"
+msgstr "اطلاعات نماینده زیر مجموعه"
+
+#: admin/class-salesking-admin.php:3262 admin/class-salesking-admin.php:3326
+msgid "Subagent of"
+msgstr "نماینده زیرمجموعه"
+
+#: public/dashboard/announcements.php:37 public/dashboard/messages.php:370
+msgid "Subject"
+msgstr "موضوع"
+
+#: admin/class-salesking-settings.php:179
+msgid "Substract parent agent commissions"
+msgstr "کم کردن کمیسیون های نماینده مادر"
+
+#: admin/class-salesking-admin.php:3581
+msgid "Support"
+msgstr "پشتیبانی"
+
+msgid "Support Team"
+msgstr "تیم پشتیبانی"
+
+#: public/class-salesking-public.php:2201
+#: public/dashboard/salesking-dashboard-login.php:145
+msgid "Switch to Agent"
+msgstr "بازگشت به پنل نماینده"
+
+#: admin/class-salesking-settings.php:739
+msgid "Tables Language"
+msgstr "زبان جداول"
+
+#: admin/class-salesking-settings.php:195
+msgid "Take out discounts from agents' commission"
+msgstr "از کمیسیون نمایندگی ها تخفیف بگیرید"
+
+#: admin/class-salesking-admin.php:2608 admin/class-salesking-admin.php:2609
+#: admin/class-salesking-admin.php:3254
+msgid "Teams"
+msgstr "تیم ها"
+
+#: public/class-salesking-public.php:2923
+msgid ""
+"The agent account could not be created. It may be because the username or "
+"email already exists. Here are the error details: "
+msgstr ""
+"حساب نماینده ایجاد نشد. ممکن است به این دلیل باشد که نام کاربری یا ایمیل از "
+"قبل وجود دارد. در اینجا جزئیات خطا آمده است:"
+
+#: public/class-salesking-public.php:2922
+msgid ""
+"The agent account has been created. An email has been sent to the agent with "
+"account details."
+msgstr ""
+"حساب نماینده ایجاد شده است. یک ایمیل با جزئیات حساب به نماینده ارسال شده است."
+
+#: public/dashboard/coupons.php:93
+msgid "The coupon will expire at 00:00 of this date."
+msgstr "کوپن در ساعت 00:00 این تاریخ منقضی می شود."
+
+#: public/class-salesking-public.php:2921
+msgid ""
+"The customer account could not be created. It may be because the username or "
+"email already exists. Here are the error details:"
+msgstr ""
+"حساب مشتری ایجاد نشد. ممکن است به این دلیل باشد که نام کاربری یا ایمیل از "
+"قبل وجود دارد. در اینجا جزئیات خطا آمده است:"
+
+#: public/class-salesking-public.php:2920
+msgid ""
+"The customer account has been created. An email has been sent to the "
+"customer with account details."
+msgstr ""
+"حساب مشتری ایجاد شده است. یک ایمیل با جزئیات حساب برای مشتری ارسال شده است."
+
+#: includes/class-salesking-pending-gateway.php:48
+msgid ""
+"The customer will receive an email with order details and a payment link."
+msgstr "مشتری ایمیلی با جزئیات سفارش و لینک پرداخت دریافت می کند."
+
+#: public/class-salesking-public.php:1270
+msgid "The following note was added by the sales agent:"
+msgstr "یادداشت زیر توسط نماینده فروش اضافه شده است:"
+
+#: admin/class-salesking-settings.php:874
+msgid "The plugin is registered to "
+msgstr "این افزونه ثبت شده است"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "نسخه جدیدی از افزونه %s در دسترس است."
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "نمی توان تعیین کرد که آیا به روز رسانی برای %s موجود است یا خیر."
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "افزونه %s به روز است."
+
+#: admin/class-salesking-admin.php:4159
+msgid "The user has not configured a payout method yet"
+msgstr "کاربر هنوز روش پرداخت را پیکربندی نکرده است"
+
+#: admin/class-salesking-admin.php:2742
+msgid ""
+"There appears to be an issue with your license key (it may be expired or "
+"inactive). You are not receiving vital plugin updates and features!"
+msgstr ""
+"به نظر می رسد کلید مجوز شما مشکلی دارد (ممکن است منقضی شده یا غیرفعال باشد). "
+"شما به‌روزرسانی‌ها و ویژگی‌های حیاتی افزونه را دریافت نمی‌کنید!"
+
+#: admin/class-salesking-admin.php:2244
+msgid "There are no agents in this group"
+msgstr "هیچ نماینده فروشی در این گروه وجود ندارد"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "هیچ تغییری در دسترس نیست."
+
+#: public/class-salesking-public.php:1255
+msgid "These notes are visible to the shop, but not visible to the customer."
+msgstr ""
+"این یادداشت ها برای فروشگاه قابل مشاهده هستند، اما برای مشتری قابل مشاهده "
+"نیستند."
+
+#: admin/class-salesking-admin.php:2214
+msgid ""
+"These values can also be set for each agent individually in their profile "
+"panel. Agent values have priority over group values."
+msgstr ""
+"همچنین می توان این مقادیر را برای هر نماینده به صورت جداگانه در پنل پروفایل "
+"آنها تنظیم کرد. مقادیر نماینده بر مقادیر گروه اولویت دارند."
+
+#: includes/emails/class-salesking-new-announcement-email.php:107
+#: includes/emails/class-salesking-new-message-email.php:114
+#: includes/emails/class-salesking-new-payout-email.php:102
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" "
+msgstr ""
+"این خط موضوع ایمیل را کنترل می کند. برای استفاده از موضوع پیش فرض خالی "
+"بگذارید:"
+
+#: includes/emails/class-salesking-new-announcement-email.php:114
+#: includes/emails/class-salesking-new-message-email.php:121
+#: includes/emails/class-salesking-new-payout-email.php:109
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: "
+msgstr ""
+"این عنوان اصلی موجود در اعلان ایمیل را کنترل می کند. برای استفاده از عنوان "
+"پیش فرض خالی بگذارید:"
+
+#: includes/class-salesking-pending-gateway.php:40
+msgid "This controls the title which the user sees during checkout."
+msgstr "این عنوانی را که کاربر در حین پرداخت می بیند کنترل می کند."
+
+#: admin/class-salesking-admin.php:442
+msgid ""
+"This does NOT assign commission. This only controls which agent can view / "
+"edit / handle this order. For commissions, scroll down to the \"Sales Agent "
+"Commissions\" box."
+msgstr ""
+"این کمیسیون تعیین نمی کند. این فقط کنترل می کند که کدام نماینده می تواند این "
+"سفارش را مشاهده / ویرایش / مدیریت کند. برای دریافت کمیسیون، به کادر «کمیسیون "
+"نمایندگی فروش» بروید."
+
+#: includes/emails/class-salesking-new-announcement-email.php:16
+msgid "This email is sent when a new announcement is released"
+msgstr "این ایمیل با انتشار اطلاعیه جدید ارسال می شود"
+
+#: includes/emails/class-salesking-new-message-email.php:16
+msgid "This email is sent when a new message is sent"
+msgstr "این ایمیل زمانی ارسال می شود که پیام جدیدی ارسال شود"
+
+#: includes/emails/class-salesking-new-payout-email.php:16
+msgid "This email is sent when a payout is saved"
+msgstr "این ایمیل زمانی ارسال می شود که پرداختی ذخیره شود"
+
+#: public/dashboard/coupons.php:75
+msgid ""
+"This field allows you to set the maximum spend (subtotal) allowed to use the "
+"coupon."
+msgstr ""
+"این فیلد به شما امکان می دهد حداکثر هزینه (مجموع فرعی) مجاز برای استفاده از "
+"کوپن را تنظیم کنید."
+
+#: public/dashboard/coupons.php:65
+msgid ""
+"This field allows you to set the minimum spend (subtotal) allowed to use the "
+"coupon."
+msgstr ""
+"این فیلد به شما امکان می دهد حداقل هزینه (مجموع فرعی) مجاز برای استفاده از "
+"کوپن را تنظیم کنید."
+
+#: admin/class-salesking-settings.php:512
+msgid ""
+"This gives users the option to choose an agent from a dropdown of all "
+"existing agents."
+msgstr ""
+"این به کاربران این امکان را می دهد که یک نماینده را از فهرست کشویی همه "
+"نمایندگان موجود انتخاب کنند."
+
+#: admin/class-salesking-settings.php:503
+msgid "This gives users the option to enter an agent ID at registration."
+msgstr ""
+"این به کاربران این امکان را می دهد که در هنگام ثبت نام شناسه نماینده را وارد "
+"کنند."
+
+#: includes/emails/class-salesking-order-pending-email.php:21
+msgid ""
+"This is an order notification sent to customers after a sales agent places "
+"the order."
+msgstr ""
+"این یک اعلان سفارش است که پس از ارسال سفارش توسط نماینده فروش به مشتریان "
+"ارسال می شود."
+
+#: public/dashboard/payouts.php:35
+msgid ""
+"This is the amount you currently have in earnings, available for your next "
+"payout."
+msgstr "این مقدار درآمدی است که در حال حاضر برای پرداخت بعدی شما در دسترس است."
+
+#: admin/class-salesking-admin.php:2194
+msgid ""
+"This is the maximum discount (wiggle room) sales agents can offer to end "
+"customers."
+msgstr ""
+"این حداکثر تخفیفی است که نمایندگان فروش می توانند به مشتریان نهایی ارائه "
+"دهند."
+
+#: admin/class-salesking-admin.php:2404
+msgid ""
+"This is the maximum discount (wiggle room) this particular agent can offer "
+"to end customers."
+msgstr ""
+"این حداکثر تخفیفی است که این نماینده خاص می تواند به مشتریان نهایی ارائه دهد."
+
+#: admin/class-salesking-admin.php:4884
+msgid "This is where you can create commission rules"
+msgstr "اینجاست که می توانید قوانین کمیسیون را ایجاد کنید"
+
+#: admin/class-salesking-admin.php:4557
+msgid "This is where you can create group rules"
+msgstr "اینجاست که می توانید قوانین گروهی را ایجاد کنید"
+
+#: admin/class-salesking-admin.php:2134
+msgid "This is where you can create new agent groups"
+msgstr "اینجاست که می توانید گروه های نمایندگی جدید ایجاد کنید"
+
+#: admin/class-salesking-admin.php:1542
+msgid "This is where you can create new announcements"
+msgstr "اینجاست که می توانید اعلان های جدید ایجاد کنید"
+
+#: admin/class-salesking-admin.php:878
+msgid "This is where you can send new messages"
+msgstr "این جایی است که می توانید پیام های جدید ارسال کنید"
+
+#: public/dashboard/affiliate-links.php:54
+msgid "This link contains a tracking cookie and links orders to you."
+msgstr "این پیوند حاوی یک کوکی ردیابی است و سفارشات را به شما پیوند می دهد."
+
+#: admin/class-salesking-admin.php:3117
+msgid "This Month"
+msgstr "این ماه"
+
+#: admin/class-salesking-admin.php:5977
+msgid ""
+"This panel allows you to manage payouts for each of your agents, and keep "
+"track of payments sent, payments due, bonuses, etc."
+msgstr ""
+"این پنل به شما امکان می دهد پرداخت ها را برای هر یک از نمایندگان خود مدیریت "
+"کنید و پرداخت های ارسالی، پرداخت های سررسید، پاداش ها و غیره را پیگیری کنید."
+
+#: admin/class-salesking-admin.php:5994
+msgid "This panel allows you to view, and keep track of your agents' earnings"
+msgstr ""
+"این پنل به شما امکان می دهد درآمدهای نمایندگان خود را مشاهده و پیگیری کنید"
+
+#: admin/class-salesking-admin.php:2270
+msgid "This user is a"
+msgstr "این کاربر یک "
+
+#: admin/class-salesking-admin.php:3119
+msgid "This Year"
+msgstr "امسال"
+
+#: admin/class-salesking-admin.php:1094
+msgid "Thread Details"
+msgstr "جزئیات موضوع"
+
+#: admin/class-salesking-admin.php:5927
+msgid ""
+"Through group rules, you can automatically change an agent's group when they "
+"hit a particular threshold such as an earnings numbers. For example, this "
+"allows you to promote agents across ranks."
+msgstr ""
+"از طریق قوانین گروه، می توانید به طور خودکار گروه یک نماینده را هنگامی که به "
+"آستانه خاصی مانند اعداد درآمد رسید، تغییر دهید. به عنوان مثال، این به شما "
+"امکان می دهد تا نمایندگان را در رتبه های مختلف ارتقا دهید."
+
+#: includes/class-salesking-pending-gateway.php:38
+msgid "Title"
+msgstr "عنوان"
+
+#: public/dashboard/cart-sharing.php:90
+msgid "To create a personalized sharable cart, "
+msgstr "برای ایجاد یک سبد خرید قابل اشتراک گذاری شخصی،"
+
+#: public/dashboard/cart-sharing.php:16
+msgid ""
+"To place orders on behalf of customers directly, and only send them the "
+"payment link, go to "
+msgstr ""
+"برای سفارش مستقیم از طرف مشتریان و فقط ارسال لینک پرداخت برای آنها به آدرس "
+"زیر مراجعه کنید"
+
+#: includes/class-salesking.php:2526
+msgid "To set a new password, visit the following address:"
+msgstr "برای تنظیم رمز عبور جدید به آدرس زیر مراجعه کنید:"
+
+#: admin/class-salesking-admin.php:3111
+msgid "To:"
+msgstr "به:"
+
+#: admin/class-salesking-settings.php:688
+#: admin/class-salesking-settings.php:938
+msgid "Tools"
+msgstr "ابزار"
+
+#: admin/class-salesking-settings.php:689
+msgid "Tools & User Management"
+msgstr "مدیریت کاربر و ابزارها"
+
+#: admin/class-salesking-settings.php:940
+msgid "Tools to manage agents and accounts"
+msgstr "ابزارهایی برای مدیریت نمایندگان و حساب ها"
+
+#: admin/class-salesking-admin.php:3537
+msgid "Total Agent Commissions"
+msgstr "مجموع کمیسیون های نماینده"
+
+#: admin/class-salesking-admin.php:4814 admin/class-salesking-admin.php:4958
+msgid "Total earnings reached"
+msgstr "به کل درآمد رسیده است"
+
+#: admin/class-salesking-admin.php:4816
+msgid "Total order value"
+msgstr "ارزش کل سفارش"
+
+#: admin/class-salesking-admin.php:3353 admin/class-salesking-admin.php:3533
+msgid "Total Orders Value"
+msgstr "ارزش کل سفارشات"
+
+#: admin/class-salesking-admin.php:4959
+msgid "Total orders value"
+msgstr "ارزش کل سفارشات"
+
+#: admin/class-salesking-admin.php:3079 admin/class-salesking-admin.php:3166
+msgid "Total Sales"
+msgstr "کل فروش"
+
+#: admin/class-salesking-admin.php:3074
+msgid "Total Sales Value"
+msgstr "ارزش کل فروش"
+
+#: public/dashboard/customers.php:80
+msgid "Total Spend"
+msgstr "کل خرج کردن"
+
+#: public/dashboard/customers.php:474
+msgid "Town / City"
+msgstr "شهر/شهرستان"
+
+#: admin/class-salesking-settings.php:963
+msgid "Turn subagents into regular agent accounts:"
+msgstr "تبدیل زیرنماینده ها به حساب های نماینده عادی:"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "وضعیت جستجوگر به‌روزرسانی ناشناخته \"%s\""
+
+#: public/dashboard/announcements.php:65
+msgid "Unread"
+msgstr "خوانده نشده"
+
+#: public/dashboard/templates/header-bar.php:144
+msgid "Unread Announcements"
+msgstr "اعلامیه های خوانده نشده"
+
+#: admin/class-salesking-admin.php:5269
+msgid "Until subagent earnings reach x total"
+msgstr "تا زمانی که درآمد فرعی به x کل برسد"
+
+#: public/dashboard/profile.php:68 public/dashboard/profile.php:105
+msgid "Update Profile"
+msgstr "بروزرسانی پروفایل"
+
+#: admin/class-salesking-admin.php:1535
+msgid "Uploaded to this announcement"
+msgstr "در این اطلاعیه آپلود شد"
+
+#: admin/class-salesking-admin.php:815
+msgid "Uploaded to this earning"
+msgstr "به این درآمد آپلود شد"
+
+#: admin/class-salesking-admin.php:2127
+msgid "Uploaded to this group"
+msgstr "در این گروه آپلود شد"
+
+#: admin/class-salesking-admin.php:871
+msgid "Uploaded to this message"
+msgstr "در این پیام آپلود شد"
+
+#: admin/class-salesking-admin.php:4550 admin/class-salesking-admin.php:4877
+msgid "Uploaded to this rule"
+msgstr "به این قانون آپلود شد"
+
+#: public/dashboard/coupons.php:44
+msgid "Usage Limit"
+msgstr "محدودیت استفاده"
+
+#: admin/class-salesking-admin.php:1533
+msgid "Use as announcement image"
+msgstr "استفاده به عنوان تصویر اعلامیه"
+
+#: admin/class-salesking-admin.php:813
+msgid "Use as earning image"
+msgstr "استفاده به عنوان تصویر درآمد"
+
+#: admin/class-salesking-admin.php:2125
+msgid "Use as group image"
+msgstr "استفاده به عنوان تصویر گروه"
+
+#: admin/class-salesking-admin.php:869
+msgid "Use as message image"
+msgstr "به عنوان تصویر پیام استفاده کنید"
+
+#: admin/class-salesking-admin.php:4548 admin/class-salesking-admin.php:4875
+msgid "Use as rule image"
+msgstr "به عنوان تصویر قانون استفاده کنید"
+
+msgid ""
+"Use item totals after coupons/discounts. If off, use subtotals (before "
+"discounts)."
+msgstr ""
+"از مجموع اقلام پس از اعمال کوپن/تخفیف استفاده شود. در صورت غیرفعال بودن، از "
+"ساب‌توتال‌ها (قبل از تخفیف) استفاده می‌شود."
+
+#: public/dashboard/profile.php:28
+msgid "User Info"
+msgstr "اطلاعات کاربر"
+
+#: admin/class-salesking-admin.php:4121
+msgid "User Payouts"
+msgstr "پرداخت های کاربر"
+
+#: public/dashboard/customers.php:696 public/dashboard/teams.php:195
+msgid "Username"
+msgstr "نام کاربری"
+
+#: public/dashboard/salesking-dashboard-login.php:246
+msgid "Username is empty"
+msgstr "نام کاربری خالی است"
+
+#: public/dashboard/salesking-dashboard-login.php:243
+msgid "Username is invalid"
+msgstr "نام کاربری نامعتبر است"
+
+#: includes/class-salesking.php:2513
+#, php-format
+msgid "Username: %s"
+msgstr "نام کاربری: %s"
+
+#: admin/class-salesking-admin.php:5213 admin/class-salesking-admin.php:5415
+msgid "Users (individual)"
+msgstr "کاربران (فردی)"
+
+#: admin/class-salesking-admin.php:2014
+msgid "Users: "
+msgstr "کاربران:"
+
+#: public/dashboard/coupons.php:171
+msgid "Uses Left"
+msgstr "از چپ استفاده می کند"
+
+#: public/dashboard/coupons.php:223
+msgid "uses left"
+msgstr "از سمت چپ استفاده می کند"
+
+#: admin/class-salesking-admin.php:4795
+msgid "Value"
+msgstr "مقدار"
+
+#: public/dashboard/templates/header-bar.php:128
+#: public/dashboard/templates/header-bar.php:180
+msgid "View All"
+msgstr "مشاهده همه"
+
+#: public/dashboard/payouts.php:14
+msgid "View and keep track of your payouts."
+msgstr "پرداخت های خود را مشاهده و پیگیری کنید."
+
+#: admin/class-salesking-admin.php:1524
+msgid "View announcement"
+msgstr "مشاهده اطلاعیه"
+
+#: admin/class-salesking-admin.php:1525
+msgid "View announcements"
+msgstr "مشاهده اطلاعیه ها"
+
+#: includes/assets/lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:56
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+#: admin/class-salesking-admin.php:804
+msgid "View earning"
+msgstr "مشاهده درآمد"
+
+#: admin/class-salesking-admin.php:2646 admin/class-salesking-admin.php:2647
+#: admin/class-salesking-admin.php:3483
+msgid "View Earnings"
+msgstr "مشاهده درآمد"
+
+#: admin/class-salesking-admin.php:805
+#: public/dashboard/dashboard-content.php:39
+msgid "View earnings"
+msgstr "مشاهده درآمد"
+
+#: admin/class-salesking-admin.php:2116
+msgid "View group"
+msgstr "مشاهده گروه"
+
+#: admin/class-salesking-admin.php:2117
+msgid "View groups"
+msgstr "مشاهده گروه ها"
+
+#: admin/class-salesking-admin.php:860
+msgid "View message"
+msgstr "مشاهده پیام"
+
+#: admin/class-salesking-admin.php:861
+msgid "View messages"
+msgstr "مشاهده پیام ها"
+
+#: admin/class-salesking-admin.php:3518
+msgid "View Orders"
+msgstr "مشاهده سفارشات"
+
+#: admin/class-salesking-admin.php:2635 admin/class-salesking-admin.php:2636
+#: admin/class-salesking-admin.php:4501
+msgid "View Payouts"
+msgstr "مشاهده پرداخت ها"
+
+#: admin/class-salesking-admin.php:4539 admin/class-salesking-admin.php:4866
+msgid "View rule"
+msgstr "مشاهده قانون"
+
+#: admin/class-salesking-admin.php:4540 admin/class-salesking-admin.php:4867
+msgid "View rules"
+msgstr "مشاهده قوانین"
+
+#: admin/class-salesking-admin.php:1981
+msgid "Visible to:"
+msgstr "قابل مشاهده برای:"
+
+#: admin/class-salesking-admin.php:5876
+msgid ""
+"Warning: The plugin \"SalesKing\" requires WooCommerce to be installed and "
+"activated."
+msgstr ""
+"هشدار: افزونه \"نمایندگان فروش سپهر الکتریک\" نیاز به نصب و فعال سازی "
+"WooCommerce دارد."
+
+#: public/class-salesking-public.php:2503
+msgid "We could not find any sales rep with the ID provided."
+msgstr "ما نتوانستیم هیچ نماینده فروش را با شناسه ارائه شده پیدا کنیم."
+
+#. Author of the plugin/theme
+msgid "WebWizards"
+msgstr "محمد حیدری"
+
+#. Author URI of the plugin/theme
+msgid "webwizards.dev"
+msgstr "sepehrelectric.com"
+
+#: admin/class-salesking-admin.php:366
+msgid "Welcome to SalesKing!"
+msgstr "به مدیریت نمایندگان فروش خوش آمدید!"
+
+#: public/dashboard/dashboard-content.php:13
+msgid "Welcome to your dashboard"
+msgstr "به داشبورد خود خوش آمدید"
+
+#: admin/class-salesking-settings.php:332
+msgid ""
+"When agents edit prices in cart to offer discounts (if enabled), take out "
+"discount value from the agents' commission."
+msgstr ""
+"هنگامی که نمایندگان قیمت‌ها را در سبد خرید ویرایش می‌کنند تا تخفیف ارائه "
+"کنند (در صورت فعال بودن)، ارزش تخفیف را از کمیسیون نمایندگان دریافت کنید."
+
+#: admin/class-salesking-settings.php:351
+msgid ""
+"When agents order on behalf of customers, they can edit prices to increase "
+"price, and win the difference as profit."
+msgstr ""
+"وقتی نمایندگان از طرف مشتریان سفارش می دهند، می توانند قیمت ها را برای "
+"افزایش قیمت ویرایش کنند و مابه التفاوت را به عنوان سود ببرند."
+
+#: admin/class-salesking-settings.php:369
+msgid ""
+"When agents order on behalf of customers, they can edit prices to offer "
+"discounts."
+msgstr ""
+"هنگامی که نمایندگان از طرف مشتریان سفارش می دهند، می توانند قیمت ها را برای "
+"ارائه تخفیف ویرایش کنند."
+
+#. Plugin URI of the plugin/theme
+msgid "woocommerce-b2b-plugin.com"
+msgstr "woocommerce-b2b-plugin.com"
+
+#: admin/class-salesking-admin.php:5278
+msgid "X:"
+msgstr "ایکس:"
+
+#: admin/class-salesking-admin.php:1500
+msgid "Yesterday at "
+msgstr "دیروز در"
+
+#: public/class-salesking-public.php:2195
+#: public/dashboard/salesking-dashboard-login.php:139
+msgid "You are shopping as "
+msgstr "شما در حال خرید برای مشتری بنام  "
+
+#: public/dashboard/coupons.php:257
+msgid "You don't have any coupons yet. Create your first coupon."
+msgstr "شما هنوز هیچ کوپنی ندارید. اولین کوپن خود را ایجاد کنید."
+
+#: public/dashboard/announcements.php:11
+msgid "You have "
+msgstr "شما دارید"
+
+#: includes/emails/templates/new-announcement-email-template.php:13
+#: includes/emails/templates/plain-new-announcement-email-template.php:9
+msgid "You have a new announcement."
+msgstr "شما اعلامیه جدیدی دارید"
+
+#: includes/emails/templates/new-message-email-template.php:19
+#: includes/emails/templates/plain-new-message-email-template.php:9
+msgid "You have a new message."
+msgstr "شما یک پیام جدید دارید."
+
+#: admin/class-salesking-admin.php:2730
+msgid ""
+"You SalesKing license has not been activated. You are not receiving vital "
+"plugin updates and features."
+msgstr ""
+"مجوز SalesKing شما فعال نشده است. شما به‌روزرسانی‌ها و ویژگی‌های حیاتی "
+"افزونه را دریافت نمی‌کنید."
+
+#. translators: Login details notification email subject. %s: Site title.
+#: includes/class-salesking.php:2536
+#, php-format
+msgid "Your %s sales agent account details"
+msgstr "جزئیات حساب نماینده فروش %s شما"
+
+#: public/dashboard/affiliate-links.php:105
+msgid "Your Agent ID:"
+msgstr "شناسه نماینده شما:"
+
+#: public/dashboard/profile.php:17
+msgid "Your basic profile information."
+msgstr "اطلاعات اولیه نمایه شما"
+
+#: public/dashboard/salesking-dashboard-login.php:188
+msgid ""
+"Your current account is not a sales agent. To login as a sales agent, please "
+"logout first. "
+msgstr ""
+"حساب جاری شما نماینده فروش نیست. برای ورود به عنوان نماینده فروش، لطفا ابتدا "
+"از سیستم خارج شوید."
+
+#: admin/class-salesking-settings.php:616
+msgid "Your Custom Favicon"
+msgstr "فاویکون سفارشی شما"
+
+#: admin/class-salesking-settings.php:607
+msgid "Your Custom Logo"
+msgstr "لوگوی سفارشی شما"
+
+#: public/dashboard/earnings.php:350
+msgid "Your direct earnings"
+msgstr "درآمد مستقیم شما"
+
+#: public/dashboard/earnings.php:394 public/dashboard/earnings.php:676
+msgid "Your Earnings"
+msgstr "درآمد شما"
+
+#: public/dashboard/earnings.php:429 public/dashboard/earnings.php:702
+msgid "your earnings"
+msgstr "درآمد شما"
+
+#: admin/class-salesking-settings.php:887
+msgid ""
+"Your license is not active. Activate now to receive vital plugin updates and "
+"features!"
+msgstr ""
+"مجوز شما فعال نیست برای دریافت به‌روزرسانی‌ها و ویژگی‌های حیاتی افزونه، "
+"اکنون فعال کنید!"
+
+#: admin/class-salesking-settings.php:872
+msgid "Your license is valid and active"
+msgstr "مجوز شما معتبر و فعال است"
+
+#: public/dashboard/affiliate-links.php:27
+msgid "Your Links"
+msgstr "لینک های شما"
+
+#: includes/emails/templates/new-payout-email-template.php:17
+#: includes/emails/templates/plain-new-payout-email-template.php:9
+msgid "Your payout has been processed! Happy Spending!"
+msgstr "پرداخت شما پردازش شده است! خرج کردن مبارک!"
+
+#: includes/class-salesking.php:2511
+#, php-format
+msgid ""
+"Your sales agent account for %s has been created! Here are your login "
+"details:"
+msgstr ""
+"حساب نماینده فروش شما برای %s ایجاد شده است! در اینجا جزئیات ورود شما آمده "
+"است:"
+
+#: admin/class-salesking-admin.php:2716
+msgid ""
+"Your SalesKing license is valid and active. You are receiving plugin updates."
+msgstr ""
+"مجوز SalesKing شما معتبر و فعال است. شما در حال دریافت به‌روزرسانی‌های "
+"افزونه هستید."
+
+#: public/dashboard/teams.php:56
+msgid "Your Total Commission"
+msgstr "کل کمیسیون شما"
+
+#: admin/class-salesking-admin.php:3619 admin/class-salesking-admin.php:4126
+msgid "←  Go Back"
+msgstr "← بازگشت به عقب"
