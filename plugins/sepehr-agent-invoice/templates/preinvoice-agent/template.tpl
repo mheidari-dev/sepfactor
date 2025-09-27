@@ -3,6 +3,36 @@
     <div if="watermark" style="opacity: {{{watermark_opacity_10}}};filter: alpha(opacity={{{watermark_opacity}}});" data-opacity="{{{watermark_opacity}}}" class="watermark"></div>
     <table class="header-table" style="width: 100%; margin: 0;">
       <tr><td style="width: 1.8cm;"></td><td></td><td style="width: 4.5cm !important;"></td></tr>
+      <tr class="show_shipping_ref_id_colspan">
+        <td style="width: 1.8cm; height: 2.5cm;vertical-align: middle; padding: 0 0 4px">
+          <div class="header-item-wrapper">
+            <div class="portait">{{{trnslt__seller}}}</div>
+          </div>
+        </td>
+        <td colspan="2" style="padding: 0 4px 4px;height: 2.5cm;">
+          <div class="bordered grow header-item-data">
+            <table class="grow centered">
+              <tr>
+                <td style="width: 7cm">
+                  <span class="label">فروشنده:</span> {{{store_name}}}
+                </td>
+                <td if="show_store_national_id" style="width: 5cm">
+                  <span class="label">شناسه ملی:</span> <span class='autodir'>{{{store_national_id}}}</span></td>
+                <td if="show_store_registration_number">
+                  <span class="label">شماره ثبت:</span> <span class='autodir'>{{{store_registration_number}}}</span></td>
+                <td if="show_store_economical_number">
+                  <span class="label">شماره اقتصادی:</span> <span class='autodir'>{{{store_economical_number}}}</span></td>
+              </tr>
+              <tr>
+                <td colspan="2"><span class="label">نشانی شرکت:</span> {{{store_address}}}</td>
+                <td><span class="label">کدپستی:</span> <span class='autodir'>{{{store_postcode}}}</span></td>
+                <td>
+                  <span class="label">تلفن و فکس:</span> <span class='autodir'>{{{store_phone}}}</span></td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
       <tr class="">
         <td style="width: 1.8cm; height: 2.5cm;vertical-align: middle; padding: 0 0 4px">
           <div class="header-item-wrapper">
