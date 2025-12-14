@@ -1557,41 +1557,58 @@
 		});
 
 		// when clicking shop as customer
-		$('body').on('click', '.salesking_shop_as_customer', function(){
-			var customerid = $(this).val();
-			var datavar = {
-	            action: 'saleskingshopascustomer',
-	            security: salesking_display_settings.security,
-	            customer: customerid,
-	        };
+                function saleskingShowLoader(loaderId, message){
+                        var loader = $('#'+loaderId);
+                        if (!loader.length){
+                                $('body').append('<div id="'+loaderId+'" class="salesking_loader"><div class="salesking_loader_backdrop"></div><div class="salesking_loader_box"><div class="salesking_loader_spinner"></div><div class="salesking_loader_text"></div></div></div>');
+                                loader = $('#'+loaderId);
+                        }
 
-	        $.post(salesking_display_settings.ajaxurl, datavar, function(response){
-	        	window.location = salesking_display_settings.shopurl;
-	        });
-		});
+                        loader.find('.salesking_loader_text').text(message);
+                        loader.addClass('is-visible');
+                }
+
+                $('body').on('click', '.salesking_shop_as_customer', function(){
+                        var customerid = $(this).val();
+                        var datavar = {
+                    action: 'saleskingshopascustomer',
+                    security: salesking_display_settings.security,
+                    customer: customerid,
+                };
+
+                saleskingShowLoader('salesking_customer_switch_loader', 'در حال آماده سازی پروفایل مشتری، لطفا منتظر بمانید');
+
+                $.post(salesking_display_settings.ajaxurl, datavar, function(response){
+                        window.location = salesking_display_settings.shopurl;
+                });
+                });
 
 		// when clicking EDIT shop as customer
-		$('body').on('click', '.salesking_shop_as_customer_edit', function(){
-			var customerid = $(this).val();
-			var datavar = {
-	            action: 'saleskingshopascustomer',
-	            security: salesking_display_settings.security,
-	            customer: customerid,
-	        };
+                $('body').on('click', '.salesking_shop_as_customer_edit', function(){
+                        var customerid = $(this).val();
+                        var datavar = {
+                    action: 'saleskingshopascustomer',
+                    security: salesking_display_settings.security,
+                    customer: customerid,
+                };
 
-	        $.post(salesking_display_settings.ajaxurl, datavar, function(response){
-	        	window.location = salesking_display_settings.accounturl;
-	        });
-		});
+                saleskingShowLoader('salesking_customer_switch_loader', 'در حال آماده سازی پروفایل مشتری، لطفا منتظر بمانید');
 
-		$('#salesking_return_agent').on('click', function(){
-			var agentid = $(this).val();
-			var agentregistered = $('#salesking_return_agent_registered').val();
+                $.post(salesking_display_settings.ajaxurl, datavar, function(response){
+                        window.location = salesking_display_settings.accounturl;
+                });
+                });
 
-			var datavar = {
-	            action: 'saleskingswitchtoagent',
-	            security: salesking_display_settings.security,
-	            agent: agentid,
+                $('#salesking_return_agent').on('click', function(){
+                        var agentid = $(this).val();
+                        var agentregistered = $('#salesking_return_agent_registered').val();
+
+                        saleskingShowLoader('salesking_agent_switch_loader', 'در حال انتقال به پنل نمایندگی');
+
+                        var datavar = {
+                    action: 'saleskingswitchtoagent',
+                    security: salesking_display_settings.security,
+                    agent: agentid,
 	            agentdate: agentregistered,
 	        };
 
