@@ -625,11 +625,12 @@
 				oLanguage: {
 	                sSearch: ""
 	            },
-	            dom: 'Bfrtip',
-	            order: [[ 0, "desc" ]],
-	            stateSave: true,
-	            
-	            buttons: {
+                    dom: 'Bfrtip',
+                    order: [[ 0, "desc" ]],
+                    stateSave: true,
+                    responsive: true,
+
+                    buttons: {
 	                buttons: [
 	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
 	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
@@ -649,10 +650,11 @@
 				oLanguage: {
 	                sSearch: ""
 	            },
-	            dom: 'Bfrtip',
-	            stateSave: true,
-	            order: [[ 0, "desc" ]],
-	            buttons: {
+                    dom: 'Bfrtip',
+                    stateSave: true,
+                    order: [[ 0, "desc" ]],
+                    responsive: true,
+                    buttons: {
 	                buttons: [
 	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
 	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
@@ -717,6 +719,7 @@
             dom: 'Bfrtip',
             stateSave: true,
             order: [[ 0, "desc" ]],
+            responsive: true,
             buttons: {
                 buttons: [
             //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
@@ -760,6 +763,7 @@
             dom: 'Bfrtip',
             stateSave: true,
             order: [[ 0, "desc" ]],
+            responsive: true,
             buttons: {
                 buttons: [
             //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
