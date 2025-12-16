@@ -628,10 +628,20 @@
                     dom: 'Bfrtip',
                     order: [[ 0, "desc" ]],
                     stateSave: true,
-                    responsive: true,
+                    responsive: {
+                        details: {
+                            type: 'column',
+                            target: 'tr'
+                        }
+                    },
+                    columnDefs: [
+                        { responsivePriority: 1, targets: 0 },
+                        { responsivePriority: 2, targets: [1, 2] },
+                        { responsivePriority: 3, targets: -1 }
+                    ],
 
                     buttons: {
-	                buttons: [
+                        buttons: [
 	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
 	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
 			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
@@ -653,7 +663,17 @@
                     dom: 'Bfrtip',
                     stateSave: true,
                     order: [[ 0, "desc" ]],
-                    responsive: true,
+                    responsive: {
+                        details: {
+                            type: 'column',
+                            target: 'tr'
+                        }
+                    },
+                    columnDefs: [
+                        { responsivePriority: 1, targets: 0 },
+                        { responsivePriority: 2, targets: [1, 2] },
+                        { responsivePriority: 3, targets: -1 }
+                    ],
                     buttons: {
 	                buttons: [
 	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
@@ -719,7 +739,17 @@
             dom: 'Bfrtip',
             stateSave: true,
             order: [[ 0, "desc" ]],
-            responsive: true,
+            responsive: {
+                details: {
+                    type: 'column',
+                    target: 'tr'
+                }
+            },
+            columnDefs: [
+                { responsivePriority: 1, targets: 0 },
+                { responsivePriority: 2, targets: [1, 2] },
+                { responsivePriority: 3, targets: -1 }
+            ],
             buttons: {
                 buttons: [
             //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
@@ -763,7 +793,17 @@
             dom: 'Bfrtip',
             stateSave: true,
             order: [[ 0, "desc" ]],
-            responsive: true,
+            responsive: {
+                details: {
+                    type: 'column',
+                    target: 'tr'
+                }
+            },
+            columnDefs: [
+                { responsivePriority: 1, targets: 0 },
+                { responsivePriority: 2, targets: [1, 2] },
+                { responsivePriority: 3, targets: -1 }
+            ],
             buttons: {
                 buttons: [
             //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },

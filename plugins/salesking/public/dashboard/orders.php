@@ -37,7 +37,7 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                         </div><!-- .nk-block-between -->
                     </div><!-- .nk-block-head -->
                     
-                    <table id="salesking_dashboard_orders_table" class="nk-tb-list is-separate mb-3" style="width: max-content;min-width: 100%;border-collapse: collapse;">
+                    <table id="salesking_dashboard_orders_table" class="nk-tb-list is-separate mb-3" style="border-collapse: collapse;">
                         <thead>
                             <tr class="nk-tb-item nk-tb-head">
                                 <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('Order','salesking'); ?></span></th>
