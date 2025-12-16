@@ -4,7 +4,8 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
     <div class="nk-content salesking_orders_page">
         <div class="container-fluid">
             <div class="nk-content-inner">
-                <div class="nk-content-body">
+                <div class="nk-content-body" >
+                    <div class="table-responsive">
                     <div class="nk-block-head nk-block-head-sm">
                         <div class="nk-block-between">
                             <div class="nk-block-head-content">
@@ -35,7 +36,8 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                             </div><!-- .nk-block-head-content -->
                         </div><!-- .nk-block-between -->
                     </div><!-- .nk-block-head -->
-                    <table id="salesking_dashboard_orders_table" class="nk-tb-list is-separate mb-3">
+                    
+                    <table id="salesking_dashboard_orders_table" class="nk-tb-list is-separate mb-3" style="width: max-content;min-width: 100%;border-collapse: collapse;">
                         <thead>
                             <tr class="nk-tb-item nk-tb-head">
                                 <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('Order','salesking'); ?></span></th>
@@ -46,6 +48,7 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
 
                                 <th class="nk-tb-col tb-col-md"><span class="sub-text"><?php esc_html_e('Purchased','salesking'); ?></span></th>
                                 <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('Order Total','salesking'); ?></span></th>
+                                <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('درگاه پرداخت','salesking'); ?></span></th>
                                 <?php 
                                     if (apply_filters('salesking_show_actions_my_orders_page', true)){
                                         ?>
@@ -67,6 +70,7 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                                     <?php do_action('salesking_my_orders_custom_columns_footer'); ?>
                                     <th class="nk-tb-col tb-col-md"><?php esc_html_e('purchased','salesking'); ?></th>
                                     <th class="nk-tb-col tb-col-md"><?php esc_html_e('order total','salesking'); ?></th>
+                                    <th class="nk-tb-col tb-col-md"><?php esc_html_e('درگاه پرداخت','salesking'); ?></th>
                                     <?php 
                                         if (apply_filters('salesking_show_actions_my_orders_page', true)){
                                             ?>
@@ -235,7 +239,7 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                                                     <span class="tb-sub text-primary"><?php
                                                     $items = $orderobj->get_items();
                                                     $items_count = count( $items );
-                                                    if ($items_count > apply_filters('salesking_dashboard_item_count_limit', 4)){
+                                                    if ($items_count > apply_filters('salesking_dashboard_item_count_limit', 8)){
                                                         echo $items_count.' '.esc_html__('Items', 'salesking');
                                                     } else {
                                                         // show the items
@@ -251,13 +255,19 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                                                     <span class="tb-lead"><?php echo wc_price(apply_filters('salesking_orders_order_total', $orderobj->get_total(), $orderobj), array('currency' => $orderobj->get_currency()));?></span>
                                                 </div>
                                             </td>
+                                            
+                                             <td class="nk-tb-col" data-order="<?php echo esc_attr($orderobj->get_payment_method_title());?>"> 
+                                                <div>
+                                                    <span class="tb-lead"><?php echo esc_attr($orderobj->get_payment_method_title());?></span>
+                                                </div>
+                                            </td>
                                             <?php 
                                                 if (apply_filters('salesking_show_actions_my_orders_page', true)){
                                                     if (apply_filters('salesking_show_default_button_my_orders_page', true)){
                                                         ?>
                                                             <td class="nk-tb-col">
                                                                 <div class="salesking_manage_order_container"> 
-                                                                    <a href="<?php echo esc_attr($order->get_edit_order_url());?>"><button class="btn btn-sm btn-primary salesking_manage_order" value="<?php echo esc_attr($order->get_id());?>"><em class="icon ni ni-bag-fill"></em><span><?php esc_html_e('Manage Order','salesking');?></span></button></a>
+                                                                    <a target="_blank" href="<?php echo "https://sepehrelectric.com/?invoice-pdf=".esc_attr($order->get_id());?>"><button class="btn btn-sm btn-primary salesking_manage_order" value="<?php echo esc_attr($order->get_id());?>"><em class="icon ni ni-bag-fill"></em><span><?php esc_html_e('دانلود پیش فاکتور','salesking');?></span></button></a>
                                                                 </div>
                                                             </td>
                                                         <?php
@@ -278,6 +288,7 @@ if (intval(get_option( 'salesking_agents_can_manage_orders_setting', 1 )) === 1)
                         </tbody>
                         
                     </table>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SalesKing\n"
-"POT-Creation-Date: 2025-08-11 06:52+0000\n"
+"POT-Creation-Date: 2025-11-10 08:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -3747,4 +3747,7 @@ msgid "National ID"
 msgstr ""
 
 msgid "Phone number is valid and unique."
+msgstr ""
+
+msgid "Enter a valid Iranian mobile number with 0 like 09123456789"
 msgstr ""

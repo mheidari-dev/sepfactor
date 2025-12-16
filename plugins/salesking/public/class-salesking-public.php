@@ -3248,17 +3248,17 @@ class Salesking_Public{
 
         	    ?>
 
-        	    <style type="text/css">
-        	        #salesking_return_agent{
-        	            background-color: <?php echo esc_html( $color );?> !important;
-        	            border-color: <?php echo esc_html( $color );?> !important;
-        	        }
+        	    <!--<style type="text/css">-->
+        	    <!--    #salesking_return_agent{-->
+        	    <!--        background-color: <?php echo esc_html( $color );?> !important;-->
+        	    <!--        border-color: <?php echo esc_html( $color );?> !important;-->
+        	    <!--    }-->
 
-        	        #salesking_return_agent:hover{
-        	            background-color: <?php echo esc_html( $colorhover );?> !important;
-        	            border-color: <?php echo esc_html( $colorhover );?> !important;
-        	        }
-        	    </style>
+        	    <!--    #salesking_return_agent:hover{-->
+        	    <!--        background-color: <?php echo esc_html( $colorhover );?> !important;-->
+        	    <!--        border-color: <?php echo esc_html( $colorhover );?> !important;-->
+        	    <!--    }-->
+        	    <!--</style>-->
 
     		<?php
     		}

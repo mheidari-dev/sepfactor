@@ -19,7 +19,7 @@ if (intval(get_option('salesking_enable_payouts_setting', 1)) === 1) {
                         </div><!-- .nk-block-head -->
                         <div class="nk-block">
                             <div class="row g-gs">
-                                <div class="col-xxl-6 col-sm-6">
+                                <div class="col-xxl-12">
                                     <div class="card text-white bg-primary">
                                         <div class="card-header"><?php esc_html_e('Available for Payout', 'salesking'); ?>
                                         </div>
@@ -39,35 +39,7 @@ if (intval(get_option('salesking_enable_payouts_setting', 1)) === 1) {
                                         </div>
                                     </div>
                                 </div><!-- .col -->
-                                <div class="col-xxl-6 col-sm-6">
-                                    <div class="card bg-lighten h-100">
-                                        <div class="card-header"><?php esc_html_e('Payout Account', 'salesking'); ?></div>
-                                        <div class="card-inner">
-                                            <?php
-                                            // get method set if any
-                                            $method = get_user_meta($user_id, 'salesking_agent_selected_payout_method', true);
-                                            if ($method === 'bank') {
-                                                $method = 'Bank';
-                                            } else if ($method === 'custom') {
-                                                $method = get_option('salesking_enable_custom_payouts_title_setting', '');
-                                            }
-                                            ?>
-                                            <h6 class="card-title mb-4">
-                                                <?php esc_html_e('Set payout account', 'salesking'); ?>
-                                                <!-- <?php if (!empty($method)) {
-                                                    echo '(' . wp_kses(nl2br($method), array('br' => true, 'strong' => true, 'b' => true, 'a' => array(
-                                                        'href' => array(),
-                                                        'target' => array()
-                                                    ))) . ' ' . esc_html__('currently selected', 'salesking') . ')';
-                                                } ?> -->
-                                                </h6>
-                                            <a href="#" class="btn btn-gray btn-sm" data-toggle="modal"
-                                                data-target="#modal_set_payout_method"><em
-                                                    class="icon ni ni-setting"></em><span><?php esc_html_e('Configure', 'salesking'); ?></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
+                                
                                 <div class="col-xxl-12">
                                     <div class="card card-full">
                                         <div class="card-inner">

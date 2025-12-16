@@ -3060,7 +3060,7 @@ function salesking_check_phone_unique_callback() {
     }
 
     // Validate phone number (Iranian mobile number)
-    if (!preg_match('/^9[0-9]{9}$/', $phoneno)) {
+    if (!preg_match('/^09[0-9]{9}$/', $phoneno)) {
         wp_send_json_error('Invalid Phone Number. Must be a valid Iranian mobile number starting with 09.');
         wp_die();
     }
@@ -3103,6 +3103,23 @@ function salesking_check_phone_unique_callback() {
         wp_die();
     }
 
+
+$digits = preg_replace( '/\D+/', '', $phoneno ); // 09176166260
+
+// 2) اگه با 0 شروع شده، صفر اول رو بردار
+if ( strpos( $digits, '0' ) === 0 ) {
+    $national = substr( $digits, 1 ); // 9176166260
+} else {
+    $national = $digits;
+}
+
+// 3) نسخه بین‌المللی
+$international = '+98' . $national; // +989176166260
+
+
+
+
+
     // Set user meta
     update_user_meta($user_id, 'billing_first_name', $firstname);
     update_user_meta($user_id, 'first_name', $firstname);
@@ -3112,13 +3129,14 @@ function salesking_check_phone_unique_callback() {
     update_user_meta($user_id, 'last_name', $lastname);
     update_user_meta($user_id, 'shipping_last_name', $lastname);
 
-    update_user_meta($user_id, 'billing_phone', $phoneno);
-    update_user_meta($user_id, 'shipping_phone', $phoneno);
-	update_user_meta($user_id, 'digits_phone_no', $phoneno);
-	update_user_meta($user_id, 'digits_phone', $phoneno);
+    update_user_meta($user_id, 'billing_phone', $international);
+    update_user_meta($user_id, 'shipping_phone', $international);
+    update_user_meta( $user_id, 'digits_phone_no', $national );
+    update_user_meta( $user_id, 'digits_phone', $international );
 	
 
     update_user_meta($user_id, 'national_id', $nationalid); // Store national ID
+    update_user_meta($user_id, 'billing_uin', $nationalid); // Store national ID
 
     // Set assigned agent
     update_user_meta($user_id, 'salesking_assigned_agent', $agent_id);

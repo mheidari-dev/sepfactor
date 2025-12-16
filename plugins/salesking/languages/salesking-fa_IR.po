@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SalesKing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-25 21:20+0430\n"
-"PO-Revision-Date: 2025-08-11 06:52+0000\n"
+"PO-Revision-Date: 2025-11-12 09:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.32\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/assets/lib/plugin-update-"
@@ -37,7 +37,7 @@ msgstr "(در انتظار)"
 
 #: public/dashboard/dashboard-content.php:19
 msgid " Here's everything at a glance..."
-msgstr "اینجا همه چیز در یک نگاه..."
+msgstr " "
 
 #: public/dashboard/templates/sidebar.php:25
 #: public/dashboard/templates/sidebar.php:38
@@ -47,7 +47,7 @@ msgstr "جدید"
 
 #: public/dashboard/cart-sharing.php:92
 msgid " Those products will be displayed on this page."
-msgstr "این محصولات در این صفحه نمایش داده می شوند."
+msgstr ""
 
 #: public/dashboard/announcements.php:11
 msgid " unread announcements."
@@ -1441,6 +1441,9 @@ msgstr "لینک محصول را در اینجا وارد کنید و لینک �
 msgid "Enter a valid 10-digit Iranian National ID"
 msgstr "لطفا کد ملی 10 رقمی مشتری را وارد کنید"
 
+msgid "Enter a valid Iranian mobile number with 0 like 09123456789"
+msgstr "یک شماره موبایل ایرانی معتبر با 0 مانند 09123456789 وارد کنید"
+
 msgid "Enter a valid Iranian mobile number without 0 like 9123456789"
 msgstr "لطفا شماره موبایل را بدون 0 وارد کنید . مانند : 9123456789"
 
@@ -2694,12 +2697,12 @@ msgstr "خرید مجوز جدید"
 #: admin/class-salesking-admin.php:3684 public/dashboard/earnings.php:385
 #: public/dashboard/earnings.php:664 public/dashboard/orders.php:46
 msgid "Purchased"
-msgstr "خریداری شده است"
+msgstr "اقلام خرید"
 
 #: public/dashboard/earnings.php:421 public/dashboard/earnings.php:690
 #: public/dashboard/orders.php:67
 msgid "purchased"
-msgstr "خریداری شده است"
+msgstr "اقلام خرید."
 
 #: public/dashboard/cart-sharing.php:119
 msgid "Quantity"

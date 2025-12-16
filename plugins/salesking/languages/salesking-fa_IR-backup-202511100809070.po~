@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SalesKing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-25 21:20+0430\n"
-"PO-Revision-Date: 2025-08-10 10:47+0000\n"
+"PO-Revision-Date: 2025-08-11 06:52+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -1438,6 +1438,12 @@ msgstr "فعال/ غیرفعال"
 msgid "Enter a product link here, and get your affiliate link."
 msgstr "لینک محصول را در اینجا وارد کنید و لینک بازاریابی خود را دریافت کنید."
 
+msgid "Enter a valid 10-digit Iranian National ID"
+msgstr "لطفا کد ملی 10 رقمی مشتری را وارد کنید"
+
+msgid "Enter a valid Iranian mobile number without 0 like 9123456789"
+msgstr "لطفا شماره موبایل را بدون 0 وارد کنید . مانند : 9123456789"
+
 #: public/dashboard/cart-sharing.php:98
 msgid "Enter Cart Name:"
 msgstr "نام سبد خرید را وارد کنید:"
@@ -2128,6 +2134,9 @@ msgstr "تیم من - نمایندگان زیرمجموعه"
 msgid "Name"
 msgstr "نام"
 
+msgid "National ID"
+msgstr "کد ملی"
+
 #: public/dashboard/messages.php:154
 msgid "New"
 msgstr "جدید"
@@ -2575,6 +2584,9 @@ msgstr "تلفن"
 #: public/dashboard/customers.php:487 public/dashboard/teams.php:189
 msgid "Phone No"
 msgstr "شماره تلفن"
+
+msgid "Phone number is valid and unique."
+msgstr "شماره همراه مورد تایید است"
 
 #: admin/class-salesking-admin.php:367
 msgid ""

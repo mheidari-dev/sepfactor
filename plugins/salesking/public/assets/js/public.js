@@ -187,10 +187,10 @@
             dom: 'Bfrtip',
             buttons: {
                 buttons: [
-                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-		              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-		          } },
+            //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+            //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+		          //    doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+		          //} },
                     { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
                     { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
                 ]
@@ -519,10 +519,10 @@
 	            dom: 'Bfrtip',
 	            buttons: {
 	                buttons: [
-	                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-	                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
 	                    { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
 	                    { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
 	                ]
@@ -540,10 +540,10 @@
 	            dom: 'Bfrtip',
 	            buttons: {
 	                buttons: [
-	                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-	                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
 	                    { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
 	                    { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
 	                ]
@@ -586,10 +586,10 @@
             stateSave: true,
             buttons: {
                 buttons: [
-                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+            //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+            //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
                     { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
                     { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
                 ]
@@ -628,12 +628,13 @@
 	            dom: 'Bfrtip',
 	            order: [[ 0, "desc" ]],
 	            stateSave: true,
+	            
 	            buttons: {
 	                buttons: [
-	                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-	                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
 	                    { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
 	                    { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
 	                ]
@@ -653,10 +654,10 @@
 	            order: [[ 0, "desc" ]],
 	            buttons: {
 	                buttons: [
-	                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-	                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+	           //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+	           //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
 	                    { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
 	                    { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
 	                ]
@@ -677,6 +678,8 @@
    		   	        $( row ).addClass('nk-tb-item');
    		   	        $( row ).find('td').addClass('nk-tb-col');
    		   	        $( row ).find('td:eq(0)').addClass('salesking-column-large');
+   		   	        
+   		   	       
    		   	    }
 
 			});
@@ -716,10 +719,10 @@
             order: [[ 0, "desc" ]],
             buttons: {
                 buttons: [
-                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          }},
+            //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+            //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // }},
                     { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
                     { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
                 ]
@@ -759,10 +762,10 @@
             order: [[ 0, "desc" ]],
             buttons: {
                 buttons: [
-                    { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
-                    { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
-			              doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
-			          } },
+            //         { extend: 'csvHtml5', className: buttonclass, text: '↓ CSV', exportOptions: { columns: ":visible" } },
+            //         { extend: 'pdfHtml5', className: buttonclass, text: '↓ PDF', exportOptions: { columns: ":visible" }, customize: function(doc) {
+			         //     doc.defaultStyle.font = salesking_display_settings.pdf_download_font;
+			         // } },
                     { extend: 'print', className: buttonclass, text: salesking_display_settings.print, exportOptions: { columns: ":visible" } },
                     { extend: 'colvis', className: buttonclass, text: salesking_display_settings.edit_columns },
                 ]
@@ -1446,7 +1449,7 @@
     // اعتبارسنجی بلادرنگ شماره موبایل و بررسی تکراری نبودن
     $('#phone-no').on('input', function() {
         var phoneNo = $(this).val();
-        if (/^9[0-9]{9}$/.test(phoneNo)) {
+         if (/^09[0-9]{9}$/.test(phoneNo)) {
             isPhoneNoValid = true;
             $('#phone-no-feedback').text('در حال بررسی شماره همراه ...').removeClass('text-success text-danger');
             
@@ -1557,58 +1560,68 @@
 		});
 
 		// when clicking shop as customer
-                function saleskingShowLoader(loaderId, message){
-                        var loader = $('#'+loaderId);
+		$('body').on('click', '.salesking_shop_as_customer', function(){
+			var customerid = $(this).val();
+			
+			 var loader = $('#salesking_agent_switch_loader');
                         if (!loader.length){
-                                $('body').append('<div id="'+loaderId+'" class="salesking_loader"><div class="salesking_loader_backdrop"></div><div class="salesking_loader_box"><div class="salesking_loader_spinner"></div><div class="salesking_loader_text"></div></div></div>');
-                                loader = $('#'+loaderId);
+                                $('body').append('<div id="salesking_agent_switch_loader"><div class="salesking_loader_backdrop"></div><div class="salesking_loader_box"><div class="salesking_loader_spinner"></div><div class="salesking_loader_text">  در حال آماده سازی پروفایل مشتری. لطفا منتظر بمانید ... </div></div></div>');
+                                loader = $('#salesking_agent_switch_loader');
                         }
-
-                        loader.find('.salesking_loader_text').text(message);
                         loader.addClass('is-visible');
-                }
+			 
+                        
+			var datavar = {
+	            action: 'saleskingshopascustomer',
+	            security: salesking_display_settings.security,
+	            customer: customerid,
+	        };
 
-                $('body').on('click', '.salesking_shop_as_customer', function(){
-                        var customerid = $(this).val();
-                        var datavar = {
-                    action: 'saleskingshopascustomer',
-                    security: salesking_display_settings.security,
-                    customer: customerid,
-                };
-
-                saleskingShowLoader('salesking_customer_switch_loader', 'در حال آماده سازی پروفایل مشتری، لطفا منتظر بمانید');
-
-                $.post(salesking_display_settings.ajaxurl, datavar, function(response){
-                        window.location = salesking_display_settings.shopurl;
-                });
-                });
+	        $.post(salesking_display_settings.ajaxurl, datavar, function(response){
+	        	window.location = salesking_display_settings.shopurl;
+	        });
+		});
 
 		// when clicking EDIT shop as customer
-                $('body').on('click', '.salesking_shop_as_customer_edit', function(){
-                        var customerid = $(this).val();
-                        var datavar = {
-                    action: 'saleskingshopascustomer',
-                    security: salesking_display_settings.security,
-                    customer: customerid,
-                };
+		$('body').on('click', '.salesking_shop_as_customer_edit', function(){
+			var customerid = $(this).val();
+			
+			
+			
+			var datavar = {
+	            action: 'saleskingshopascustomer',
+	            security: salesking_display_settings.security,
+	            customer: customerid,
+	        };
 
-                saleskingShowLoader('salesking_customer_switch_loader', 'در حال آماده سازی پروفایل مشتری، لطفا منتظر بمانید');
+	        $.post(salesking_display_settings.ajaxurl, datavar, function(response){
+	        	window.location = salesking_display_settings.accounturl;
+	        });
+		});
 
-                $.post(salesking_display_settings.ajaxurl, datavar, function(response){
-                        window.location = salesking_display_settings.accounturl;
-                });
-                });
+// 		$('#salesking_return_agent').on('click', function(){
+// 			var agentid = $(this).val();
+// 			var agentregistered = $('#salesking_return_agent_registered').val();
 
-                $('#salesking_return_agent').on('click', function(){
+// 			var datavar = {
+// 	            action: 'saleskingswitchtoagent',
+// 	            security: salesking_display_settings.security,
+               $('#salesking_return_agent').on('click', function(){
                         var agentid = $(this).val();
                         var agentregistered = $('#salesking_return_agent_registered').val();
 
-                        saleskingShowLoader('salesking_agent_switch_loader', 'در حال انتقال به پنل نمایندگی');
+                        var loader = $('#salesking_agent_switch_loader');
+                        if (!loader.length){
+                                $('body').append('<div id="salesking_agent_switch_loader"><div class="salesking_loader_backdrop"></div><div class="salesking_loader_box"><div class="salesking_loader_spinner"></div><div class="salesking_loader_text">در حال انتقال به پنل نمایندگی</div></div></div>');
+                                loader = $('#salesking_agent_switch_loader');
+                        }
+                        loader.addClass('is-visible');
 
                         var datavar = {
                     action: 'saleskingswitchtoagent',
                     security: salesking_display_settings.security,
-                    agent: agentid,
+                  
+	            agent: agentid,
 	            agentdate: agentregistered,
 	        };
 

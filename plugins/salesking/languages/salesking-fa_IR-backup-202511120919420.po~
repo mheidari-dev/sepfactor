@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SalesKing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-25 21:20+0430\n"
-"PO-Revision-Date: 2025-08-10 08:42+0000\n"
+"PO-Revision-Date: 2025-11-12 07:07+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.2.27\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.1.32\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 "X-Poedit-SearchPathExcluded-1: includes/assets/lib/plugin-update-"
@@ -140,6 +140,9 @@ msgstr "افزودن نماینده فروش"
 msgid "Add Customer"
 msgstr "مشتری اضافه کنید"
 
+msgid "Add item tax amounts to the commission base."
+msgstr "مبالغ مالیات اقلام به مبنای کمیسیون اضافه شود."
+
 #: admin/class-salesking-admin.php:1053
 msgid "Add New Commission"
 msgstr "اضافه کردن کمیسیون جدید"
@@ -147,6 +150,9 @@ msgstr "اضافه کردن کمیسیون جدید"
 #: admin/class-salesking-admin.php:1019
 msgid "Add New Parent Agent Commission"
 msgstr "اضافه کردن کمیسیون نماینده سرگروه جدید"
+
+msgid "Add order fee totals (without tax)."
+msgstr "مجموع کارمزدهای سفارش (بدون مالیات) به مبنا اضافه شود."
 
 #: admin/class-salesking-admin.php:5098
 msgid "Add product or variation IDs"
@@ -164,9 +170,18 @@ msgstr "افزودن کشویی نماینده فروش به ثبت نام وو�
 msgid "Add Sales Agent ID to WooCommerce Registration"
 msgstr "شناسه نماینده فروش را به ثبت نام ووکامرس اضافه کنید"
 
+msgid "Add shipping tax amounts as well."
+msgstr "مالیات‌های حمل‌ونقل نیز اضافه شوند."
+
+msgid "Add shipping total (without tax)."
+msgstr "مجموع هزینه حمل‌ونقل (بدون مالیات) به مبنا اضافه شود."
+
 #: public/dashboard/teams.php:214
 msgid "Add Subagent"
 msgstr "نماینده زیرمجموعه را اضافه کنید"
+
+msgid "Add taxes of fees."
+msgstr "مالیات کارمزدها اضافه شود."
 
 #: admin/class-salesking-admin.php:2351
 msgid "Additional Agents (can also manage this customer)"
@@ -565,6 +580,9 @@ msgstr "لیست اعلامیه ها"
 msgid "Applies for products:"
 msgstr "برای محصولات اعمال می شود:"
 
+msgid "Apply after discounts"
+msgstr "اعمال پس از تخفیف‌ها"
+
 #: admin/class-salesking-admin.php:5813
 msgid "Are you sure you want assign this agent for all customers?"
 msgstr "آیا مطمئنید که می‌خواهید این نماینده را به همه مشتریان اختصاص دهید؟"
@@ -763,6 +781,13 @@ msgstr ""
 "کوپن ها فقط در صورتی کار می کنند که اقلامی در سبد خرید وجود داشته باشد که در "
 "فروش نیستند."
 
+msgid ""
+"Check this box to recalculate sales agent commissions, based on the current "
+"commission rules and current order products."
+msgstr ""
+"این گزینه را فعال کنید تا محاسبه مجدد کمیسیون نماینده بر اساس قوانین و "
+"محصولات سفارش انجام شود"
+
 #: public/class-salesking-public.php:2454
 msgid "Choose a Sales Agent"
 msgstr "یک نماینده فروش انتخاب کنید"
@@ -774,6 +799,10 @@ msgstr "گروه را انتخاب کنید"
 #: admin/class-salesking-settings.php:73
 msgid "Choose Tables Language"
 msgstr "زبان جداول را انتخاب کنید"
+
+msgid "Choose what components are included when calculating agent commissions."
+msgstr ""
+"انتخاب کنید هنگام محاسبه کمیسیون نماینده کدام مؤلفه‌ها در نظر گرفته شوند."
 
 #: public/dashboard/profile-settings.php:23
 msgid "Choose which email notifications you would like to receive."
@@ -810,6 +839,9 @@ msgstr "بسته"
 msgid "Commission"
 msgstr "کمیسیون"
 
+msgid "Commission Base (Override)"
+msgstr "مبنای محاسبه کمیسیون (اورراید)"
+
 #: admin/class-salesking-settings.php:793
 msgid "Commission Calculation"
 msgstr "محاسبه کمیسیون"
@@ -817,6 +849,9 @@ msgstr "محاسبه کمیسیون"
 #: admin/class-salesking-settings.php:671
 msgid "Commission calculation"
 msgstr "محاسبه کمیسیون"
+
+msgid "Commission Calculation Base"
+msgstr "مبنای محاسبه کمیسیون"
 
 #: admin/class-salesking-settings.php:175
 msgid "Commission calculation includes tax"
@@ -1335,6 +1370,9 @@ msgstr "تنظیمات ایمیل"
 msgid "Email type"
 msgstr "نوع ایمیل"
 
+msgid "Enable"
+msgstr "فعال‌سازی"
+
 #: admin/class-salesking-settings.php:101
 msgid "Enable Affiliate Links"
 msgstr "لینک های همکاری در فروش را فعال کنید"
@@ -1399,6 +1437,15 @@ msgstr "فعال/ غیرفعال"
 #: public/dashboard/affiliate-links.php:86
 msgid "Enter a product link here, and get your affiliate link."
 msgstr "لینک محصول را در اینجا وارد کنید و لینک بازاریابی خود را دریافت کنید."
+
+msgid "Enter a valid 10-digit Iranian National ID"
+msgstr "لطفا کد ملی 10 رقمی مشتری را وارد کنید"
+
+msgid "Enter a valid Iranian mobile number with 0 like 09123456789"
+msgstr "یک شماره موبایل ایرانی معتبر با 0 مانند 09123456789 وارد کنید"
+
+msgid "Enter a valid Iranian mobile number without 0 like 9123456789"
+msgstr "لطفا شماره موبایل را بدون 0 وارد کنید . مانند : 9123456789"
 
 #: public/dashboard/cart-sharing.php:98
 msgid "Enter Cart Name:"
@@ -1759,6 +1806,9 @@ msgstr ""
 "اگر هیچ نماینده ای در هنگام ثبت نام انتخاب نشد، کاربر را به طور خودکار به یک "
 "نماینده اختصاص دهید."
 
+msgid "If override is disabled, the global settings will be used."
+msgstr "اگر اورراید غیرفعال باشد، تنظیمات سراسری استفاده می‌شود."
+
 #: public/dashboard/coupons.php:85
 msgid ""
 "If the desired coupon code already exists, a close alternative will be used."
@@ -1784,6 +1834,21 @@ msgstr ""
 "اگر چندین قانون از یک نوع دارید، شماره اولویت بالاتر تعیین می کند که کدام یک "
 "استفاده شود. اگر هیچ اولویتی پیکربندی نشده باشد، افزونه بهترین قانون / "
 "کمیسیون موجود را به نماینده می دهد. اولویت قبل از شرایط اعمال می شود."
+
+msgid "Include fee taxes"
+msgstr "شامل مالیات کارمزدها"
+
+msgid "Include fees"
+msgstr "شامل کارمزدها"
+
+msgid "Include product taxes (VAT)"
+msgstr "شامل مالیات محصولات (ارزش افزوده)"
+
+msgid "Include shipping amount"
+msgstr "شامل هزینه حمل‌ونقل"
+
+msgid "Include shipping taxes"
+msgstr "شامل مالیات حمل‌ونقل"
 
 #: admin/class-salesking-admin.php:1534
 msgid "Insert into announcement"
@@ -2072,6 +2137,9 @@ msgstr "تیم من - نمایندگان زیرمجموعه"
 msgid "Name"
 msgstr "نام"
 
+msgid "National ID"
+msgstr "کد ملی"
+
 #: public/dashboard/messages.php:154
 msgid "New"
 msgstr "جدید"
@@ -2348,6 +2416,9 @@ msgstr "موجودی اعتبار واریز نشده"
 msgid "over the last thirty calendar days"
 msgstr "طی سی روز تقویمی گذشته"
 
+msgid "Override global commission base for this rule"
+msgstr "مبنای سراسری محاسبه کمیسیون را برای این قانون نادیده بگیر"
+
 #: admin/class-salesking-settings.php:305
 msgid ""
 "Parent agent commission (agent recruiter) is substracted from the agent "
@@ -2517,6 +2588,9 @@ msgstr "تلفن"
 msgid "Phone No"
 msgstr "شماره تلفن"
 
+msgid "Phone number is valid and unique."
+msgstr "شماره همراه مورد تایید است"
+
 #: admin/class-salesking-admin.php:367
 msgid ""
 "Please activate your license to get important plugin updates and premium "
@@ -2623,12 +2697,12 @@ msgstr "خرید مجوز جدید"
 #: admin/class-salesking-admin.php:3684 public/dashboard/earnings.php:385
 #: public/dashboard/earnings.php:664 public/dashboard/orders.php:46
 msgid "Purchased"
-msgstr "خریداری شده است"
+msgstr "اقلام خرید"
 
 #: public/dashboard/earnings.php:421 public/dashboard/earnings.php:690
 #: public/dashboard/orders.php:67
 msgid "purchased"
-msgstr "خریداری شده است"
+msgstr "اقلام خرید."
 
 #: public/dashboard/cart-sharing.php:119
 msgid "Quantity"
@@ -3512,6 +3586,13 @@ msgstr "به عنوان تصویر پیام استفاده کنید"
 #: admin/class-salesking-admin.php:4548 admin/class-salesking-admin.php:4875
 msgid "Use as rule image"
 msgstr "به عنوان تصویر قانون استفاده کنید"
+
+msgid ""
+"Use item totals after coupons/discounts. If off, use subtotals (before "
+"discounts)."
+msgstr ""
+"از مجموع اقلام پس از اعمال کوپن/تخفیف استفاده شود. در صورت غیرفعال بودن، از "
+"ساب‌توتال‌ها (قبل از تخفیف) استفاده می‌شود."
 
 #: public/dashboard/profile.php:28
 msgid "User Info"

@@ -442,8 +442,8 @@
                     <div class="form-group">
                         <label class="form-label" for="phone-no"><?php esc_html_e('Phone No','salesking'); ?></label>
                         <div class="form-control-wrap">
-                            <input type="text" class="form-control" id="phone-no" name="phone-no" pattern="9[0-9]{9}" required>
-                            <small class="form-text text-muted" id="phone-no-feedback"><?php esc_html_e('Enter a valid Iranian mobile number without 0 like 9123456789','salesking'); ?></small>
+                            <input type="text" class="form-control" id="phone-no" name="phone-no" pattern="09[0-9]{9}" required>
+                            <small class="form-text text-muted" id="phone-no-feedback"><?php esc_html_e('Enter a valid Iranian mobile number with 0 like 09123456789','salesking'); ?></small>
                         </div>
                     </div>
                     <div class="form-group">

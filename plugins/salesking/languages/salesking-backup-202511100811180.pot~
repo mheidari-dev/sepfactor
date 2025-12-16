@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SalesKing\n"
-"POT-Creation-Date: 2025-08-10 08:40+0000\n"
+"POT-Creation-Date: 2025-11-10 08:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -3674,4 +3674,81 @@ msgid "No result available"
 msgstr ""
 
 msgid "Recalculate Agent Commissions"
+msgstr ""
+
+msgid ""
+"Check this box to recalculate sales agent commissions, based on the current "
+"commission rules and current order products."
+msgstr ""
+
+msgid "Commission Calculation Base"
+msgstr ""
+
+msgid "Choose what components are included when calculating agent commissions."
+msgstr ""
+
+msgid "Apply after discounts"
+msgstr ""
+
+msgid "Include product taxes (VAT)"
+msgstr ""
+
+msgid "Include shipping amount"
+msgstr ""
+
+msgid "Include shipping taxes"
+msgstr ""
+
+msgid "Include fees"
+msgstr ""
+
+msgid "Include fee taxes"
+msgstr ""
+
+msgid ""
+"Use item totals after coupons/discounts. If off, use subtotals (before "
+"discounts)."
+msgstr ""
+
+msgid "Add item tax amounts to the commission base."
+msgstr ""
+
+msgid "Add shipping total (without tax)."
+msgstr ""
+
+msgid "Add shipping tax amounts as well."
+msgstr ""
+
+msgid "Add order fee totals (without tax)."
+msgstr ""
+
+msgid "Add taxes of fees."
+msgstr ""
+
+msgid "Commission Base (Override)"
+msgstr ""
+
+msgid "Override global commission base for this rule"
+msgstr ""
+
+msgid "If override is disabled, the global settings will be used."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enter a valid 10-digit Iranian National ID"
+msgstr ""
+
+msgid "Enter a valid Iranian mobile number without 0 like 9123456789"
+msgstr ""
+
+msgid "National ID"
+msgstr ""
+
+msgid "Phone number is valid and unique."
+msgstr ""
+
+msgctxt "یک شماره موبایل معتبر ایرانی با 0 وارد کنید مانند: 09123456789"
+msgid "Enter a valid Iranian mobile number with 0 like 09123456789"
 msgstr ""
