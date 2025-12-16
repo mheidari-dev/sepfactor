@@ -15687,13 +15687,17 @@ button.dt-button.buttons-columnVisibility {
 }
 
 
-#salesking_dashboard_orders_table_wrapper{
+#salesking_dashboard_orders_table_wrapper,
+#salesking_dashboard_earnings_table_wrapper,
+#salesking_dashboard_subagents_earnings_table_wrapper{
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-#salesking_dashboard_orders_table{
+#salesking_dashboard_orders_table,
+#salesking_dashboard_earnings_table,
+#salesking_dashboard_subagents_earnings_table{
   width: max-content !important;
   min-width: 100% !important;
 }
