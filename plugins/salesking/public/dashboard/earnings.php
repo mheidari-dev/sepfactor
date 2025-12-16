@@ -393,7 +393,7 @@ if (intval(get_option( 'salesking_enable_earnings_setting', 1 )) === 1){
                                     </div><!-- .nk-block-between -->
                                 </div><!-- .nk-block-head -->
                                 <div class="table-responsive">
-                                <table id="salesking_dashboard_earnings_table" class="nk-tb-list is-separate mb-3" style="width: max-content; min-width: 100%;">
+                                <table id="salesking_dashboard_earnings_table" class="nk-tb-list is-separate mb-3">
                                     <thead>
                                         <tr class="nk-tb-item nk-tb-head">
                                             <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('Order','salesking'); ?></span></th>
@@ -769,7 +769,7 @@ if (intval(get_option( 'salesking_enable_earnings_setting', 1 )) === 1){
                                         </div><!-- .nk-block-between -->
                                     </div><!-- .nk-block-head -->
                                     <div class="table-responsive">
-                                    <table id="salesking_dashboard_subagents_earnings_table" class="nk-tb-list is-separate mb-3" style="width: max-content; min-width: 100%;">
+                                    <table id="salesking_dashboard_subagents_earnings_table" class="nk-tb-list is-separate mb-3">
                                         <thead>
                                             <tr class="nk-tb-item nk-tb-head">
                                                 <th class="nk-tb-col"><span class="sub-text"><?php esc_html_e('Order','salesking'); ?></span></th>
